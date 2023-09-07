@@ -42,7 +42,7 @@
           img(src='@/assets/curso/tema1/img2.png', style="width: 380px", alt='').m-auto
       .col-lg-8
         .cajon.color-acento-botones.p-4.mb-3
-          p.mb-0 Lo que sigue es una guía de los conceptos básicos del control de acceso: qué es, por qué es importante, qué organizaciones lo necesitan más y los desafíos que pueden enfrentar los profesionales de la seguridad.
+          p.mb-0 #[b Lo que sigue es una guía de los conceptos básicos del control de acceso]: qué es, por qué es importante, qué organizaciones lo necesitan más y los desafíos que pueden enfrentar los profesionales de la seguridad.
         .row.align-items-center.mb-3
           .col-auto
             figure
@@ -407,6 +407,228 @@
             p.mb-0 Intel ofrece una amplia gama de bibliotecas y plataformas de código abierto que aceleran el procesamiento y el análisis de datos. Esto incluye Intel® oneAPI Toolkit, Intel® oneAPI Math Kernel Library (Intel® oneMKL), Intel® oneAPI Data Analytics Library (Intel® oneDAL) y más.
           .tarjeta.color-acento-contenido.p-4(titulo="Seguridad mejorada")
             p.mb-0 La tecnología Intel® QuickAssist (Intel® QAT) permite a los equipos de datos acelerar el rendimiento del cifrado y descifrado y mejorar la seguridad de las aplicaciones de procesamiento de datos.
+    .cajon.color-acento-botones.p-4
+      p.mb-0 Las tecnologías Intel® están diseñadas para permitir que cada organización cree una flexibilidad única y canalizaciones de procesamiento de datos únicas para nuevas fuentes de datos y aplicaciones. La aceleración basada en software y hardware de Intel permite el procesamiento de datos a la velocidad y eficiencia requeridas por las aplicaciones de análisis más avanzadas de la actualidad.
+    Separador
+    #t_1_4
+    .titulo-segundo.color-acento-botones
+      h2 1.4. Gestión de las copias de seguridad
+    .row.align-items-center.mb-5
+      .col-lg-3.mb-4.mb-lg-0
+        figure
+          img(src='@/assets/curso/tema1/img31.svg', style="width: 280px", alt='').m-auto
+      .col-lg-9
+        p Para mantener la disponibilidad de los activos de información, dentro de una empresa u organización, es necesario contar con copias de seguridad adecuadas de la información que se posee. El personal de administración de la información debe operar una copia de seguridad que pueda restaurarse rápidamente con el menor impacto posible en el negocio, en caso de una falla de la computadora o de la red o un error de operación del sistema. Para garantizar que los usuarios de una empresa u organización puedan usar sus computadoras personales de manera segura, se deben recomendar copias de seguridad periódicas. En las computadoras cliente, no solo se deben respaldar los archivos de documentos creados con el software de procesamiento de texto y el software de hoja de cálculo, sino también los correos electrónicos, las URL de los sitios web de uso frecuente y varias configuraciones.
+        .cajon.color-acento-contenido.p-4
+          p.mb-0 Los diversos tipos de información que manejan las empresas deben ser estrictamente protegidos y una forma de protegerla es a través de una copia de seguridad de sus datos. La pérdida de estos dificulta las actividades comerciales. Por ello, es esencial que aquellos que están en condiciones de proteger la información corporativa comprendan los puntos relacionados con la copia de seguridad y su respectiva gestión.
+    figure.mb-5
+      img(src='@/assets/curso/tema1/img32.svg', style="width: 1050px", alt='').m-auto
+    .row.align-items-center.mb-5
+      .col-lg-4.mb-4.mb-lg-0
+        figure
+          img(src='@/assets/curso/tema1/img33.svg', style="width: 350px", alt='').m-auto
+      .col-lg-8
+        .tarjeta.tarjeta--azul.p-4
+          SlyderA(tipo="b")
+            .row.justify-content-center.m-1
+              .col-12.p-4
+                .row.align-items-center.justify-content-center
+                  .col-12
+                    p #[b Copias de seguridad]
+                    p Las copias de seguridad registradas en el repositorio tienen uno de los siguientes valores de estado:
+                    ul.lista-ul.mb-0
+                      li.d-flex
+                        i.lista-ul__vineta(style="color: #4ADBD1")
+                        |
+                        p.mb-0 #[b Uso posible]. Esto significa que las copias de seguridad registradas en el repositorio aún existen en disco o cinta.
+                      li.d-flex
+                        i.lista-ul__vineta(style="color: #4ADBD1")
+                        |
+                        p.mb-0 #[b Venció]. Esto significa que la copia de seguridad ya no existe en el disco o la cinta y todavía se incluye en el repositorio.
+                      li.d-flex
+                        i.lista-ul__vineta(style="color: #4ADBD1")
+                        |
+                        p.mb-0 #[b Es imposible de usar]. Esto significa que las copias de seguridad no se pueden usar temporalmente para las operaciones de recuperación de datos (por ejemplo, porque se almacenan fuera del sitio en cintas o en discos que no están montados actualmente).
+                      li.d-flex
+                        i.lista-ul__vineta(style="color: #4ADBD1")
+                        |
+                        p.mb-0 #[b Innecesarias]. Es posible que ya no se requieran copias de seguridad. Las copias de seguridad obsoletas son copias de seguridad que ya no se necesitan para satisfacer los propósitos de recuperación de datos, según la política de retención configurada actualmente.
+            .row.justify-content-center.m-1
+              .col-12.p-4
+                .row.align-items-center.justify-content-center
+                  .col-12
+                    p #[b Mantenimiento]
+                    p Las tareas de mantenimiento que puede realizar son:
+                    ul.lista-ul
+                      li.d-flex
+                        i.lista-ul__vineta(style="color: #4ADBD1")
+                        |
+                        p.mb-0 Ver detalles de la copia de seguridad del repositorio: se realiza una verificación cruzada (si las copias de seguridad enumeradas en el repositorio existen, están disponibles y marque las copias de seguridad no disponibles como caducadas durante la verificación cruzada).
+                      li.d-flex
+                        i.lista-ul__vineta(style="color: #4ADBD1")
+                        |
+                        p.mb-0 Eliminación de registros de copia de seguridad caducados del repositorio.
+                      li.d-flex
+                        i.lista-ul__vineta(style="color: #4ADBD1")
+                        |
+                        p.mb-0 Eliminación de copias de seguridad obsoletas de repositorios y medios de copia de seguridad.
+                      li.d-flex
+                        i.lista-ul__vineta(style="color: #4ADBD1")
+                        |
+                        p.mb-0 Verificación de copia de seguridad para garantizar que se pueda utilizar y no esté dañada.
+                    p.mb-0 Sin un registro preciso de las copias de seguridad disponibles, es posible que descubra que no existe una copia de seguridad completa de su base de datos cuando necesite realizar una recuperación. Las tareas como la verificación cruzada periódica de las copias de seguridad deben programarse regularmente como parte de su estrategia de copia de seguridad.
+    .row.justify-content-center.mb-5
+      .col-lg-10
+        .row.align-items-center
+          .col-xl-7.bg-c3.p-4
+            p.text-white.mb-0 Cuando se utiliza el área de recuperación rápida para el almacenamiento de copias de seguridad, se eliminan o reducen muchas actividades de mantenimiento. Los archivos de respaldo y otros archivos se eliminan según sea necesario mediante el mecanismo de administración de almacenamiento automático para cumplir con las demandas de almacenamiento de las operaciones en curso de la base de datos sin violar las políticas de retención. Sin embargo, debe monitorear el uso del espacio en el área de recuperación rápida para asegurarse de que sea lo suficientemente grande para almacenar copias de seguridad y otros archivos relacionados con la recuperación.
+          .col-xl-auto
+            figure.fig-p1
+              img(src='@/assets/curso/tema1/img10.svg', style="width: 50px", alt='').m-auto
+          .col-xl-4 
+            figure
+              img(src='@/assets/curso/tema1/img34.svg', style="width: 380px", alt='').m-auto
+    .row.align-items-center.mb-5
+      .col-lg-3.mb-4.mb-lg-0
+        figure
+          img(src='@/assets/curso/tema1/img35.svg', style="width: 380px", alt='').m-auto
+      .col-lg-9
+        .cajon.color-primario.p-4.mb-3
+          p.mb-0 El personal de gestión de la información es responsable de realizar copias de seguridad de los datos compartidos almacenados en servidores de bases de datos y servidores de archivos. Para realizar una copia de seguridad, se utiliza la utilidad de copia de seguridad proporcionada con el sistema operativo o el software de copia de seguridad dedicado; usualmente se realizan tarde en la noche o temprano en la mañana cuando los usuarios no están operando.
+        p.mb-0 Los datos que los empleados y el personal almacenan en cada cliente también son uno de los activos de información importantes. Por lo tanto, los usuarios dentro de la organización también deben recibir instrucciones para realizar una copia de seguridad de la información almacenada en cada cliente. Al hacerlo, se comprende correctamente la importancia de los activos de información de cada usuario, como el destino de almacenamiento de la copia de seguridad (medios, servidor de copia de seguridad, etc.), el software y el método de copia de seguridad utilizados, la frecuencia de la copia de seguridad, etc. Se debe tener en cuenta que, si el usuario utiliza un medio de almacenamiento externo para la copia de seguridad, existe una gran posibilidad de que se filtre información confidencial o información personal debido a la eliminación de datos. Si se recomiendan medios de almacenamiento externo para la copia de seguridad, también es importante implementar minuciosamente reglas para la gestión de la información, como prohibir la eliminación innecesaria de datos y estipular ubicaciones de almacenamiento, en una política de seguridad de la información.
+    .bloque-texto-g.bloque-texto-g--inverso.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-5
+      .bloque-texto-g__img(
+        :style="{'background-image': `url(${require('@/assets/curso/tema1/img24.png')})`}"
+      )
+      .bloque-texto-g__texto.p-4
+        p.mb-0 Los datos que manejan las empresas incluyen datos como información de clientes, información relacionada con la contabilidad e información de socios comerciales. En el improbable caso de que estos datos se dañen o se pierdan, la empresa perderá credibilidad social y, además, existe la posibilidad de que se produzca una pérdida de clientes y se deteriore el rendimiento empresarial. La ocurrencia de pérdida económica por recibir una reclamación por daños también es un riesgo que no puede ser ignorado. Proteger sus datos con copias de seguridad es una forma eficaz de evitar la pérdida de datos.
+    p.mb-5 Si ocurre una falla de datos y la información en poder de la empresa se vuelve ilegible, será difícil continuar con las actividades corporativas. Es necesario conocer la causa de la falla de los datos para poder realizar una copia de seguridad adecuada. A continuación, se presenta un vistazo a las principales causas de esta falla de datos:
+    .row.justify-content-center.mb-5
+      .col-lg-10
+        .cajon.color-acento-contenido.p-4
+          p.mb-0 Es necesario conocer la causa de la falla de los datos para poder realizar una copia de seguridad adecuada. A continuación, se presenta un vistazo a las principales causas de esta falla de datos:
+    .row.bg-c14.mb-5
+      .col-12
+        .p-5
+          ImagenInfografica.color-acento-botones
+            template(v-slot:imagen)
+              figure
+                img(src='@/assets/curso/tema1/img36.svg', alt='Texto que describa la imagen')
+            .tarjeta.color-secundario.p-3(x="21%" y="6%" numero="1")
+              p #[b Errores de operación por parte de los empleados]
+              p.mb-0 Una cierta cantidad de error humano es inevitable porque son las personas, como los empleados, quienes realmente manejan los datos. Por ejemplo, el error de un empleado al operar una computadora personal puede hacer que los datos importantes se sobrescriban con otros datos o se eliminen. También es importante proporcionar una formación adecuada a los empleados para que no se produzcan errores operativos. Pero si sucede lo peor, puede restaurar con una copia de seguridad.
+            .tarjeta.color-secundario.p-3(x="53%" y="8%" numero="2")
+              p #[b Infección por virus]
+              p.mb-0 Las empresas están rodeadas de diversas amenazas. Uno de ellos es la existencia de piratas informáticos que atacan los datos corporativos e infectan con virus las redes de las empresas y los terminales individuales. No es exagerado decir que el riesgo de piratear datos corporativos aumenta cada día que pasa. Como empresa, debe ser plenamente consciente del riesgo de piratería y preparar un sistema de defensa.
+            .tarjeta.color-secundario.p-3(x="89%" y="6%" numero="3")
+              p #[b Obstáculos físicos]
+              p.mb-0 Los obstáculos físicos, como fallas en discos duros o daños en los datos, representan una tercera causa de pérdida de datos. Aunque en algunos casos se pueden recuperar, a menudo estos problemas quedan sin resolver, dificultando la continuidad del negocio. Además, el robo de computadoras personales también implica una pérdida física de datos. Para prepararse ante estas situaciones, es crucial contar con copias de seguridad.
+    p.mb-5 Existen tres métodos para hacer una copia de seguridad: guardar en un medio de almacenamiento externo, almacenamiento en línea y almacenamiento en red:
+    .tarjeta.tarjeta--azul.p-4.mb-5
+      SlyderA(tipo="b")
+        .row.justify-content-center.m-1
+          .col-11.bg-c8.p-4
+            .row.align-items-center.justify-content-center
+              .col-lg-6.mb-4.mb-lg-0
+                p #[b.txt-c1 Almacenamiento externo]
+                p.mb-0 En el primer método de copia de seguridad, que utiliza medios de almacenamiento externos, se utilizan CD, DVD, Discos Duros, o Pendrive como medios de almacenamiento. Dependiendo de la capacidad de almacenamiento, se suele utilizar la memoria flash. La capacidad de los medios de copia de seguridad ha crecido considerablemente. Es necesario tener un medio de almacenamiento adecuado y hacer copias de seguridad regularmente para proteger los datos. Utilizar un dispositivo externo facilita este proceso.
+              .col-lg-4
+                figure
+                  img(src='@/assets/curso/tema1/img25.png', style="width: 300px", alt='').m-auto
+        .row.justify-content-center.m-1
+          .col-11.bg-c8.p-4
+            .row.align-items-center.justify-content-center
+              .col-lg-6.mb-4.mb-lg-0
+                p #[b.txt-c1 Almacenamiento en línea]
+                p.mb-0 El almacenamiento en línea se refiere al almacenamiento de datos en Internet. Es común hacer una copia de seguridad de los datos utilizando servicios en la nube. La ventaja del almacenamiento en línea es que puede almacenar grandes cantidades de datos. Otra característica del almacenamiento en línea es que incluso en este caso, los datos en Internet pueden protegerse sin daños. También es efectivo almacenar datos importantes en una red confiable fuera de la empresa utilizando servicios en la nube.
+              .col-lg-4
+                figure
+                  img(src='@/assets/curso/tema1/img26.png', style="width: 300px", alt='').m-auto
+        .row.justify-content-center.m-1
+          .col-11.bg-c8.p-4
+            .row.align-items-center.justify-content-center
+              .col-lg-6.mb-4.mb-lg-0
+                p #[b.txt-c1 Almacenamiento externo]
+                p.mb-0 El almacenamiento en red tiene una forma llamada NAS (Network Attached Storage) y debe entenderse que es un servidor de archivos dedicado. Hay muchos discos de gran capacidad, por lo que puede usarse sin preocuparse por el límite de capacidad de almacenamiento. Otra ventaja de utilizar el almacenamiento en red es que se pueden realizar copias de seguridad automáticas a altas horas de la noche o durante los días festivos mediante la configuración por adelantado.
+              .col-lg-4
+                figure
+                  img(src='@/assets/curso/tema1/img27.png', style="width: 300px", alt='').m-auto
+    p.mb-5 Por otro lado, hay dos puntos a considerar al decidir cuál de los múltiples métodos de copia de seguridad de datos es mejor para una empresa. Uno es la cantidad de datos que desea respaldar y el otro es el costo.
+    .row.bg-c14.mb-5
+      .col-12
+        .p-5
+          figure
+            img(src='@/assets/curso/tema1/img37.svg', style="width: 1100px", alt='').m-auto
+    p.mb-5 De forma adicional, hay algunas notas a tener en cuenta al administrar las copias de seguridad de datos por parte, tanto de la persona a cargo como del gerente de la empresa:
+    .row.align-items-center.mb-5
+      .col-lg-4.mb-4.mb-lg-0
+        figure
+          img(src='@/assets/curso/tema1/img38.svg', style="width: 350px", alt='').m-auto
+      .col-lg-8
+        AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul1")
+          .row(titulo="Aclarar el propósito de la copia de seguridad")
+            .col-12
+              p.mb-0 Realizar copias de seguridad sin un propósito claro dificulta su eficiencia. Es importante definir el propósito, como proteger la credibilidad de la empresa frente a pérdidas de información. Una vez definido, se puede establecer el rango y la frecuencia adecuados de respaldo. También se puede reducir el tiempo de copia al eliminar datos innecesarios.
+          .row(titulo="Tenga cuidado al manipular medios de almacenamiento externos")
+            .col-12
+              p.mb-0 Al hacer copias de seguridad en medios externos como CD o memorias flash, es importante manejarlos con cuidado para evitar pérdidas. Después de respaldar los datos, guárdelos en una caja fuerte ignífuga para protegerlos de robos o incendios. Además, es necesario educar a los empleados sobre no sacar los medios de almacenamiento de la empresa.
+          .row(titulo="Indique a los empleados que retrocedan")
+            .col-12
+              p.mb-0 Es importante garantizar que cada empleado realice copias de seguridad adecuadas. Aunque el personal de TI puede respaldar la base de datos compartida, cada empleado debe respaldar sus propios datos en sus computadoras. Se deben proporcionar instrucciones precisas sobre el método y el destino de almacenamiento. Al hacer que los empleados asuman la responsabilidad de las copias de seguridad, se mejora el nivel de seguridad de la empresa en general.
+          .row(titulo="La copia de seguridad puede tardar mucho tiempo")
+            .col-12
+              p.mb-0 Si la cantidad de datos a respaldar es grande, llevará tiempo completar la copia de seguridad. Durante la copia de seguridad, es necesario restringir el acceso a dichos datos. Los tiempos de respaldo más prolongados pueden afectar negativamente las operaciones comerciales. Al realizar copias de seguridad de grandes cantidades de datos, es eficaz establecer copias de seguridad automáticas fuera del horario laboral, por la noche o en días festivos.
+          .row(titulo="Preparar un sistema de gestión de datos de copia de seguridad")
+            .col-12
+              p.mb-0 Además de realizar copias de seguridad periódicas, es crucial asegurarse de que los datos respaldados sean utilizables en caso de emergencia. Al restaurar los datos, es importante designar a un empleado responsable y tener un sistema de gestión efectivo. Sin embargo, es importante controlar el número de administradores para evitar confusiones sobre quién restauró los datos y cuándo. Construir un sistema adecuado de gestión es fundamental.
+          .row(titulo="Gestione copias de seguridad periódicas de los datos de su empresa")
+            .col-12
+              p.mb-0 Es crucial gestionar correctamente los datos corporativos para proteger su confidencialidad y activos. Se debe realizar copias de seguridad de manera activa para salvaguardar la credibilidad de la empresa. Los datos y programas son activos valiosos, por lo que es necesario hacer copias de seguridad regularmente y administrarlos adecuadamente para evitar pérdidas en caso de daños o accidentes.
+    p.mb-5 Ahora bien, también se debe contemplar las fallas y la recuperación de los datos que se puedan presentar, clasificándolos de la siguiente manera:
+    .tarjeta.tarjeta--azul.p-4.mb-5
+      SlyderA(tipo="b")
+        .row.justify-content-center.m-1
+          .col-11.bg-c8.p-4
+            .row.align-items-center.justify-content-center
+              .col-lg-4.mb-4.mb-lg-0
+                figure
+                  img(src='@/assets/curso/tema1/img39.svg', style="width: 300px", alt='').m-auto
+              .col-lg-6
+                p #[b.txt-c1 Fallo de los datos en sí]
+                p.mb-0 La falla más común es la eliminación o sobrescritura de los datos necesarios debido a errores operativos por parte de administradores o usuarios. También puede ocurrir sobrescritura (manipulación) o eliminación debido a una infección de malware. Como contramedida, se hacen copias de los datos de varias generaciones y luego se guardan.
+        .row.justify-content-center.m-1
+          .col-11.bg-c8.p-4
+            .row.align-items-center.justify-content-center
+              .col-lg-4.mb-4.mb-lg-0
+                figure
+                  img(src='@/assets/curso/tema1/img40.svg', style="width: 300px", alt='').m-auto
+              .col-lg-6
+                p #[b.txt-c1 Obstáculos físicos]
+                p.mb-0 Es una falla del dispositivo (principalmente del disco duro) donde se almacenan los datos, e incluye fallas, daños (choque, terremoto o colisión, incendio, inundación) y robo del propio dispositivo. Como contramedida, los datos deben almacenarse en una ubicación diferente y en un medio diferente.
+    p A modo genérico se puede decir, entonces, que las operaciones de copia de seguridad se determinan teniendo en cuenta el uso y la importancia de los datos a replicar, así como el costo de recuperación en el improbable caso de falla. Adicional a esto, para la gestión de la operación, es necesario determinar el tipo de medio de almacenamiento, frecuencia y método, período de almacenamiento y lugar de almacenamiento, entre otros:
+    .cajon.color-acento-botones.p-4.mb-5
+      p.mb-0 Adicional a esto, para la gestión de la operación, es necesario determinar el tipo de medio de almacenamiento, frecuencia y método, período de almacenamiento y lugar de almacenamiento, entre otros:
+    .row.bg-c15
+      .col-12
+        .p-5
+          .row.justify-content-center
+            .col-lg-6
+              ImagenInfografica.color-acento-botones
+                template(v-slot:imagen)
+                  figure
+                    img(src='@/assets/curso/tema1/img42.svg', alt='Texto que describa la imagen')
+                .tarjeta.color-secundario.p-3(x="94%" y="65%" numero="1")
+                  p #[b Tipo de medio de almacenamiento]
+                  p.mb-0 Se seleccione qué medio usar, como cinta, disco externo, CD/DVD, memoria flash (memoria USB), almacenamiento en red, etc. Es deseable considerar múltiples combinaciones también.
+                .tarjeta.color-secundario.p-3(x="41%" y="50%" numero="2")
+                  p #[b Frecuencia (intervalo) y método]
+                  p.mb-0 Intervalo de tiempo de copia de seguridad. Es necesario decidir si hacerlo todos los días, semanalmente, mensualmente, etc. Debe seleccionar si se desea utilizar Copia de seguridad completa, Copia de seguridad diferencial o Copia de seguridad incremental. Se puede lograr una copia de seguridad eficiente mediante el uso de múltiples métodos en combinación con intervalos.
+                .tarjeta.color-secundario.p-3(x="13%" y="74%" numero="3")
+                  p #[b Periodo de almacenamiento]
+                  p.mb-0 Es el período de almacenamiento de datos, que se ve afectado por la gestión de la frecuencia y la generación. Dependiendo del tipo de datos, como datos financieros, datos relacionados con aprobaciones y notificaciones, datos médicos y de seguros, etc., pueden existir períodos legales de conservación.
+                .tarjeta.color-secundario.p-3(x="60%" y="10%" numero="4")
+                  p #[b Ubicación de almacenamiento]
+                  p.mb-0 Dependiendo del propósito de uso, se selecciona el mismo lugar que el sistema, el mismo edificio, un edificio separado, el exterior de corta distancia, el exterior de larga distancia, etc. Las combinaciones de múltiples medidas y rotaciones son el método preferido. La selección y combinación de medios externos y medios de red también es un punto. Las redes externas también facilitan relativamente el uso de ubicaciones remotas.
 
 </template>
 
