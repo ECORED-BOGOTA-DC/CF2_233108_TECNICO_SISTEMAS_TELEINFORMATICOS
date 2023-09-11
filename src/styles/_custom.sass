@@ -45,6 +45,9 @@
 .banner-interno__fondo
   background-image: url("../assets/curso/portada/img1.png") !important
 
+.banner-interno__titulo__icono i
+  color: #5573C6 !important
+
 .titulo-principal.color-acento-contenido .titulo-principal__numero
   background-color: #4ADBD1
 
@@ -80,7 +83,10 @@
   background-color: #D0DDEB
 
 .tarjeta.tarjeta--azul1.acordion__activo
-  background-color: #F6F6F6
+  background-image: url(../assets/curso/tema2/img20.svg)
+  background-repeat: no-repeat
+  background-size: cover
+  background-color: white
 
 .acordion__accion__btn--a i, .acordion__accion__btn--b i
   color: #4ADBD1
@@ -147,6 +153,34 @@
 
 .bloque-texto-g.color-acento-botones
   background-color: #4ADBD1
+
+.slyder__btn
+  background-color: #D2E1F1
+  transition: all 0.5s ease
+.slyder__btn:hover
+  background-color: #4ADBD1
+  transition: all 0.5s ease
+
+.fa-chevron-left:before
+  color: #4ADBD1
+.fa-chevron-right:before
+  color: #4ADBD1
+
+.horizontal-scroll__wrapper
+  overflow: hidden
+.horizontal-scroll
+  display: flex
+  transition: transform 0.5s ease-in-out
+  align-items: center
+  flex-wrap: nowrap
+  &:not(.row)
+    width: 100%
+  &--item-fw
+    & ::v-deep > div
+      flex-grow: 0
+      flex-shrink: 0
+      width: 100%
+      margin: 0 !important
 
 .bg
   &-c1
@@ -224,6 +258,48 @@
     margin-inline: -3.2rem !important
     background-size: contain
     margin-bottom: -48px
+  &-c16
+    background-image: url(../assets/curso/tema2/img14.svg)
+    background-repeat: no-repeat
+    margin-inline: -3.2rem !important
+    background-size: cover
+  &-c17
+    background-color: #dfdfdf
+    background-image: linear-gradient(90deg, #dfdfdf 0%, #fefefe 46%, #dfdfdf 100%)
+  &-c18
+    background-image: url(../assets/curso/tema2/img18.svg)
+    background-repeat: no-repeat
+    margin-inline: -3.2rem !important
+    background-size: cover
+  &-c19
+    background-color: #4ADBD1
+  &-c20
+    background-image: url(../assets/curso/tema2/img22.svg)
+    background-repeat: no-repeat
+    margin-inline: -3.2rem !important
+    background-size: cover
+  &-c21
+    border: 4px solid #5573C6
+    border-radius: 25px
+    height: 120px
+  &-c22
+    border: 4px solid #4ADBD1
+    border-radius: 25px
+    height: 120px
+  &-c23
+    background-image: url(../assets/curso/tema2/img20.png)
+    background-repeat: no-repeat
+    margin-inline: -3.2rem !important
+    background-size: contain
+    background-position: center
+  &-c24
+    @media screen and ( max-width: $bp-max-lg )
+      border-bottom: solid 1px #b0c0d2 !important
+  &-c25
+    border-radius: 15px
+  &-c26
+    background-color: #F8F8F8
+    border-radius: 15px
 
 .fig
   &-p1
@@ -242,6 +318,12 @@
       left: 0%
       top: -10px
       margin-bottom: -40px
+  &-p3
+    position: relative
+    top: -10px
+  &-p4
+    position: relative
+    left: 25px
 
 .txt
   &-c1
