@@ -54,7 +54,7 @@
         .row.bg-c8.p-4.m-1
           .col-lg-8.mb-4.mb-md-0
             p.txt-c1 #[b Mantener la imagen de la marca]
-            p La gestión inadecuada de la información puede conducir fácilmente a la pérdida o fuga de información; y si este escenario llegase a ocurrir, el hecho debe anunciarse al público y, es muy probable e inevitable, un deterioro de la imagen de marca de la empresa. Motivo por el cual será necesario tomar medidas encaminadas a mejorar el psoicionamiento de la marca, lo que a asu vez no solo aumentan los costos, sino que también es posible que no se puedan obtener nuevas transacciones y las ya comprometidas pueden quedar en blanco.
+            p La gestión inadecuada de la información puede conducir fácilmente a la pérdida o fuga de información; y si este escenario llegase a ocurrir, el hecho debe anunciarse al público y, es muy probable e inevitable, un deterioro de la imagen de marca de la empresa. Motivo por el cual será necesario tomar medidas encaminadas a mejorar el posicionamiento de la marca, lo que a su vez no solo aumentan los costos, sino que también es posible que no se puedan obtener nuevas transacciones y las ya comprometidas pueden quedar en blanco.
           .col-lg-4
             figure
               img(src='@/assets/curso/tema2/img3.svg', style="width:350px", alt='').m-auto
@@ -81,9 +81,9 @@
               figure
                 img(src='@/assets/curso/tema2/img5.png', alt='Texto que describa la imagen')
             .tarjeta.color-secundario.p-3(x="17.3%" y="12.5%" numero="1")
-              p.mb-0 Las medidas técnicas se refieren a las mejoras de seguridad desde la perspectiva del software. Por ejemplo, las medidas técnicas incluyen la introducción de software de seguridad y actualizaciones del mismo. A medida que avanza la digitalización, muchas empresas poseen uno o más terminales digitales por persona, pero se debe mejorar la seguridad desde la perspectiva del software para todos estos terminales. Otra medida técnica es establecer reglas para la descarga de datos para prevenir la infección por virus. Hay muchos otros métodos, así que se debe combinar varias medidas para aumentar la seguridad.
+              p.mb-0 Las medidas técnicas se refieren a las mejoras de seguridad desde la perspectiva del <i>software</i>. Por ejemplo, las medidas técnicas incluyen la introducción de <i>software</i> de seguridad y actualizaciones del mismo. A medida que avanza la digitalización, muchas empresas poseen uno o más terminales digitales por persona, pero se debe mejorar la seguridad desde la perspectiva del <i>software</i> para todos estos terminales. Otra medida técnica es establecer reglas para la descarga de datos para prevenir la infección por virus. Hay muchos otros métodos, así que se debe combinar varias medidas para aumentar la seguridad.
             .tarjeta.color-secundario.p-3(x="50.7%" y="12.5%" numero="2")
-              p.mb-0 Las medidas físicas se refieren al fortalecimiento de la seguridad desde la perspectiva del hardware. Por ejemplo, para mejorar la seguridad de la propia oficina, las medidas físicas incluyen la introducción de un sistema de autenticación biométrica y el uso de tarjetas de identificación de los empleados al entrar y salir de una sala de seguridad. La toma de medidas físicas tiene la implicación de evitar que se saque información de la empresa. Si es difícil introducir herramientas de inmediato debido a problemas de costo, etc., se puede manejar aclarando las áreas de seguridad a las que los visitantes y contratistas no pueden ingresar. Sin embargo, dado que esta es solo una medida temporal, es necesario considerar cómo fortalecer continuamente la seguridad del hardware.
+              p.mb-0 Las medidas físicas se refieren al fortalecimiento de la seguridad desde la perspectiva del <i>hardware</i>. Por ejemplo, para mejorar la seguridad de la propia oficina, las medidas físicas incluyen la introducción de un sistema de autenticación biométrica y el uso de tarjetas de identificación de los empleados al entrar y salir de una sala de seguridad. La toma de medidas físicas tiene la implicación de evitar que se saque información de la empresa. Si es difícil introducir herramientas de inmediato debido a problemas de costo, etc., se puede manejar aclarando las áreas de seguridad a las que los visitantes y contratistas no pueden ingresar. Sin embargo, dado que esta es solo una medida temporal, es necesario considerar cómo fortalecer continuamente la seguridad del <i>hardware</i>.
             .tarjeta.color-secundario.p-3(x="84.7%" y="12.5%" numero="3")
               p.mb-0 Las medidas humanas son medidas para prevenir incidentes de seguridad causados por personas. No importa cuántas medidas técnicas y físicas se tomen, si la alfabetización y la moralidad de los empleados que los manejan son bajas, pueden ocurrir incidentes de seguridad y fraude. Para prevenir tales accidentes, llevemos a cabo educación sobre seguridad de la información y capacitación sobre moral y cumplimiento. También es importante crear un manual de trabajo y establecer procedimientos para prevenir incidentes de seguridad causados por errores inesperados.
     p.mb-5(data-aos="fade-right") De manera adicional, se presentan algunos puntos que se debe tener en cuenta para asegurarse de que la información se gestione correctamente. Después de planificar minuciosamente las medidas de seguridad, se debe definir cómo las empresas pueden garantizar una gestión completa de la información:
@@ -97,7 +97,7 @@
                   img(src='@/assets/curso/tema2/img6.png', style="width: 500px", alt='').m-auto
               .col-lg-6
                 p #[b.txt-c1 Formular una política de seguridad de la información]
-                p.mb-0 La política de seguridad de la información se refiere a las políticas y políticas en la gestión de la información. Al establecer una política de seguridad de la información, las empresas podrán determinar la dirección de la gestión de la información y podrán establecer qué tipo de sistema se debe utilizar para la gestión de la información . Además, si la política básica está bien definida, incluso cuando se establecen reglas para el manejo de la información, las reglas se pueden seleccionar en función del juicio de "si se ajustan o no a la política", por lo que es posible establecer reglas consistentes. puede construir un sistema de gestión de la información que tenga.
+                p.mb-0 La política de seguridad de la información se refiere a las políticas y políticas en la gestión de la información. Al establecer una política de seguridad de la información, las empresas podrán determinar la dirección de la gestión de la información y podrán establecer qué tipo de sistema se debe utilizar para la gestión de la información. Además, si la política básica está bien definida, incluso cuando se establecen reglas para el manejo de la información, las reglas se pueden seleccionar en función del juicio de "si se ajustan o no a la política", por lo que es posible establecer reglas consistentes. puede construir un sistema de gestión de la información que tenga.
         .row.justify-content-center.m-1
           .col-11.bg-c8.p-4
             .row.align-items-center.justify-content-center
@@ -115,7 +115,7 @@
                   img(src='@/assets/curso/tema2/img8.png', style="width: 500px", alt='').m-auto
               .col-lg-6
                 p #[b.txt-c1 Determinar reglas para la gestión de la información]
-                p.mb-0 A la hora de gestionar la información, también es importante evitar los errores de los empleados. Para evitar errores humanos causados por los empleados, es importante establecer reglas detalladas para la gestión. Si las reglas se establecen correctamente de antemano, incluso los empleados con poca alfabetización informática podrán manejar la información sin cometer errores. Por ejemplo, establezcamos reglas detalladas según el nivel del sitio, como; No instalar software sin permiso.
+                p.mb-0 A la hora de gestionar la información, también es importante evitar los errores de los empleados. Para evitar errores humanos causados por los empleados, es importante establecer reglas detalladas para la gestión. Si las reglas se establecen correctamente de antemano, incluso los empleados con poca alfabetización informática podrán manejar la información sin cometer errores. Por ejemplo, establezcamos reglas detalladas según el nivel del sitio, como; No instalar <i>software</i> sin permiso.
     p.mb-5(data-aos="fade-down") Ahora bien, si la gestión de la información de una empresa no está funcionando como se esperaba, hay que verificar si alguna de las siguientes situaciones se aplica y por ende se efectúa sus respectivas mejoras:
     .row.align-items-center
       .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
@@ -189,7 +189,7 @@
                     img(src='@/assets/curso/tema2/img10.svg', style="width: 100px", alt='').m-auto
                   .row
                     .col-12
-                      p.text-center.mb-0 Información del personal (incluida la información personal): número de teléfono móvil personal del empleado, dirección de correo electrónico, domicilio, información de la solicitud en el momento del empleo, salario, aumento de salario, información de asistencia, Mi número, etc.
+                      p.text-center.mb-0 Información del personal (incluida la información personal): número de teléfono móvil personal del empleado, dirección de correo electrónico, domicilio, información de la solicitud en el momento del empleo, salario, aumento de salario, información de asistencia, mi número, etc.
             .col-md-6.col-lg-3.mb-5
               .row.m-1.h-100
                 .col-12.bg-c17.shadow.px-4.pb-4
@@ -205,7 +205,7 @@
                     img(src='@/assets/curso/tema2/img12.svg', style="width: 100px", alt='').m-auto
                   .row
                     .col-12
-                      p.text-center.mb-0 Sistema de información, software, red interna (servidor/PC, equipo de comunicación, etc.), base de datos, know-how en tecnología informática, etc.
+                      p.text-center.mb-0 Sistema de información, <i>software</i>, red interna (servidor/PC, equipo de comunicación, etc.), base de datos, know-how en tecnología informática, etc.
             .col-md-6.col-lg-3.mb-5
               .row.m-1.h-100
                 .col-12.bg-c17.shadow.px-4.pb-4
@@ -291,7 +291,7 @@
             .row.align-items-center.justify-content-center
               .col-lg-6.mb-4.mb-lg-0
                 p #[b.txt-c1 Ataque externo]
-                p.mb-0 Incluyen el acceso no autorizado y los ataques cibernéticos. Se puede decir que es posible gestionar inmediatamente puntos como si el ID y la contraseña que está utilizando no son simples, si no se reutilizan y si el software está actualizado a la última versión. Por otra parte, también hay ataques por delitos internos. Existen casos en los que una persona dentro de una organización filtra información intencionalmente, en cuyo caso será necesario verificar el sistema de gestión de toda la empresa, como el control de acceso a la información confidencial.
+                p.mb-0 Incluyen el acceso no autorizado y los ataques cibernéticos. Se puede decir que es posible gestionar inmediatamente puntos como si el ID y la contraseña que está utilizando no son simples, si no se reutilizan y si el <i>software</i> está actualizado a la última versión. Por otra parte, también hay ataques por delitos internos. Existen casos en los que una persona dentro de una organización filtra información intencionalmente, en cuyo caso será necesario verificar el sistema de gestión de toda la empresa, como el control de acceso a la información confidencial.
               .col-lg-5
                 figure
                   img(src='@/assets/curso/tema2/img16.png', style="width: 500px", alt='').m-auto
@@ -339,7 +339,7 @@
               p.mb-0 El personal de gestión de la información es responsable de realizar copias de seguridad de los datos compartidos almacenados en servidores de bases de datos y servidores de archivos. Normalmente, los datos en el servidor se respaldan en medios de cinta como DAT, DLT y AIT. Para ejecutar una copia de seguridad, utilice la utilidad de copia de seguridad proporcionada con el sistema operativo o una herramienta de copia de seguridad dedicada. Las copias de seguridad del servidor se realizan tarde en la noche o temprano en la mañana cuando los usuarios no están operando, utilizando las funciones de programación del sistema operativo y las herramientas de copia de seguridad.
           .row(titulo="Instrucciones de copia de seguridad")
             .col-12
-              p Los datos que los empleados y el personal almacenan también son activos de información importantes. Por lo tanto, se debe indicar a los usuarios de su organización que realicen una copia de seguridad de la información almacenada. Al hacerlo, se debemos comprender correctamente el destino de almacenamiento de la copia de seguridad (medios, servidor de copia de seguridad, etc.), las herramientas y los métodos de copia de seguridad utilizados, la frecuencia de las copias de seguridad, etc., y proporcionar consejos y métodos. Se tiene que ser específico.
+              p Los datos que los empleados y el personal almacenan también son activos de información importantes. Por lo tanto, se debe indicar a los usuarios de su organización que realicen una copia de seguridad de la información almacenada. Al hacerlo, se deben comprender correctamente el destino de almacenamiento de la copia de seguridad (medios, servidor de copia de seguridad, etc.), las herramientas y los métodos de copia de seguridad utilizados, la frecuencia de las copias de seguridad, etc., y proporcionar consejos y métodos. Se tiene que ser específico.
               p.mb-0 Tenga en cuenta que si los usuarios utilizan medios de almacenamiento externo para la copia de seguridad, se aumenta la posibilidad de fuga de información confidencial o personal debido a la eliminación de datos. Si se recomiendan medios de almacenamiento externo para la copia de seguridad, también es importante implementar minuciosamente reglas para la gestión de la información, como prohibir la eliminación innecesaria de datos y estipular ubicaciones de almacenamiento, en una política de seguridad de la información.
           .row(titulo="Administrar activos")
             .col-12
@@ -442,7 +442,7 @@
               .row.justify-content-center.mb-3
                 .col-8
                   img(src='@/assets/curso/tema2/img30.svg' alt='AvatarTop')
-              p.text-center.mb-4 #[b Puntos de referecia de la industria]
+              p.text-center.mb-4 #[b Puntos de referenciá de la industria]
               p.text-center.mb-0 ¿Cómo se compara su desempeño con el de sus pares y competidores?
             .tarjeta.color-acento-contenido.p-4
               .row.justify-content-center.mb-3
@@ -596,7 +596,7 @@
                     ul.lista-ul--color.lista-ul
                       li.d-flex
                         i.fas.fa-check-circle(style="color: #4ADBD1")
-                        | Vulnerabilidades críticas del proveedor de servicios: configuraciones incorrectas de software y fugas de datos en el ecosistema de terceros, ya sea que estén relacionadas con prácticas de seguridad deficientes o controles de seguridad insuficientes.
+                        | Vulnerabilidades críticas del proveedor de servicios: configuraciones incorrectas de <i>software</i> y fugas de datos en el ecosistema de terceros, ya sea que estén relacionadas con prácticas de seguridad deficientes o controles de seguridad insuficientes.
                       li.d-flex
                         i.fas.fa-check-circle(style="color: #4ADBD1")
                         | Algunos detalles de mitigación de amenazas dignos de mencionar:
@@ -634,7 +634,9 @@
                 .row.align-items-center.justify-content-center
                   .col-12
                     p.txt-c1 #[b Recomendaciones de remediación]
-                    p La sección anterior se centró en los incidentes cibernéticos que afectan su postura de seguridad, incluidos los iniciados por los ciberdelincuentes. Esta sección debe centrarse en las amenazas emergentes en su ecosistema, internamente y en toda la red de terceros. Describir los mecanismos utilizados para descubrir estas amenazas, es decir, evaluaciones de riesgo. Las amenazas cibernéticas también incluyen el incumplimiento de regulaciones de seguridad críticas como PCI DSS y HIPAA, especialmente para industrias altamente reguladas como la atención médica.
+                    p Esta sección final debe resumir los procesos de remediación necesarios para abordar los riesgos emergentes mencionados en la sección anterior. Si estas iniciativas de remediación requieren una inversión adicional, incluya sus costos aproximados. Justifique el ROI de sus solicitudes de inversión asignándolas a los costos de daños potenciales de los riesgos cibernéticos que abordarán.
+                    p Los elementos gráficos y los cuadros representan los KPI de ciberseguridad que más importan a los ejecutivos, con gráficos y elementos visuales que hacen que sus esfuerzos de seguridad sean más fáciles de comprender y apreciar.
+                    
     .row.bg-c1(data-aos="fade-down")
       .col-12
         .p-5
@@ -642,7 +644,7 @@
             img(src='@/assets/curso/tema2/img22.png', style="width: 1200px", alt='').m-auto
           .row.justify-content-center
             .col-lg-10.bg-c7.shadow-sm.p-4
-              p.mb-0 El software de calificación de seguridad es el método más popular para monitorear los riesgos de seguridad emergentes y las desviaciones de la postura de seguridad. Si su equipo de seguridad de la información utiliza una herramienta de este tipo, asegúrese de resumir los vectores de ataque de seguridad de datos específicos que influyen en el cálculo de su calificación de seguridad.
+              p.mb-0 El <i>software</i> de calificación de seguridad es el método más popular para monitorear los riesgos de seguridad emergentes y las desviaciones de la postura de seguridad. Si su equipo de seguridad de la información utiliza una herramienta de este tipo, asegúrese de resumir los vectores de ataque de seguridad de datos específicos que influyen en el cálculo de su calificación de seguridad.
           .cajon.color-acento-botones.p-4.mb-5
             p.mb-0 Los informes ejecutivos en ciberseguridad son importantes porque mantienen informados a los líderes empresariales y a las partes interesadas sobre el progreso de las iniciativas de ciberseguridad, lo que les permite realizar un seguimiento de la alineación de la ciberseguridad con los objetivos generales de la empresa.
           p.mb-0 Un sistema eficiente de informes ejecutivos fortalece la cadena de mando entre el personal de liderazgo responsable de supervisar las políticas y estrategias de seguridad de la empresa, como el director de seguridad de la información (CISO) o el director de información (CIO), y los equipos de ciberseguridad que implementan estas iniciativas.

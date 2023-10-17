@@ -30,7 +30,7 @@
       .row.m-0.align-items-center.justify-content-between
         .col-lg-8
           .bloque-texto-a__texto.p-4.mb-4.mb-lg-0
-            p Los controles de acceso autentican y autorizan a las personas a acceder a la información que pueden ver y usar. El uso indebido de privilegios es una de las principales amenazas de seguridad cibernética en la actualidad, que a menudo resulta en pérdidas costosas e incluso puede paralizar las empresas. También es uno de los vectores de ataque más populares entre los piratas informáticos, porque cuando se lleva a cabo con éxito, brinda acceso gratuito a la parte más vulnerable de una empresa, a menudo sin generar ninguna alarma hasta que el daño ya está hecho. Existen softwares que empoderan a las empresas que buscan adelantarse a este riesgo creciente con un sólido programa de administración de acceso privilegiado que garantice que ninguna vía de acceso privilegiado a los activos de misión crítica quede sin administrar, sin conocer o sin monitorear. De ahí que todo proceso parta de las siguientes preguntas base:
+            p Los controles de acceso autentican y autorizan a las personas a acceder a la información que pueden ver y usar. El uso indebido de privilegios es una de las principales amenazas de seguridad cibernética en la actualidad, que a menudo resulta en pérdidas costosas e incluso puede paralizar las empresas. También es uno de los vectores de ataque más populares entre los piratas informáticos, porque cuando se lleva a cabo con éxito, brinda acceso gratuito a la parte más vulnerable de una empresa, a menudo sin generar ninguna alarma hasta que el daño ya está hecho. Existen <i>software</i> que empoderan a las empresas que buscan adelantarse a este riesgo creciente con un sólido programa de administración de acceso privilegiado que garantice que ninguna vía de acceso privilegiado a los activos de misión crítica quede sin administrar, sin conocer o sin monitorear. De ahí que todo proceso parta de las siguientes preguntas base:
         .col-lg-4
           figure
             img(src='@/assets/curso/tema1/img2.svg', style="width: 340px", alt='').m-auto
@@ -49,6 +49,9 @@
               img(src='@/assets/curso/tema1/img1.svg', style="width: 30px", alt='').m-auto
           .col
             p.mb-0 El control de acceso es un método para garantizar que los usuarios son quienes dicen ser y que tienen el acceso adecuado a los datos de la empresa. A un alto nivel, el control de acceso es una restricción selectiva del acceso a los datos. Consta de dos componentes principales: autenticación y autorización:
+
+    p.mb-5 Ya sea la exposición inadvertida de datos confidenciales protegidos incorrectamente por un usuario final o la violación de un <i>software</i>, donde los datos confidenciales fueron expuestos a través de un servidor web público que opera con una vulnerabilidad de <i>software</i>, los controles de acceso son un componente clave. Cuando no se implementan o mantienen adecuadamente, el resultado puede ser catastrófico
+
     figure.mb-5(data-aos="fade-down")
       img(src='@/assets/curso/tema1/img4.svg', style="width: 1080px", alt='').m-auto
     .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5(data-aos="fade-left")
@@ -83,7 +86,7 @@
                   p #[b Administrar]
                   p.mb-0 Administrar un sistema de control de acceso incluye agregar y eliminar la autenticación y autorización de usuarios o sistemas. Algunos sistemas se sincronizarán con G Suite o Azure Active Directory, lo que agilizará el proceso de administración.
                 .tarjeta.color-secundario.p-3(x="95%" y="30%" numero="5")
-                  p #[b Audotoría]
+                  p #[b Auditoría]
                   p.mb-0 Se utiliza con frecuencia como parte del control de acceso para hacer cumplir el principio de privilegio mínimo. Con el tiempo, los usuarios pueden terminar con un acceso que ya no necesitan, por ejemplo, cuando cambian de rol. Las auditorías periódicas minimizan este riesgo.
     .row.align-items-center.mb-5
       .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
@@ -95,8 +98,8 @@
             figure
               img(src='@/assets/curso/tema1/img8.svg', style="width: 30px", alt='').m-auto
           .col
-            p.mb-0 Otra razón para un fuerte control de acceso es la minería de acceso. La recopilación y venta de descriptores de acceso en la Dark web es un problema creciente.
-        p.mb-0 Por ejemplo, nuevos informes en la web describen cómo una botnet de criptominería, Smominru, extrajo no solo criptomonedas, sino también información confidencial, incluidas en direcciones IP internas, información de dominio, nombres de usuario y contraseñas. Los investigadores de este tipo de delitos creen que es altamente plausible que este actor de amenazas vendiera esta información en un mercado de acceso a otros, que luego podrían lanzar sus propios ataques por acceso remoto.
+            p.mb-0 Otra razón para un fuerte control de acceso es la minería de acceso. La recopilación y venta de descriptores de acceso en la <i>Dark web</i> es un problema creciente.
+        p.mb-0 Por ejemplo, nuevos informes en la web describen cómo una <i>botnet</i> de criptominería, Smominru, extrajo no solo criptomonedas, sino también información confidencial, incluidas en direcciones IP internas, información de dominio, nombres de usuario y contraseñas. Los investigadores de este tipo de delitos creen que es altamente plausible que este actor de amenazas vendiera esta información en un mercado de acceso a otros, que luego podrían lanzar sus propios ataques por acceso remoto.
     .row.justify-content-center.mb-5(data-aos="fade-down")
       .col-lg-10
         .row.align-items-center
@@ -158,7 +161,7 @@
         figure
           img(src='@/assets/curso/tema1/img8.png', style="width: 480px", alt='').m-auto
       .col-lg-7(data-aos="fade-left")
-        p Varias tecnologías pueden admitir los diversos modelos de control de acceso. En algunos casos, es posible que varias tecnologías deban trabajar en conjunto para lograr el nivel deseado de control de acceso. La realidad de los datos distribuidos entre los proveedores de servicios en la nube, las aplicaciones y todo aquellos conectados al perímetro de la red tradicional dictan la necesidad de orquestar una solución segura. Existen varios proveedores que brindan acceso privilegiado y soluciones de administración de identidades que se pueden integrar en una construcción tradicional de Active Directory. La autenticación multifactorial puede ser un componente para mejorar aún más la seguridad.
+        p Varias tecnologías pueden admitir los diversos modelos de control de acceso. En algunos casos, es posible que varias tecnologías deban trabajar en conjunto para lograr el nivel deseado de control de acceso. La realidad de los datos distribuidos entre los proveedores de servicios en la nube, las aplicaciones y todos aquellos conectados al perímetro de la red tradicional dictan la necesidad de orquestar una solución segura. Existen varios proveedores que brindan acceso privilegiado y soluciones de administración de identidades que se pueden integrar en una construcción tradicional de Active Directory. La autenticación multifactorial puede ser un componente para mejorar aún más la seguridad.
         p.mb-0 Hoy en día, la mayoría de las organizaciones se han vuelto expertas en autenticación, especialmente con el uso creciente de la autenticación multifactorial y la autenticación basada en biometría (como el reconocimiento facial o del iris). En los últimos años, dado que las violaciones de datos de alto perfil han resultado en la venta de credenciales de contraseñas robadas en la web oscura, los profesionales de la seguridad se han tomado más en serio la necesidad de la autenticación de múltiples factores (aunque a menudo, sigue siendo un área en la que los profesionales de la seguridad se equivocan).
     .cajon.color-primario.p-4.mb-4(data-aos="fade-down")
       p.mb-0 Puede ser un desafío determinar y monitorear permanentemente quién obtiene acceso a qué recursos de datos, cómo deberían poder acceder a ellos y bajo qué condiciones se les otorga acceso, para empezar. Pero los protocolos de autorización inconsistentes o débiles pueden crear agujeros de seguridad que deben identificarse y taparse lo más rápido posible.
@@ -181,7 +184,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/tema1/img10.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 La gestión o monitoreo del almacenamiento de la información, también denominada gestión del almacenamiento de datos, implica el seguimiento y la optimización del componente central de los grandes datos que recopila y conserva información digital mediante computadoras y otros dispositivos. La gestión del almacenamiento de datos se refiere al proceso de gestionar los datos de forma más eficaz. Requiere una comprensión adecuada de los dispositivos de almacenamiento y la disponibilidad de varios tipos de datos. La información digital puede incluir protocolos, documentos, preferencias de usuario, libretas de direcciones y más. Los tipos comunes de almacenamiento de datos son el almacenamiento de objetos, el almacenamiento de archivos, el almacenamiento definido por software y el almacenamiento de bloques. Cada uno de estos tipos de almacenamiento se utiliza para diferentes propósitos:
+        p.mb-0 La gestión o monitoreo del almacenamiento de la información, también denominada gestión del almacenamiento de datos, implica el seguimiento y la optimización del componente central de los grandes datos que recopila y conserva información digital mediante computadoras y otros dispositivos. La gestión del almacenamiento de datos se refiere al proceso de gestionar los datos de forma más eficaz. Requiere una comprensión adecuada de los dispositivos de almacenamiento y la disponibilidad de varios tipos de datos. La información digital puede incluir protocolos, documentos, preferencias de usuario, libretas de direcciones y más. Los tipos comunes de almacenamiento de datos son el almacenamiento de objetos, el almacenamiento de archivos, el almacenamiento definido por <i>software</i> y el almacenamiento de bloques. Cada uno de estos tipos de almacenamiento se utiliza para diferentes propósitos:
     .tarjeta.tarjeta--azul.p-4.mb-5(data-aos="fade-left")
       SlyderA(tipo="b")
         .row.justify-content-center.m-1
@@ -197,8 +200,8 @@
           .col-11.bg-c8.p-4
             .row.align-items-center.justify-content-center
               .col-lg-6.mb-4.mb-lg-0
-                p #[b.txt-c1 Almacenamiento definido por software]
-                p.mb-0 El almacenamiento definido por software es un enfoque que se utiliza para administrar datos a través de la abstracción. Funciona extrayendo datos del almacenamiento físico organizado para uso en red. También funciona bien con contenedores y micro servicios que incluyen datos no estructurados.
+                p #[b.txt-c1 Almacenamiento definido por #[i software]]
+                p.mb-0 El almacenamiento definido por <i>software</i> es un enfoque que se utiliza para administrar datos a través de la abstracción. Funciona extrayendo datos del almacenamiento físico organizado para uso en red. También funciona bien con contenedores y micro servicios que incluyen datos no estructurados.
               .col-lg-4
                 figure
                   img(src='@/assets/curso/tema1/img12.png', style="width: 300px", alt='').m-auto
@@ -234,7 +237,7 @@
         figure
           img(src='@/assets/curso/tema1/img16.png', style="width: 350px", alt='').m-auto
       .col-lg-8(data-aos="fade-left")
-        p La gestión del almacenamiento de datos implica la supervisión de activos de software y hardware, como matrices de almacenamiento, servidores físicos y servicios de almacenamiento en la nube. La gestión del almacenamiento de datos puede implicar la resolución de problemas de rendimiento, como posibles cuellos de botella, y el análisis de la capacidad de almacenamiento en tiempo real para ayudar a mejorar la experiencia del usuario final. Con esta información, los administradores pueden reasignar los recursos de almacenamiento para satisfacer las necesidades de almacenamiento empresarial. El monitoreo del almacenamiento de datos también puede incluir análisis de tráfico, automatización de procesos, gestión de memoria, virtualización de redes, replicación y aprovisionamiento de almacenamiento. Con el uso de un software confiable de administración de almacenamiento de datos, las organizaciones pueden configurar y rastrear más fácilmente el almacenamiento e informar las actividades de almacenamiento relacionadas.
+        p La gestión del almacenamiento de datos implica la supervisión de activos de <i>software</i> y <i>hardware</i>, como matrices de almacenamiento, servidores físicos y servicios de almacenamiento en la nube. La gestión del almacenamiento de datos puede implicar la resolución de problemas de rendimiento, como posibles cuellos de botella, y el análisis de la capacidad de almacenamiento en tiempo real para ayudar a mejorar la experiencia del usuario final. Con esta información, los administradores pueden reasignar los recursos de almacenamiento para satisfacer las necesidades de almacenamiento empresarial. El monitoreo del almacenamiento de datos también puede incluir análisis de tráfico, automatización de procesos, gestión de memoria, virtualización de redes, replicación y aprovisionamiento de almacenamiento. Con el uso de un <i>software</i> confiable de administración de almacenamiento de datos, las organizaciones pueden configurar y rastrear más fácilmente el almacenamiento e informar las actividades de almacenamiento relacionadas.
         .cajon.color-acento-botones.p-4
           p.mb-0 Las funcionalidades comunes de la gestión del almacenamiento de datos incluyen:
     .row.justify-content-center.mb-5(data-aos="fade-down")
@@ -263,6 +266,9 @@
       img(src='@/assets/curso/tema1/img19.svg', style="width: 1050px", alt='').m-auto
     figure.mb-5(data-aos="fade-left")
       img(src='@/assets/curso/tema1/img20.svg', style="width: 1250px", alt='').m-auto
+
+    p.mb-5 Cabe resaltar que existen software de administración de datos que están diseñados para ayudar a las organizaciones a monitorear la capacidad actual de almacenamiento de datos a través de un tablero centralizado, para que pueda optimizar más fácilmente las políticas de almacenamiento de datos, administrar el estado del entorno de almacenamiento y abordar aspectos clave del proceso de administración de datos. 
+
     .cajon.color-acento-botones.p-4(data-aos="fade-down")
       p.mb-0 Además, las herramientas de monitoreo de datos pueden proporcionar información crucial sobre el estado de los dispositivos de almacenamiento, el riesgo de capacidad y la detección de puntos de acceso para garantizar que se tomen las medidas correctas.
     Separador
@@ -344,16 +350,16 @@
             figure.fig-p2
               img(src='@/assets/curso/tema1/img28.svg', style="width: 50px", alt='').m-auto
           .col-xl-7.bg-c3.p-4
-            p.text-white.mb-0 La nube jugará un papel clave en el futuro del procesamiento de datos. La tecnología de la nube se basa en las prácticas actuales de procesamiento electrónico de datos para aprovechar esa conveniencia y mejorar la velocidad y la eficiencia. Con velocidades más rápidas y datos de mayor calidad, puede aprovechar más datos y extraer información más valiosa. A medida que los grandes datos se trasladan a la nube, las empresas obtienen importantes beneficios. La tecnología de nube de big data permite a las empresas combinar todas las plataformas en un sistema fácilmente adaptable. A medida que el software cambia y se actualiza (como es común en el mundo de los grandes datos), la tecnología de la nube integra a la perfección elementos antiguos y nuevos.
+            p.text-white.mb-0 La nube jugará un papel clave en el futuro del procesamiento de datos. La tecnología de la nube se basa en las prácticas actuales de procesamiento electrónico de datos para aprovechar esa conveniencia y mejorar la velocidad y la eficiencia. Con velocidades más rápidas y datos de mayor calidad, puede aprovechar más datos y extraer información más valiosa. A medida que los grandes datos se trasladan a la nube, las empresas obtienen importantes beneficios. La tecnología de nube de <i>big data</i> permite a las empresas combinar todas las plataformas en un sistema fácilmente adaptable. A medida que el <i>software</i> cambia y se actualiza (como es común en el mundo de los grandes datos), la tecnología de la nube integra a la perfección elementos antiguos y nuevos.
     .row.align-items-center.mb-3
       .col-lg-8.mb-4.mb-lg-0(data-aos="fade-right")
         .cajon.color-acento-botones.p-4.mb-3
           p.mb-0 Las grandes empresas no son las únicas que se benefician del procesamiento de datos en la nube. De hecho, las pequeñas y medianas empresas también pueden beneficiarse enormemente entre sí. La plataforma en la nube se puede utilizar a bajo costo y se puede expandir/extender de manera flexible de acuerdo con el crecimiento de la empresa. Esto permite a las empresas ganar escalabilidad sin incurrir en costos significativos.
-        p.mb-0 Sumado a esto, se pasa del procesamiento de datos a la analítica. El big data está cambiando la forma en que se hacen negocios, y las empresas de todos los tamaños necesitan estrategias sólidas de procesamiento de datos para obtener una ventaja competitiva. Los seis pasos del procesamiento de datos seguirán siendo los mismos, pero la nube hará avanzar mucho la tecnología, convirtiéndola en el método más económico, moderno y rápido. Una vez que se completa el procesamiento de datos, luego de su recopilación, lo que se espera es la utilización real de los mismos por medio de su análisis; de esta forma, se puede tomar decisiones comerciales más rápidas e inteligentes.
+        p.mb-0 Sumado a esto, se pasa del procesamiento de datos a la analítica. El <i>big data</i> está cambiando la forma en que se hacen negocios, y las empresas de todos los tamaños necesitan estrategias sólidas de procesamiento de datos para obtener una ventaja competitiva. Los seis pasos del procesamiento de datos seguirán siendo los mismos, pero la nube hará avanzar mucho la tecnología, convirtiéndola en el método más económico, moderno y rápido. Una vez que se completa el procesamiento de datos, luego de su recopilación, lo que se espera es la utilización real de los mismos por medio de su análisis; de esta forma, se puede tomar decisiones comerciales más rápidas e inteligentes.
       .col-lg-4(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema1/img18.png', style="width: 340px", alt='').m-auto
-    p.mb-5(data-aos="fade-right") A medida que las fuentes de datos se expanden y diversifican, el procesamiento de datos debe enfrentar varios desafíos nuevos. El hardware Intel® está reforzado para un procesamiento de datos rápido y rentable y se puede escalar para cumplir con las cargas de trabajo más exigentes.
+    p.mb-5(data-aos="fade-right") A medida que las fuentes de datos se expanden y diversifican, el procesamiento de datos debe enfrentar varios desafíos nuevos. El <i>hardware</i> Intel® está reforzado para un procesamiento de datos rápido y rentable y se puede escalar para cumplir con las cargas de trabajo más exigentes.
     .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade-right")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema1/img19.png')})`}"
@@ -376,7 +382,7 @@
               img(src="@/assets/curso/tema1/img21.png", alt="alt")
           .crd_hover_txt--body1
             p.text-center #[b Procesamiento de flujo]
-            p.mb-0 A medida que la tecnología de red ha evolucionado, las tareas de procesamiento de datos ya no necesitan completarse dentro del mismo nodo. En el procesamiento de datos distribuidos, varios nodos que se ejecutan en el mismo clúster funcionan en paralelo para procesar cargas de trabajo de datos en una red. El uso del procesamiento de datos distribuido permite que las cargas de trabajo de análisis avanzado se procesen en hardware de bajo costo y bajo consumo.
+            p.mb-0 A medida que la tecnología de red ha evolucionado, las tareas de procesamiento de datos ya no necesitan completarse dentro del mismo nodo. En el procesamiento de datos distribuidos, varios nodos que se ejecutan en el mismo clúster funcionan en paralelo para procesar cargas de trabajo de datos en una red. El uso del procesamiento de datos distribuido permite que las cargas de trabajo de análisis avanzado se procesen en <i>hardware</i> de bajo costo y bajo consumo.
       .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
         .crd_hover_txt
           .crd_hover_txt--img
@@ -384,12 +390,12 @@
               img(src="@/assets/curso/tema1/img22.png", alt="alt")
           .crd_hover_txt--body
             p.text-center #[b Procesamiento de datos distribuido]
-            p.mb-0 A medida que la tecnología de red ha evolucionado, las tareas de procesamiento de datos ya no necesitan completarse dentro del mismo nodo. En el procesamiento de datos distribuidos, varios nodos que se ejecutan en el mismo clúster funcionan en paralelo para procesar cargas de trabajo de datos en una red. El uso del procesamiento de datos distribuido permite que las cargas de trabajo de análisis avanzado se procesen en hardware de bajo costo y bajo consumo.
+            p.mb-0 A medida que la tecnología de red ha evolucionado, las tareas de procesamiento de datos ya no necesitan completarse dentro del mismo nodo. En el procesamiento de datos distribuidos, varios nodos que se ejecutan en el mismo clúster funcionan en paralelo para procesar cargas de trabajo de datos en una red. El uso del procesamiento de datos distribuido permite que las cargas de trabajo de análisis avanzado se procesen en <i>hardware</i> de bajo costo y bajo consumo.
     .row.align-items-center.mb-5
       .col-lg-7.mb-4.mb-lg-0(data-aos="fade-right")
         .cajon.color-acento-contenido.p-4.mb-3
           p.mb-0 Según el tipo de datos que se procesen y su uso, varias de estas operaciones estratégicas se pueden realizar en una sola canalización de datos, lo que da como resultado una salida de datos final unificada.
-        p.mb-0 El procesamiento de datos, uno de los procesos con mayor uso de recursos en una canalización de datos, está fuertemente influenciado por las optimizaciones de hardware y software. Muchos de los principales proveedores de software hoy en día optimizan sus productos para el hardware Intel®. Así mismo, el ecosistema Intel® de soluciones y socios tecnológicos garantiza que muchas soluciones de software se ejecuten de manera óptima en el hardware Intel®, lo que lo ayuda a aprovechar al máximo su inversión en tecnología. Intel, entonces, ofrece la siguiente amplia cartera de tecnologías de hardware y software para acelerar las cargas de trabajo de procesamiento de datos actuales:
+        p.mb-0 El procesamiento de datos, uno de los procesos con mayor uso de recursos en una canalización de datos, está fuertemente influenciado por las optimizaciones de <i>hardware</i> y <i>software</i>. Muchos de los principales proveedores de <i>software</i> hoy en día optimizan sus productos para el <i>hardware</i> Intel®. Así mismo, el ecosistema Intel® de soluciones y socios tecnológicos garantiza que muchas soluciones de <i>software</i> se ejecuten de manera óptima en el <i>hardware</i> Intel®, lo que lo ayuda a aprovechar al máximo su inversión en tecnología. Intel, entonces, ofrece la siguiente amplia cartera de tecnologías de <i>hardware</i> y <i>software</i> para acelerar las cargas de trabajo de procesamiento de datos actuales:
       .col-lg-5(data-aos="fade-down")
         figure
           img(src='@/assets/curso/tema1/img23.png', style="width: 450px", alt='').m-auto
@@ -408,7 +414,7 @@
           .tarjeta.color-acento-contenido.p-4(titulo="Seguridad mejorada")
             p.mb-0 La tecnología Intel® QuickAssist (Intel® QAT) permite a los equipos de datos acelerar el rendimiento del cifrado y descifrado y mejorar la seguridad de las aplicaciones de procesamiento de datos.
     .cajon.color-acento-botones.p-4(data-aos="fade-down")
-      p.mb-0 Las tecnologías Intel® están diseñadas para permitir que cada organización cree una flexibilidad única y canalizaciones de procesamiento de datos únicas para nuevas fuentes de datos y aplicaciones. La aceleración basada en software y hardware de Intel permite el procesamiento de datos a la velocidad y eficiencia requeridas por las aplicaciones de análisis más avanzadas de la actualidad.
+      p.mb-0 Las tecnologías Intel® están diseñadas para permitir que cada organización cree una flexibilidad única y canalizaciones de procesamiento de datos únicas para nuevas fuentes de datos y aplicaciones. La aceleración basada en <i>software</i> y <i>hardware</i> de Intel permite el procesamiento de datos a la velocidad y eficiencia requeridas por las aplicaciones de análisis más avanzadas de la actualidad.
     Separador
     #t_1_4
     .titulo-segundo.color-acento-botones
@@ -418,7 +424,7 @@
         figure
           img(src='@/assets/curso/tema1/img31.svg', style="width: 280px", alt='').m-auto
       .col-lg-9(data-aos="fade-left")
-        p Para mantener la disponibilidad de los activos de información, dentro de una empresa u organización, es necesario contar con copias de seguridad adecuadas de la información que se posee. El personal de administración de la información debe operar una copia de seguridad que pueda restaurarse rápidamente con el menor impacto posible en el negocio, en caso de una falla de la computadora o de la red o un error de operación del sistema. Para garantizar que los usuarios de una empresa u organización puedan usar sus computadoras personales de manera segura, se deben recomendar copias de seguridad periódicas. En las computadoras cliente, no solo se deben respaldar los archivos de documentos creados con el software de procesamiento de texto y el software de hoja de cálculo, sino también los correos electrónicos, las URL de los sitios web de uso frecuente y varias configuraciones.
+        p Para mantener la disponibilidad de los activos de información, dentro de una empresa u organización, es necesario contar con copias de seguridad adecuadas de la información que se posee. El personal de administración de la información debe operar una copia de seguridad que pueda restaurarse rápidamente con el menor impacto posible en el negocio, en caso de una falla de la computadora o de la red o un error de operación del sistema. Para garantizar que los usuarios de una empresa u organización puedan usar sus computadoras personales de manera segura, se deben recomendar copias de seguridad periódicas. En las computadoras cliente, no solo se deben respaldar los archivos de documentos creados con el <i>software</i> de procesamiento de texto y el <i>software</i> de hoja de cálculo, sino también los correos electrónicos, las URL de los sitios web de uso frecuente y varias configuraciones.
         .cajon.color-acento-contenido.p-4
           p.mb-0 Los diversos tipos de información que manejan las empresas deben ser estrictamente protegidos y una forma de protegerla es a través de una copia de seguridad de sus datos. La pérdida de estos dificulta las actividades comerciales. Por ello, es esencial que aquellos que están en condiciones de proteger la información corporativa comprendan los puntos relacionados con la copia de seguridad y su respectiva gestión.
     figure.mb-5(data-aos="fade-down")
@@ -440,19 +446,19 @@
                       li.d-flex
                         i.lista-ul__vineta(style="color: #4ADBD1")
                         |
-                        p.mb-0 #[b Uso posible]. Esto significa que las copias de seguridad registradas en el repositorio aún existen en disco o cinta.
+                        p.mb-0 #[b Uso posible:] esto significa que las copias de seguridad registradas en el repositorio aún existen en disco o cinta.
                       li.d-flex
                         i.lista-ul__vineta(style="color: #4ADBD1")
                         |
-                        p.mb-0 #[b Venció]. Esto significa que la copia de seguridad ya no existe en el disco o la cinta y todavía se incluye en el repositorio.
+                        p.mb-0 #[b Venció:] esto significa que la copia de seguridad ya no existe en el disco o la cinta y todavía se incluye en el repositorio.
                       li.d-flex
                         i.lista-ul__vineta(style="color: #4ADBD1")
                         |
-                        p.mb-0 #[b Es imposible de usar]. Esto significa que las copias de seguridad no se pueden usar temporalmente para las operaciones de recuperación de datos (por ejemplo, porque se almacenan fuera del sitio en cintas o en discos que no están montados actualmente).
+                        p.mb-0 #[b Es imposible de usar:] esto significa que las copias de seguridad no se pueden usar temporalmente para las operaciones de recuperación de datos (por ejemplo, porque se almacenan fuera del sitio en cintas o en discos que no están montados actualmente).
                       li.d-flex
                         i.lista-ul__vineta(style="color: #4ADBD1")
                         |
-                        p.mb-0 #[b Innecesarias]. Es posible que ya no se requieran copias de seguridad. Las copias de seguridad obsoletas son copias de seguridad que ya no se necesitan para satisfacer los propósitos de recuperación de datos, según la política de retención configurada actualmente.
+                        p.mb-0 #[b Innecesarias:] es posible que ya no se requieran copias de seguridad. Las copias de seguridad obsoletas son copias de seguridad que ya no se necesitan para satisfacer los propósitos de recuperación de datos, según la política de retención configurada actualmente.
             .row.justify-content-center.m-1
               .col-12.p-4
                 .row.align-items-center.justify-content-center
@@ -494,8 +500,8 @@
           img(src='@/assets/curso/tema1/img35.svg', style="width: 380px", alt='').m-auto
       .col-lg-9(data-aos="fade-left")
         .cajon.color-primario.p-4.mb-3
-          p.mb-0 El personal de gestión de la información es responsable de realizar copias de seguridad de los datos compartidos almacenados en servidores de bases de datos y servidores de archivos. Para realizar una copia de seguridad, se utiliza la utilidad de copia de seguridad proporcionada con el sistema operativo o el software de copia de seguridad dedicado; usualmente se realizan tarde en la noche o temprano en la mañana cuando los usuarios no están operando.
-        p.mb-0 Los datos que los empleados y el personal almacenan en cada cliente también son uno de los activos de información importantes. Por lo tanto, los usuarios dentro de la organización también deben recibir instrucciones para realizar una copia de seguridad de la información almacenada en cada cliente. Al hacerlo, se comprende correctamente la importancia de los activos de información de cada usuario, como el destino de almacenamiento de la copia de seguridad (medios, servidor de copia de seguridad, etc.), el software y el método de copia de seguridad utilizados, la frecuencia de la copia de seguridad, etc. Se debe tener en cuenta que, si el usuario utiliza un medio de almacenamiento externo para la copia de seguridad, existe una gran posibilidad de que se filtre información confidencial o información personal debido a la eliminación de datos. Si se recomiendan medios de almacenamiento externo para la copia de seguridad, también es importante implementar minuciosamente reglas para la gestión de la información, como prohibir la eliminación innecesaria de datos y estipular ubicaciones de almacenamiento, en una política de seguridad de la información.
+          p.mb-0 El personal de gestión de la información es responsable de realizar copias de seguridad de los datos compartidos almacenados en servidores de bases de datos y servidores de archivos. Para realizar una copia de seguridad, se utiliza la utilidad de copia de seguridad proporcionada con el sistema operativo o el <i>software</i> de copia de seguridad dedicado; usualmente se realizan tarde en la noche o temprano en la mañana cuando los usuarios no están operando.
+        p.mb-0 Los datos que los empleados y el personal almacenan en cada cliente también son uno de los activos de información importantes. Por lo tanto, los usuarios dentro de la organización también deben recibir instrucciones para realizar una copia de seguridad de la información almacenada en cada cliente. Al hacerlo, se comprende correctamente la importancia de los activos de información de cada usuario, como el destino de almacenamiento de la copia de seguridad (medios, servidor de copia de seguridad, etc.), el <i>software</i> y el método de copia de seguridad utilizados, la frecuencia de la copia de seguridad, etc. Se debe tener en cuenta que, si el usuario utiliza un medio de almacenamiento externo para la copia de seguridad, existe una gran posibilidad de que se filtre información confidencial o información personal debido a la eliminación de datos. Si se recomiendan medios de almacenamiento externo para la copia de seguridad, también es importante implementar minuciosamente reglas para la gestión de la información, como prohibir la eliminación innecesaria de datos y estipular ubicaciones de almacenamiento, en una política de seguridad de la información.
     .bloque-texto-g.bloque-texto-g--inverso.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade-right")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema1/img24.png')})`}"
@@ -515,13 +521,10 @@
               figure
                 img(src='@/assets/curso/tema1/img36.svg', alt='Texto que describa la imagen')
             .tarjeta.color-secundario.p-3(x="21%" y="6%" numero="1")
-              p #[b Errores de operación por parte de los empleados]
               p.mb-0 Una cierta cantidad de error humano es inevitable porque son las personas, como los empleados, quienes realmente manejan los datos. Por ejemplo, el error de un empleado al operar una computadora personal puede hacer que los datos importantes se sobrescriban con otros datos o se eliminen. También es importante proporcionar una formación adecuada a los empleados para que no se produzcan errores operativos. Pero si sucede lo peor, puede restaurar con una copia de seguridad.
             .tarjeta.color-secundario.p-3(x="53%" y="8%" numero="2")
-              p #[b Infección por virus]
               p.mb-0 Las empresas están rodeadas de diversas amenazas. Uno de ellos es la existencia de piratas informáticos que atacan los datos corporativos e infectan con virus las redes de las empresas y los terminales individuales. No es exagerado decir que el riesgo de piratear datos corporativos aumenta cada día que pasa. Como empresa, debe ser plenamente consciente del riesgo de piratería y preparar un sistema de defensa.
             .tarjeta.color-secundario.p-3(x="89%" y="6%" numero="3")
-              p #[b Obstáculos físicos]
               p.mb-0 Los obstáculos físicos, como fallas en discos duros o daños en los datos, representan una tercera causa de pérdida de datos. Aunque en algunos casos se pueden recuperar, a menudo estos problemas quedan sin resolver, dificultando la continuidad del negocio. Además, el robo de computadoras personales también implica una pérdida física de datos. Para prepararse ante estas situaciones, es crucial contar con copias de seguridad.
     p.mb-5(data-aos="fade-right") Existen tres métodos para hacer una copia de seguridad: guardar en un medio de almacenamiento externo, almacenamiento en línea y almacenamiento en red:
     .tarjeta.tarjeta--azul.p-4.mb-5(data-aos="fade-left")
@@ -540,7 +543,7 @@
             .row.align-items-center.justify-content-center
               .col-lg-6.mb-4.mb-lg-0
                 p #[b.txt-c1 Almacenamiento en línea]
-                p.mb-0 El almacenamiento en línea se refiere al almacenamiento de datos en Internet. Es común hacer una copia de seguridad de los datos utilizando servicios en la nube. La ventaja del almacenamiento en línea es que puede almacenar grandes cantidades de datos. Otra característica del almacenamiento en línea es que incluso en este caso, los datos en Internet pueden protegerse sin daños. También es efectivo almacenar datos importantes en una red confiable fuera de la empresa utilizando servicios en la nube.
+                p.mb-0 El almacenamiento en línea se refiere al almacenamiento de datos en Internet. Es común hacer una copia de seguridad de los datos utilizando servicios en la nube. La ventaja del almacenamiento en línea es que puede almacenar grandes cantidades de datos. Otra característica del almacenamiento en línea es que, incluso en este caso, los datos en Internet pueden protegerse sin daños. También es efectivo almacenar datos importantes en una red confiable fuera de la empresa utilizando servicios en la nube.
               .col-lg-4
                 figure
                   img(src='@/assets/curso/tema1/img26.png', style="width: 300px", alt='').m-auto
@@ -619,7 +622,7 @@
                     img(src='@/assets/curso/tema1/img42.svg', alt='Texto que describa la imagen')
                 .tarjeta.color-secundario.p-3(x="94%" y="65%" numero="1")
                   p #[b Tipo de medio de almacenamiento]
-                  p.mb-0 Se seleccione qué medio usar, como cinta, disco externo, CD/DVD, memoria flash (memoria USB), almacenamiento en red, etc. Es deseable considerar múltiples combinaciones también.
+                  p.mb-0 Se selecciona qué medio usar, como cinta, disco externo, CD/DVD, memoria flash (memoria USB), almacenamiento en red, etc. Es deseable considerar múltiples combinaciones también.
                 .tarjeta.color-secundario.p-3(x="41%" y="50%" numero="2")
                   p #[b Frecuencia (intervalo) y método]
                   p.mb-0 Intervalo de tiempo de copia de seguridad. Es necesario decidir si hacerlo todos los días, semanalmente, mensualmente, etc. Debe seleccionar si se desea utilizar Copia de seguridad completa, Copia de seguridad diferencial o Copia de seguridad incremental. Se puede lograr una copia de seguridad eficiente mediante el uso de múltiples métodos en combinación con intervalos.
