@@ -311,13 +311,13 @@ export default {
         },
         {
           nombre: 'Miroslava González Hernández',
-          cargo: 'Diseñadora y evaluadora Instruccional',
+          cargo: 'Diseño instruccional',
           centro:
             'Regional Norte de Santander - Centro de la Industria, la Empresa y los Servicios',
         },
         {
           nombre: 'Andrés Felipe Velandia Espitia',
-          cargo: 'Asesor Metodológico',
+          cargo: 'Asesoría metodológica y pedagógica',
           centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
         },
         {
@@ -334,7 +334,7 @@ export default {
         },
         {
           nombre: 'Alix Cecilia Chinchilla Rueda',
-          cargo: 'Asesor metodológico',
+          cargo: 'Asesoría metodológica y pedagógica',
           centro:
             'Regional Distrito Capital - Centro de gestión de mercados, Logística y Tecnologías de la información',
         },
@@ -345,13 +345,13 @@ export default {
       autores: [
         {
           nombre: 'Jesús Antonio Vecino Valero',
-          cargo: 'Diseñador de contenidos digitales',
+          cargo: 'Diseñador web',
           centro:
             'Regional Distrito Capital - Centro de gestión de mercados, Logística y Tecnologías de la información',
         },
         {
           nombre: 'Adriana Marcela Suarez Eljure',
-          cargo: 'Diseñador de contenidos digitales',
+          cargo: 'Diseñador web',
           centro:
             'Regional Distrito Capital - Centro de gestión de mercados, Logística y Tecnologías de la información',
         },

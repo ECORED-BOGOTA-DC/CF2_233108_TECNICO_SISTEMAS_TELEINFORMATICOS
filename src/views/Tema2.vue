@@ -442,7 +442,7 @@
               .row.justify-content-center.mb-3
                 .col-8
                   img(src='@/assets/curso/tema2/img30.svg' alt='AvatarTop')
-              p.text-center.mb-4 #[b Puntos de referenciá de la industria]
+              p.text-center.mb-4 #[b Puntos de referencia de la industria]
               p.text-center.mb-0 ¿Cómo se compara su desempeño con el de sus pares y competidores?
             .tarjeta.color-acento-contenido.p-4
               .row.justify-content-center.mb-3
