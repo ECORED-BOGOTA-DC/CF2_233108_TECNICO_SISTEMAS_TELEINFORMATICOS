@@ -102,8 +102,8 @@
         p.mb-0 Por ejemplo, nuevos informes en la web describen cómo una <i>botnet</i> de criptominería, Smominru, extrajo no solo criptomonedas, sino también información confidencial, incluidas en direcciones IP internas, información de dominio, nombres de usuario y contraseñas. Los investigadores de este tipo de delitos creen que es altamente plausible que este actor de amenazas vendiera esta información en un mercado de acceso a otros, que luego podrían lanzar sus propios ataques por acceso remoto.
     .row.justify-content-center.mb-5(data-aos="fade-down")
       .col-lg-10
-        .row.align-items-center
-          .col-xl-7.bg-c3.p-4
+        .row.align-items-center.justify-content-center
+          .col-md-8.col-xl-7.bg-c3.p-4
             p.text-white.mb-0 Estos mercados de acceso proporcionan una forma rápida y fácil para que los ciberdelincuentes compren acceso a sistemas y organizaciones. Estos sistemas pueden usarse como zombis en ataques a gran escala o como punto de entrada para un ataque dirigido. Un mercado de acceso, Ultimate Anonymity Services (UAS) ofrece 35 000 credenciales con un precio de venta promedio de $6.75 por credencial, por citar ejemplo de precios de este tipo de accesos sin control.
           .col-xl-auto
             figure.fig-p1
@@ -342,14 +342,14 @@
                     p.mb-0 La etapa final del procesamiento de datos es el almacenamiento. Todos los datos procesados se almacenan para uso futuro. Parte de la información se puede usar inmediatamente, pero la mayoría se usará más tarde. Además, se requiere que los datos almacenados correctamente cumplan con las leyes de protección de datos como GDPR. Cuando los datos se almacenan correctamente, los miembros de su organización pueden acceder a ellos rápida y fácilmente según sea necesario.
     .row.justify-content-center.mb-5(data-aos="fade-left")
       .col-lg-10
-        .row.align-items-center
+        .row.align-items-center.justify-content-center
           .col-xl-4 
             figure
               img(src='@/assets/curso/tema1/img29.svg', style="width: 380px", alt='').m-auto
           .col-xl-auto
             figure.fig-p2
               img(src='@/assets/curso/tema1/img28.svg', style="width: 50px", alt='').m-auto
-          .col-xl-7.bg-c3.p-4
+          .col-md-8.col-xl-7.bg-c3.p-4
             p.text-white.mb-0 La nube jugará un papel clave en el futuro del procesamiento de datos. La tecnología de la nube se basa en las prácticas actuales de procesamiento electrónico de datos para aprovechar esa conveniencia y mejorar la velocidad y la eficiencia. Con velocidades más rápidas y datos de mayor calidad, puede aprovechar más datos y extraer información más valiosa. A medida que los grandes datos se trasladan a la nube, las empresas obtienen importantes beneficios. La tecnología de nube de <i>big data</i> permite a las empresas combinar todas las plataformas en un sistema fácilmente adaptable. A medida que el <i>software</i> cambia y se actualiza (como es común en el mundo de los grandes datos), la tecnología de la nube integra a la perfección elementos antiguos y nuevos.
     .row.align-items-center.mb-3
       .col-lg-8.mb-4.mb-lg-0(data-aos="fade-right")
@@ -485,8 +485,8 @@
                     p.mb-0 Sin un registro preciso de las copias de seguridad disponibles, es posible que descubra que no existe una copia de seguridad completa de su base de datos cuando necesite realizar una recuperación. Las tareas como la verificación cruzada periódica de las copias de seguridad deben programarse regularmente como parte de su estrategia de copia de seguridad.
     .row.justify-content-center.mb-5(data-aos="fade-left")
       .col-lg-10
-        .row.align-items-center
-          .col-xl-7.bg-c3.p-4
+        .row.align-items-center.justify-content-center
+          .col-md-8.col-xl-7.bg-c3.p-4
             p.text-white.mb-0 Cuando se utiliza el área de recuperación rápida para el almacenamiento de copias de seguridad, se eliminan o reducen muchas actividades de mantenimiento. Los archivos de respaldo y otros archivos se eliminan según sea necesario mediante el mecanismo de administración de almacenamiento automático para cumplir con las demandas de almacenamiento de las operaciones en curso de la base de datos sin violar las políticas de retención. Sin embargo, debe monitorear el uso del espacio en el área de recuperación rápida para asegurarse de que sea lo suficientemente grande para almacenar copias de seguridad y otros archivos relacionados con la recuperación.
           .col-xl-auto
             figure.fig-p1
@@ -495,7 +495,7 @@
             figure
               img(src='@/assets/curso/tema1/img34.svg', style="width: 380px", alt='').m-auto
     .row.align-items-center.mb-5
-      .col-lg-3.mb-4.mb-lg-0(data-aos="fade-right")
+      .col-lg-3.d-none.d-lg-block(data-aos="fade-right")
         figure
           img(src='@/assets/curso/tema1/img35.svg', style="width: 380px", alt='').m-auto
       .col-lg-9(data-aos="fade-left")

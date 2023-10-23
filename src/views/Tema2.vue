@@ -26,8 +26,8 @@
         p.mb-0 Es cierto que muchas empresas se han beneficiado de la difusión de las computadoras personales en los hogares en general, el desarrollo de entornos de Internet de alta velocidad y el aumento explosivo de usuarios de teléfonos inteligentes. Por otro lado, sin embargo, también es cierto que pueden producirse incidentes de fuga de información por ligeros errores de gestión o por laxitud de la seguridad. En estas circunstancias, en lo que deben trabajar las empresas es en tomar las medidas de seguridad adecuadas y conocer con precisión el tipo, la calidad y la cantidad de los activos de información que posee la empresa. Esto ahora se posiciona como una de nuestras responsabilidades sociales. Además de las medidas de seguridad, las empresas necesitan trabajar en planes comerciales y presupuestos para el próximo año fiscal, trabajo diario de gestión y servicio al cliente, y no quedan muchos recursos excedentes. Especialmente para las pequeñas y medianas empresas, hay muchos casos en los que no se pueden tomar medidas de seguridad suficientes desde un punto de vista financiero. Es por eso que no se puede esperar incidentes de fuga de información. Por lo tanto, lo que debe considerar activamente es una contramedida que refuerce las medidas de seguridad mientras se usa los servicios de otras compañías.
     .row.justify-content-center.mb-5(data-aos="fade-left")
       .col-lg-10
-        .row.align-items-center
-          .col-xl-7.bg-c3.p-4
+        .row.align-items-center.justify-content-center
+          .col-md-8.col-xl-7.bg-c3.p-4
             p.text-white.mb-0 Recientemente, se han proporcionado varios servicios web y también se proporcionan muchos sistemas comerciales que son indispensables para las actividades de gestión. Muchos de estos servicios web cumplen con altos requisitos de seguridad y, en algunos casos, las medidas de seguridad pueden reforzarse simplemente usándolos.
           .col-xl-auto
             figure.fig-p1
@@ -252,8 +252,8 @@
         p.mb-0 Después, la información categorizada como información valiosa se etiqueta aún más y se crean criterios de evaluación para esta. Por ejemplo, hay información con valor económico, información que seguramente causará pérdida en caso de fuga de información, información que puede reducir la credibilidad social e información personal. Se divide, entonces, la información en categorías y se clasifican según su importancia, estableciendo indicadores como la confidencialidad y el secreto. Al clasificar, se puede configurar medidas de seguridad que coincidan con cada requerimiento. Además, al usar información, será posible usarla de manera efectiva de acuerdo con el rango.
     .row.justify-content-center.mb-5(data-aos="fade-right")
       .col-lg-10
-        .row.align-items-center
-          .col-xl-7.bg-c3.p-4
+        .row.align-items-center.justify-content-center
+          .col-md-8.col-xl-7.bg-c3.p-4
             p.text-white.mb-0 Es necesario identificar vulnerabilidades y amenazas para cada activo de información clasificado. Por ejemplo, se puede decir que un estado en el que "cualquiera puede acceder a información altamente confidencial" es un estado de alto riesgo porque no se han implementado medidas de seguridad de la información.
           .col-xl-auto
             figure.fig-p1
@@ -509,14 +509,14 @@
         p.mb-0 Ahora bien, siendo realistas, los expertos en tecnología de la información no suelen ser escritores entusiastas. Entonces, cuando se trata de crear un informe ejecutivo, el personal de seguridad cibernética no se presiona entre sí para completar esta emocionante tarea de redacción. En cambio, sigue retrasándose, día a día, hasta la noche anterior a su presentación. Muchos se atascan en la sección del resumen ejecutivo, obsesionados con su perfección. Esto es comprensible ya que el resumen ejecutivo es probablemente el componente más importante del informe. Todos los interesados juzgan el valor de un informe por su resumen ejecutivo y algunos no leen nada más que el resumen.
     .row.justify-content-center.mb-5(data-aos="fade-left")
       .col-lg-10
-        .row.align-items-center
+        .row.align-items-center.justify-content-center
           .col-xl-4 
             figure
               img(src='@/assets/curso/tema1/img29.svg', style="width: 380px", alt='').m-auto
           .col-xl-auto
             figure.fig-p2
               img(src='@/assets/curso/tema1/img28.svg', style="width: 50px", alt='').m-auto
-          .col-xl-7.bg-c3.p-4
+          .col-md-8.col-xl-7.bg-c3.p-4
             p.text-white.mb-0 El resumen ejecutivo de su informe de ciberseguridad es solo eso: ¡Un resumen! No se llena de explicaciones técnicas; para eso está el cuerpo del informe (e incluso entonces, debe mantener sus divagaciones técnicas restringidas). Su informe ejecutivo debe adaptarse a las expectativas del equipo de liderazgo, y la mayoría de ellos no quieren jerga técnica. El resumen ejecutivo debe resumir sucintamente los esfuerzos de su programa de seguridad y abordar todas las preocupaciones de seguridad de alto nivel del equipo de liderazgo.
     p.mb-5(data-aos="fade-right") Un resumen ejecutivo debe estar compuesto por los siguientes encabezados:
     .row.justify-content-center.mb-5
@@ -554,13 +554,12 @@
       .col-lg-6(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema2/img34.svg', style="width: 450px", alt='').m-auto
-    .cajon.color-acento-contenido.p-4.mb-5(data-aos="fade-down")
+    .cajon.color-acento-contenido.p-4.mb-0.mb-lg-5(data-aos="fade-down")
       p.mb-0 Este conjunto de encabezados es característico de un método clásico de estructuración de un resumen ejecutivo para un informe de seguridad. Si bien esta estructura clásica aún es aceptable, si realmente desea impresionar al equipo de liderazgo, considere usar un estilo de informes de seguridad cibernética más moderno en su próximo ciclo de informes. Más detalles a continuación:
-    p.mb-0.mb-lg-5(data-aos="fade-right") Si bien esta estructura clásica aún es aceptable, si realmente desea impresionar al equipo de liderazgo, considere usar un estilo de informes de seguridad cibernética más moderno en su próximo ciclo de informes. Más detalles a continuación:
     .row.align-items-center.mb-4
       .col-lg-3.mb-4.mb-lg-0(data-aos="fade-right")
         figure
-          img(src='@/assets/curso/tema2/img40.svg', style="width: 450px", alt='').m-auto
+          img(src='@/assets/curso/tema2/img40.svg', style="width: 300px", alt='').m-auto
       .col-lg-9(data-aos="fade-left")
         .tarjeta.tarjeta--azul.p-4
           SlyderA(tipo="b")
@@ -655,15 +654,29 @@
       .bloque-texto-g__texto.p-4
         p.mb-0 Las partes interesadas y los ejecutivos que toman decisiones, que en el pasado preferían evitar los detalles técnicos de las iniciativas de ciberseguridad, ahora están más informados sobre los riesgos asociados con las violaciones de datos y las malas posturas de ciberseguridad. Los ejecutivos exigen cada vez informes más transparentes para ayudar en las decisiones comerciales y realizar un seguimiento de las mejoras en la respuesta a incidentes.
     .row.align-items-center.mb-5
-      .col-lg-8.mb-4.mb-lg-0(data-aos="fade-right")
+      .col-12.mb-5(data-aos="fade-right")
         .cajon.color-primario.p-4.mb-3
           p.mb-0 Un informe valioso de ciberseguridad es aquel que realmente brinda a los ejecutivos información útil. Por lo tanto, el proceso de creación de un informe de ciberseguridad efectivo debe comenzar con una comprensión clara de los requisitos de información clave de los equipos ejecutivos. Para comprender la mentalidad de un ejecutivo, estas son las principales preocupaciones y atributos de un equipo de liderazgo típico compuesto por miembros de la junta, partes interesadas y ejecutivos de C-Suite:
         p.mb-0 El equipo de liderazgo, entonces, establece las expectativas de seguridad para la empresa y el CISO (Director de seguridad de la Información) tiene la tarea de garantizar que el programa de ciberseguridad cumpla con estas expectativas. El desempeño de un programa de seguridad cibernética se resume de manera más eficiente con una evaluación de las métricas de seguridad clave. Estas métricas deben alinearse con la estrategia de gestión de riesgos empresariales que está implementando el CISO. Esta lista de métricas aún podría ser más exhaustiva de lo que prefiere la junta. Si este es el caso, las siguientes preguntas lo ayudarán a filtrar las métricas de seguridad más significativas.:
-      .col-lg-4(data-aos="fade-left")
+      .col-12(data-aos="fade-left")
+        AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul1")
+          .row(titulo="El equipo de liderazgo no quiere ver a la empresa en un titular de noticias")
+            .col-12
+              p.mb-0 Tras el ataque a #[i SolarWinds], los ejecutivos están preocupados por los riesgos de seguridad informática y las violaciones de datos. Quieren respuestas claras sobre el riesgo de filtración de datos, las vulnerabilidades, el plan de respuesta a incidentes, los incidentes recientes, las estrategias de mitigación de riesgos, la defensa contra #[i ransomware] y la comparación de los esfuerzos de seguridad con los estándares de la industria. El informe debe incluir un resumen de las amenazas emergentes y las tendencias de ataque, evitando detalles técnicos innecesarios.
+          .row(titulo="Resultados del análisis de vulnerabilidades")
+            .col-12
+              p.mb-0 Resultados del análisis de vulnerabilidades que muestran desviaciones en la calificación de seguridad durante un período determinado desviaciones de calificación de seguridad a lo largo del tiempo por parte del reportaje de un ejecutivo generado en la plataforma.
+          .row(titulo="Desglose del riesgo de seguridad por categoría")
+            .col-12
+              p.mb-0 Un desglose del riesgo de seguridad en todas las categorías de amenazas principales dentro del ecosistema de la empresa, categorizado por grado de criticidad y desglose de riesgos por categoría; una característica de un informe ejecutivo generado.
+          .row(titulo="Amenaza de infracciones de terceros")
+            .col-12
+              p.mb-0 Los riesgos de seguridad de terceros han sido la causa principal de filtraciones de datos. Los ejecutivos están cada vez más preocupados por estos riesgos y buscan respuestas sobre la gestión de riesgos de proveedores en informes de seguridad cibernética. Es importante comprender la distribución de los riesgos de terceros según su criticidad y priorizarlos según el apetito de riesgo predefinido. Los riesgos residuales siempre estarán presentes y deben ser abordados adecuadamente.
+    .row.justify-content-center.mb-5
+      .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
         figure
           img(src='@/assets/curso/tema2/img24.png', style="width: 450px", alt='').m-auto
-    .row.justify-content-center
-      .col-lg-auto.mb-5(data-aos="fade-right")
+      .col-lg-8(data-aos="fade-left")
         .row.align-items-center.shadow.bg-c26.mb-4
           .col-auto.p-0
             figure
@@ -688,6 +701,7 @@
               img(src='@/assets/curso/tema2/img35.svg', style="width: 50px", alt='').m-auto
           .col
             p.mb-0 ¿Qué miedos o frustraciones clave pretende abordar?
+    .row.justify-content-center
       .col-lg-6(data-aos="fade-left")
         .cajon.color-acento-contenido.p-4
           p.mb-0 Finalmente, una vez que haya terminado su lista de métricas, siempre ayuda respaldarlas con gráficos relevantes.
@@ -695,10 +709,8 @@
 </template>
 
 <script>
-import SlyderF from '@/components/SlyderF.vue'
 export default {
   name: 'Tema2',
-  components: { SlyderF },
   data: () => ({
     // variables de vue
   }),
