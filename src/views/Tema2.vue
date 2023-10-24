@@ -17,7 +17,7 @@
         p.mb-0 Mientras los escándalos de fugas de información corporativa continúan día tras día, muchos dueños de negocios deben entender que esto no es un incendio al otro lado del río. En particular, incluso las pequeñas y medianas empresas, que hasta ahora solían quedar excluidas de los ciberataques, continúan sufriendo daños debido a los ataques indiscriminados. En tales circunstancias, ¿qué tipo de gestión de la información se requiere de las empresas? Diariamente se genera y gestiona diversa información en las empresas. La cantidad de datos de ventas, datos de ventas, datos de compras, datos de clientes, materiales de reuniones, documentos de aprobación, planes comerciales, etc. es enorme. Dicha información a menudo incluye información personal e información confidencial, y nunca debe filtrarse fuera de la empresa. Sin embargo, de vez en cuando, los activos de información de una empresa pueden sufrir daños como fugas, daños o desaparición., los cuales se tienden a pensar en ellas como incidentes causados por ataques cibernéticos, pero, en realidad, los factores internos como pérdida/extravío, mal funcionamiento y mala gestión representan por sí solos altos porcentajes de errores internos.
       .col-lg-4(data-aos="fade-left")
         figure
-          img(src='@/assets/curso/tema2/img2.png', style="width: 370px", alt='').m-auto
+          img(src='@/assets/curso/tema2/img2.png', style="width: 370px", alt='Imágen decorativa').m-auto
     .bloque-texto-g.color-acento-botones.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade-right")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema2/img3.png')})`}"
@@ -31,23 +31,23 @@
             p.text-white.mb-0 Recientemente, se han proporcionado varios servicios web y también se proporcionan muchos sistemas comerciales que son indispensables para las actividades de gestión. Muchos de estos servicios web cumplen con altos requisitos de seguridad y, en algunos casos, las medidas de seguridad pueden reforzarse simplemente usándolos.
           .col-xl-auto
             figure.fig-p1
-              img(src='@/assets/curso/tema1/img10.svg', style="width: 50px", alt='').m-auto
+              img(src='@/assets/curso/tema1/img10.svg', style="width: 50px", alt='Imágen decorativa').m-auto
           .col-xl-4 
             figure
-              img(src='@/assets/curso/tema2/img1.svg', style="width: 380px", alt='').m-auto
+              img(src='@/assets/curso/tema2/img1.svg', style="width: 380px", alt='Imágen decorativa').m-auto
     .cajon.color-acento-botones.p-4.mb-3(data-aos="fade-down")
       p.mb-0 Al utilizar los servicios web, muchas pequeñas y medianas empresas no solo buscan reducir la carga operativa y la inversión inicial, sino que también están considerando fortalecer las medidas de seguridad. En casos extremos, si todos los sistemas comerciales internos se convierten en servicios web, solo eso puede proporcionar suficientes medidas de seguridad. A través de prueba y error, incluso las pequeñas y medianas empresas pueden satisfacer completamente los requisitos de alta seguridad. Otro método efectivo es utilizar la subcontratación para crear recursos humanos y de tiempo internos y asignarlos a medidas de seguridad.
     .row.align-items-center.mb-3
       .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
         figure
-          img(src='@/assets/curso/tema2/img4.png', style="width: 380px", alt='').m-auto
+          img(src='@/assets/curso/tema2/img4.png', style="width: 380px", alt='Imágen decorativa').m-auto
       .col-lg-8(data-aos="fade-left")
         .row
           .col-auto
             figure
-              img(src='@/assets/curso/tema2/img2.svg', style="width: 30px", alt='').m-auto
+              img(src='@/assets/curso/tema2/img2.svg', style="width: 30px", alt='Imágen decorativa').m-auto
           .col
-            p.mb-0 Las empresas que creen que es seguro adoptar medidas de seguridad internas no construyen sistemas comerciales utilizando los servicios de otras empresas, sino que subcontratan parte de sus operaciones internas y crean nuevos recursos para mejorar la seguridad. Considere tomar precauciones. Las medidas de seguridad para la gestión de la información nunca son fáciles. Sin embargo, si se apela al exterior de que se está gestionando minuciosamente la información, esto se convierte en un elemento de gestión que aumenta el valor corporativo. A continuación, se explican aspectos que hacen evidente la importancia de la gestión de la información para las empresas.
+            p.mb-0 Las empresas que creen que es seguro adoptar medidas de seguridad internas no construyen sistemas comerciales utilizando los servicios de otras empresas, sino que subcontratan parte de sus operaciones internas y crean nuevos recursos para mejorar la seguridad. Considere tomar precauciones. Las medidas de seguridad para la gestión de la información nunca son fáciles. Sin embargo, si se apela al exterior de que se está gestionando minuciosamente la información, esto se convierte en un elemento de gestión que aumenta el valor corporativo.
     p.mb-5(data-aos="fade-right") A continuación, se explican aspectos  que hacen evidente la importancia de la gestión de la información para las empresas:
     .tarjeta.tarjeta--azul.p-4.p-lg-5.mb-5(data-aos="fade-left")
       SlyderE(indicadores="izquierda")
@@ -57,21 +57,21 @@
             p La gestión inadecuada de la información puede conducir fácilmente a la pérdida o fuga de información; y si este escenario llegase a ocurrir, el hecho debe anunciarse al público y, es muy probable e inevitable, un deterioro de la imagen de marca de la empresa. Motivo por el cual será necesario tomar medidas encaminadas a mejorar el posicionamiento de la marca, lo que a su vez no solo aumentan los costos, sino que también es posible que no se puedan obtener nuevas transacciones y las ya comprometidas pueden quedar en blanco.
           .col-lg-4
             figure
-              img(src='@/assets/curso/tema2/img3.svg', style="width:350px", alt='').m-auto
+              img(src='@/assets/curso/tema2/img3.svg', style="width:350px", alt='Imágen decorativa').m-auto
         .row.bg-c8.p-4.m-1
           .col-lg-8.mb-4.mb-md-0
             p.txt-c1 #[b Prevenir accidentes causados por infección de virus]
             p Si se utilizan herramientas y se gestiona minuciosamente la información, se pueden prevenir accidentes provocados por infecciones de virus. Por ejemplo, si una computadora en una empresa está infectada con un virus que invade desde el exterior, todo el sistema de la empresa puede funcionar mal. Además, si un sitio web es desfigurado por un virus, existe el riesgo de que afecte no solo dentro de la empresa sino también fuera de la empresa. Si ocurre un accidente de este tipo, no solo se retrasará el negocio, sino que, si la operación se ve obligada a detenerse, se pueden perder oportunidades de venta. Las herramientas utilizadas para la gestión de la información mantienen un alto nivel de seguridad debido a la naturaleza de estar conectadas a Internet. Por lo tanto, dicha infección por virus se puede prevenir y manejar en un estado seguro en todo momento.
           .col-lg-4
             figure
-              img(src='@/assets/curso/tema2/img4.svg', style="width:350px", alt='').m-auto
+              img(src='@/assets/curso/tema2/img4.svg', style="width:350px", alt='Imágen decorativa').m-auto
         .row.bg-c8.p-4.m-1
           .col-lg-8.mb-4.mb-md-0
             p.txt-c1 #[b Fortalecer la competitividad de las empresas]
             p La información en poder de las empresas incluye no solo información como la información del cliente, sino también información técnica de sus propios productos y/o servicios. Si dicha información técnica se filtra, podría conducir a la proliferación de productos falsificados que utilizan la tecnología y la salida de la tecnología al extranjero. No importa cuán especial sea la tecnología, si la tecnología se filtra, aparecerán muchos productos de imitación en el mercado y la competitividad inevitablemente disminuirá. El manejo adecuado de la información es importante para prevenir tal situación y continuar aumentando la competitividad de la empresa.
           .col-lg-4
             figure
-              img(src='@/assets/curso/tema2/img5.svg', style="width:350px", alt='').m-auto
+              img(src='@/assets/curso/tema2/img5.svg', style="width:350px", alt='Imágen decorativa').m-auto
     p.mb-5(data-aos="fade-right") Por lo anterior, se detallan las medidas de seguridad que las empresas deben implementar para proteger su información. Al implementar de manera confiable las tres medidas de seguridad, puede administrar los activos de información de su empresa de manera adecuada y segura:
     .row.bg-c14.mb-5
       .col-12
@@ -94,7 +94,7 @@
             .row.align-items-center.justify-content-center
               .col-lg-5.mb-4.mb-lg-0
                 figure
-                  img(src='@/assets/curso/tema2/img6.png', style="width: 500px", alt='').m-auto
+                  img(src='@/assets/curso/tema2/img6.png', style="width: 500px", alt='Imágen decorativa').m-auto
               .col-lg-6
                 p #[b.txt-c1 Formular una política de seguridad de la información]
                 p.mb-0 La política de seguridad de la información se refiere a las políticas y políticas en la gestión de la información. Al establecer una política de seguridad de la información, las empresas podrán determinar la dirección de la gestión de la información y podrán establecer qué tipo de sistema se debe utilizar para la gestión de la información. Además, si la política básica está bien definida, incluso cuando se establecen reglas para el manejo de la información, las reglas se pueden seleccionar en función del juicio de "si se ajustan o no a la política", por lo que es posible establecer reglas consistentes. puede construir un sistema de gestión de la información que tenga.
@@ -103,7 +103,7 @@
             .row.align-items-center.justify-content-center
               .col-lg-5.mb-4.mb-lg-0
                 figure
-                  img(src='@/assets/curso/tema2/img7.png', style="width: 500px", alt='').m-auto
+                  img(src='@/assets/curso/tema2/img7.png', style="width: 500px", alt='Imágen decorativa').m-auto
               .col-lg-6
                 p #[b.txt-c1 Aclarar dónde recae la responsabilidad]
                 p.mb-0 A la hora de gestionar la información, es muy importante saber quién es el responsable de gestionarla. Esto se debe a que, si la ubicación de la responsabilidad no está clara, la conciencia de seguridad de cada persona será baja. Para aclarar dónde recae la responsabilidad, se recomienda establecer un departamento de gestión de seguridad de la información. Al crear estos departamentos, incluso en el improbable caso de que ocurra un incidente de seguridad, será posible responder sin problemas.  Además, si el departamento toma la delantera en la educación de los empleados, es posible promover la permeación de las reglas.
@@ -112,7 +112,7 @@
             .row.align-items-center.justify-content-center
               .col-lg-5.mb-4.mb-lg-0
                 figure
-                  img(src='@/assets/curso/tema2/img8.png', style="width: 500px", alt='').m-auto
+                  img(src='@/assets/curso/tema2/img8.png', style="width: 500px", alt='Imágen decorativa').m-auto
               .col-lg-6
                 p #[b.txt-c1 Determinar reglas para la gestión de la información]
                 p.mb-0 A la hora de gestionar la información, también es importante evitar los errores de los empleados. Para evitar errores humanos causados por los empleados, es importante establecer reglas detalladas para la gestión. Si las reglas se establecen correctamente de antemano, incluso los empleados con poca alfabetización informática podrán manejar la información sin cometer errores. Por ejemplo, establezcamos reglas detalladas según el nivel del sitio, como; No instalar <i>software</i> sin permiso.
@@ -120,7 +120,7 @@
     .row.align-items-center
       .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
         figure
-          img(src='@/assets/curso/tema2/img9.png', style="width: 350px", alt='').m-auto
+          img(src='@/assets/curso/tema2/img9.png', style="width: 350px", alt='Imágen decorativa').m-auto
       .col-lg-8(data-aos="fade-left")
         AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul1")
           .row(titulo="Revisión periódica del sistema de gestión")
@@ -144,7 +144,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/tema2/img10.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 La información recopilada por empresas y organizaciones incluye datos valiosos como activos de información, como lo son la información del cliente (incluida la información personal) e información de tecnología del producto, así como ubicación, número de teléfono, información básica publicada en el sitio web oficial de la empresa, entre otros. La información que tiene valor de activo para una empresa/organización debe ser sujeta a procesos de protección de seguridad. A continuación, se detallan los activos de información base en poder de empresas/organizaciones:
+        p.mb-0 La información recopilada por empresas y organizaciones incluye datos valiosos como activos de información, como lo son la información del cliente (incluida la información personal) e información de tecnología del producto, así como ubicación, número de teléfono, información básica publicada en el sitio web oficial de la empresa, entre otros. La información que tiene valor de activo para una empresa/organización debe ser sujeta a procesos de protección de seguridad.
     p.mb-5(data-aos="fade-right") A continuación, se detallan los activos de información base en poder de empresas/organizaciones:
     .row.bg-c14.mb-5
       .col-12
@@ -154,7 +154,7 @@
               .row.m-1.h-100
                 .col-12.bg-c17.shadow.px-4.pb-4
                   figure.fig-p3.mb-3
-                    img(src='@/assets/curso/tema2/img6.svg', style="width: 100px", alt='').m-auto
+                    img(src='@/assets/curso/tema2/img6.svg', style="width: 100px", alt='Imágen decorativa').m-auto
                   .row
                     .col-12
                       p.text-center.mb-0 Información técnica del producto, como planes de producción, dibujos de diseño del producto, especificaciones, listas de piezas y procedimientos de trabajo.
@@ -162,7 +162,7 @@
               .row.m-1.h-100
                 .col-12.bg-c17.shadow.px-4.pb-4
                   figure.fig-p3.mb-3
-                    img(src='@/assets/curso/tema2/img7.svg', style="width: 100px", alt='').m-auto
+                    img(src='@/assets/curso/tema2/img7.svg', style="width: 100px", alt='Imágen decorativa').m-auto
                   .row
                     .col-12
                       p.text-center.mb-0 Planes de gestión y de negocio, información de nuevos productos, información estratégica como seguridad de la información, documentos de contratos entre empresas, etc.
@@ -170,15 +170,15 @@
               .row.m-1.h-100
                 .col-12.bg-c17.shadow.px-4.pb-4
                   figure.fig-p3.mb-3
-                    img(src='@/assets/curso/tema2/img8.svg', style="width: 100px", alt='').m-auto
+                    img(src='@/assets/curso/tema2/img8.svg', style="width: 100px", alt='Imágen decorativa').m-auto
                   .row
                     .col-12
-                      p.text-center.mb-0 Información financiera para comprender la situación comercial de la empresa/organización
+                      p.text-center.mb-0 Información financiera para comprender la situación comercial de la empresa/organización.
             .col-md-6.col-lg-3.mb-5
               .row.m-1.h-100
                 .col-12.bg-c17.shadow.px-4.pb-4
                   figure.fig-p3.mb-3
-                    img(src='@/assets/curso/tema2/img9.svg', style="width: 100px", alt='').m-auto
+                    img(src='@/assets/curso/tema2/img9.svg', style="width: 100px", alt='Imágen decorativa').m-auto
                   .row
                     .col-12
                       p.text-center.mb-0 Información del cliente (incluida la información personal): nombre del cliente, dirección, número de teléfono, información de la tarjeta de crédito, historial de pedidos, proveedor/destino de ventas, etc.
@@ -186,7 +186,7 @@
               .row.m-1.h-100
                 .col-12.bg-c17.shadow.px-4.pb-4
                   figure.fig-p3.mb-3
-                    img(src='@/assets/curso/tema2/img10.svg', style="width: 100px", alt='').m-auto
+                    img(src='@/assets/curso/tema2/img10.svg', style="width: 100px", alt='Imágen decorativa').m-auto
                   .row
                     .col-12
                       p.text-center.mb-0 Información del personal (incluida la información personal): número de teléfono móvil personal del empleado, dirección de correo electrónico, domicilio, información de la solicitud en el momento del empleo, salario, aumento de salario, información de asistencia, mi número, etc.
@@ -194,15 +194,15 @@
               .row.m-1.h-100
                 .col-12.bg-c17.shadow.px-4.pb-4
                   figure.fig-p3.mb-3
-                    img(src='@/assets/curso/tema2/img11.svg', style="width: 100px", alt='').m-auto
+                    img(src='@/assets/curso/tema2/img11.svg', style="width: 100px", alt='Imágen decorativa').m-auto
                   .row
                     .col-12
-                      p.text-center.mb-0 “Activos físicos” como equipos, instalaciones y vehículos
+                      p.text-center.mb-0 “Activos físicos” como equipos, instalaciones y vehículos.
             .col-md-6.col-lg-3.mb-5
               .row.m-1.h-100
                 .col-12.bg-c17.shadow.px-4.pb-4
                   figure.fig-p3.mb-3
-                    img(src='@/assets/curso/tema2/img12.svg', style="width: 100px", alt='').m-auto
+                    img(src='@/assets/curso/tema2/img12.svg', style="width: 100px", alt='Imágen decorativa').m-auto
                   .row
                     .col-12
                       p.text-center.mb-0 Sistema de información, <i>software</i>, red interna (servidor/PC, equipo de comunicación, etc.), base de datos, know-how en tecnología informática, etc.
@@ -210,7 +210,7 @@
               .row.m-1.h-100
                 .col-12.bg-c17.shadow.px-4.pb-4
                   figure.fig-p3.mb-3
-                    img(src='@/assets/curso/tema2/img13.svg', style="width: 100px", alt='').m-auto
+                    img(src='@/assets/curso/tema2/img13.svg', style="width: 100px", alt='Imágen decorativa').m-auto
                   .row
                     .col-12
                       p.text-center.mb-0 Activos intangibles como marcas de productos e imagen corporativa.
@@ -221,7 +221,7 @@
           .titulo-sexto.color-acento-botones.mb-4(data-aos="fade-right")
             p.mb-0 #[b Figura 1]. Clasificación de activos
           figure(data-aos="fade-left")
-            img(src='@/assets/curso/tema2/img15.svg', style="width: 1200px", alt='').m-auto
+            img(src='@/assets/curso/tema2/img15.svg', style="width: 1200px", alt='Imagen que relaciona un formato que contiene la clasificación de activos, encontrando información de los activos tangibles como son medios de papel, medios de memoria externa, información en papel, información electrónica (incluyendo audio y video); activos intangibles como audio, imagen, saber hacer y conocimiento; así como los sistemas de información que son el software y hardware.').m-auto
     .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade-down")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema2/img11.png')})`}"
@@ -235,17 +235,17 @@
         p.mb-0 Sin embargo, esto no significa que todos los activos de información deban ser identificados. Dado que los activos de información en poder de la organización cambian a diario, por tanto se recogen los activos de información que deben protegerse en la actualidad. Se recomienda verificar el flujo comercial antes de continuar. Ahora, si es difícil ordenar los activos de información, se debe pensar en el impacto en la organización si los activos de información se filtran, falsifican o pierden. Si tiene un impacto negativo en su organización, hay que agregarlo a la lista. Posteriormente, se clasifica la información desde el punto de vista vulnerabilidad de su naturaleza.
       .col-lg-4(data-aos="fade-left")
         figure
-          img(src='@/assets/curso/tema2/img16.svg', style="width: 350px", alt='').m-auto
+          img(src='@/assets/curso/tema2/img16.svg', style="width: 350px", alt='Imágen decorativa').m-auto
     p.mb-5(data-aos="fade-right") Algunos ejemplos de elementos de gestión, en el libro de mayor gestión de activos de información, son:
     .row.bg-c14.mb-5
       .col-12
         .p-5
           figure(data-aos="fade-down")
-            img(src='@/assets/curso/tema2/img17.svg', style="width: 1200px", alt='').m-auto
+            img(src='@/assets/curso/tema2/img17.svg', style="width: 1200px", alt='Gráfico que relaciona ejemplos de elementos de gestión, en el libro de mayor gestión de activos de información, los cuales se describen debajo de la imagen.').m-auto
     .row.align-items-center.mb-5
       .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
         figure
-          img(src='@/assets/curso/tema2/img12.png', style="width: 350px", alt='').m-auto
+          img(src='@/assets/curso/tema2/img12.png', style="width: 350px", alt='Imágen decorativa').m-auto
       .col-lg-8(data-aos="fade-left")
         .cajon.color-primario.p-4.mb-3
           p.mb-0 Luego de clasificarlos, se categorizan por su valor: alto valor o bajo valor. Un ejemplo de alto valor son aquellos activos que pueden llegar a ser una pérdida significativa empresarial al no involucrarles en un plan de gestión. Por otro lado, los informes trimestrales y la información publicada en páginas web, por ejemplo, son activos de bajo valor.
@@ -257,10 +257,10 @@
             p.text-white.mb-0 Es necesario identificar vulnerabilidades y amenazas para cada activo de información clasificado. Por ejemplo, se puede decir que un estado en el que "cualquiera puede acceder a información altamente confidencial" es un estado de alto riesgo porque no se han implementado medidas de seguridad de la información.
           .col-xl-auto
             figure.fig-p1
-              img(src='@/assets/curso/tema1/img10.svg', style="width: 50px", alt='').m-auto
+              img(src='@/assets/curso/tema1/img10.svg', style="width: 50px", alt='Imágen decorativa').m-auto
           .col-xl-4 
             figure
-              img(src='@/assets/curso/tema2/img13.png', style="width: 380px", alt='').m-auto
+              img(src='@/assets/curso/tema2/img13.png', style="width: 380px", alt='Imágen decorativa').m-auto
     .bloque-texto-g.bloque-texto-g--inverso.color-primario.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade-left")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema2/img14.png')})`}"
@@ -271,9 +271,63 @@
       .col-12
         .p-5
           .titulo-sexto.color-acento-botones.mb-4(data-aos="fade-right")
-            p.mb-0 #[b Figura 2]. Ejemplo de evaluación del valor de un activo de información
-          figure(data-aos="fade-left")
-            img(src='@/assets/curso/tema2/img19.svg', style="width: 1200px", alt='').m-auto
+            p.mb-0 #[b Tabla 1.] Ejemplo de evaluación del valor de un activo de información
+
+      .row.justify-content-center.align-items-center
+        .col-lg-10    
+          .tabla-a.color-primario
+            table.text-center
+              thead
+                tr(style='background:#F0DCC0')
+                  th.p-4(style="width:30%") Clasificación de importancia
+                  th.p-4(style="width:45%") Criterios de juicio
+                  th.p-4(style="width:25%") Arrasamiento
+                  
+              tbody(style='background:#E8E8E8').text-bold
+                tr
+                  <td rowspan="4">Confidencialidad (accesible solo para aquellos que otorgan acceso)</td>
+                  td.p-4 4  Si se filtra, el impacto en los socios comerciales y los clientes es grande. O tiene un impacto serio en la gestión.
+                  td Ultra secreto
+                tr
+                  td.p-4 3  En caso de fuga, el impacto en el negocio en cuestión es grande
+                  td Secretaria extranjera
+                tr
+                  td.p-4 2  La fuga tendría poco impacto en el negocio en cuestión
+                  td Secreto
+                tr
+                  td.p-4 1  Si se filtra, no hay impacto en el negocio en cuestión
+                  td Divulgación general
+                  
+              tbody(style='background:#E8E8E8').text-bold
+                tr
+                  <td rowspan="4">Integridad (la información y los sistemas de información son precisos y completos)</td>
+                  td.p-4 4  Si se filtra, el impacto en los socios comerciales y los clientes es grande. O tiene un impacto serio en la gestión.
+                  td -
+                tr
+                  td.p-4 3  En caso de fuga, el impacto en el negocio en cuestión es grande
+                  td -
+                tr
+                  td.p-4 2  La fuga tendría poco impacto en el negocio en cuestión
+                  td -
+                tr
+                  td.p-4 1  Si se filtra, no hay impacto en el negocio en cuestión
+                  td -
+
+              tbody(style='background:#E8E8E8').text-bold
+                tr
+                  <td rowspan="4">Disponibilidad (los beneficiarios de acceso pueden acceder a los activos de información cuando sea necesario)</td>
+                  td.p-4 4  Si se filtra, el impacto en los socios comerciales y los clientes es grande. O tiene un impacto serio en la gestión.
+                  td -
+                tr
+                  td.p-4 3  En caso de fuga, el impacto en el negocio en cuestión es grande
+                  td -
+                tr
+                  td.p-4 2  La fuga tendría poco impacto en el negocio en cuestión
+                  td -
+                tr
+                  td.p-4 1  Si se filtra, no hay impacto en el negocio en cuestión
+                  td -    
+    
     p.mb-5(data-aos="fade-right") La mayoría de los incidentes de violación de datos se dividen en tres categorías:
     .tarjeta.tarjeta--azul.p-4.mb-5(data-aos="fade-down")
       SlyderA(tipo="b")
@@ -285,7 +339,7 @@
                 p.mb-0 Por ejemplo, dejar el HDD o USB utilizado para trabajar en otro espacio fuera de la oficina. En este caso, es posible que se puedan tomar medidas como establecer reglas internas para contactar con otras empresas o utilizar un servicio confiable en la nube.
               .col-lg-5
                 figure
-                  img(src='@/assets/curso/tema2/img15.png', style="width: 500px", alt='').m-auto
+                  img(src='@/assets/curso/tema2/img15.png', style="width: 500px", alt='Imágen decorativa').m-auto
         .row.justify-content-center.m-1
           .col-11.bg-c8.p-4
             .row.align-items-center.justify-content-center
@@ -294,7 +348,7 @@
                 p.mb-0 Incluyen el acceso no autorizado y los ataques cibernéticos. Se puede decir que es posible gestionar inmediatamente puntos como si el ID y la contraseña que está utilizando no son simples, si no se reutilizan y si el <i>software</i> está actualizado a la última versión. Por otra parte, también hay ataques por delitos internos. Existen casos en los que una persona dentro de una organización filtra información intencionalmente, en cuyo caso será necesario verificar el sistema de gestión de toda la empresa, como el control de acceso a la información confidencial.
               .col-lg-5
                 figure
-                  img(src='@/assets/curso/tema2/img16.png', style="width: 500px", alt='').m-auto
+                  img(src='@/assets/curso/tema2/img16.png', style="width: 500px", alt='Imágen decorativa').m-auto
         .row.justify-content-center.m-1
           .col-11.bg-c8.p-4
             .row.align-items-center.justify-content-center
@@ -320,16 +374,17 @@
                     p.mb-0 Luego, los procesos posteriores (ciclo PDCA) pueden operarse de manera eficiente.
               .col-lg-5
                 figure
-                  img(src='@/assets/curso/tema2/img17.png', style="width: 500px", alt='').m-auto
+                  img(src='@/assets/curso/tema2/img17.png', style="width: 500px", alt='Imágen decorativa').m-auto
     .row.mb-5(data-aos="fade-left")
       .col-lg-auto.px-0.mb-4.mb-lg-0
         figure
-          img(src='@/assets/curso/tema2/img18.png', style="width: 500px", alt='').m-auto
+          img(src='@/assets/curso/tema2/img18.png', style="width: 500px", alt='Imágen decorativa').m-auto
       .col.bg-c19.p-4
         .row.mb-3
           .col-12.p-4.bg-white
             p.mb-0 Para mantener la disponibilidad de los activos de información dentro de una empresa u organización, es necesario contar con copias de seguridad adecuadas de la información que se posee. Se requiere que el personal de administración de la información tenga operaciones de respaldo que puedan recuperarse rápidamente de fallas de la computadora o de la red, errores de operación del sistema, etc., con el menor impacto posible en el negocio.
-        p.mb-0 En una empresa u organización, hay dos cosas principales que el personal de gestión de la información debe hacer para respaldar la información. La primera es una copia de seguridad de datos compartidos y la otra es una copia de seguridad de datos individuales. Sumado a esto, también es una buena idea describir claramente el método y la frecuencia de las copias de seguridad como reglas internas en la política de seguridad de la información. A continuación, se describen estos aspectos:
+        p.mb-0 En una empresa u organización, hay dos cosas principales que el personal de gestión de la información debe hacer para respaldar la información. La primera es una copia de seguridad de datos compartidos y la otra es una copia de seguridad de datos individuales.
+
     p.mb-5(data-aos="fade-right") Sumado a esto, también es una buena idea describir claramente el método y la frecuencia de las copias de seguridad como reglas internas en la política de seguridad de la información. A continuación, se describen estos aspectos:
     .row.align-items-center.mb-5
       .col-lg-8.mb-4.mb-lg-0(data-aos="fade-right")
@@ -344,9 +399,18 @@
           .row(titulo="Administrar activos")
             .col-12
               p Para proteger los activos de información, es fundamental garantizar la confidencialidad, integridad y disponibilidad:
-              p.mb-0 #[b Confidencialidad]: restringir el acceso no autorizado a la información.
-              p.mb-0 #[b Integridad]: prevenir manipulación o destrucción por personas no autorizadas.
-              p #[b Disponibilidad]: asegurar que los servicios de información estén siempre disponibles.
+
+              ul.lista-ul.mb-0
+                li.d-flex
+                  i.fas.fa-check-circle(style="color: #4ADBD1")
+                  p.mb-0 #[b Confidencialidad]: restringir el acceso no autorizado a la información.
+                li.d-flex
+                  i.fas.fa-check-circle(style="color: #4ADBD1")
+                  p.mb-0 #[b Integridad]: prevenir manipulación o destrucción por personas no autorizadas.
+                li.d-flex
+                  i.fas.fa-check-circle(style="color: #4ADBD1")
+                  p.mb-0 #[b Disponibilidad]: asegurar que los servicios de información estén siempre disponibles.
+
               p.mb-0 La gestión y mantenimiento de los activos de información son acciones clave para la seguridad. Es importante considerar las características de los activos y equilibrar confidencialidad, integridad y disponibilidad.
           .row(titulo="Clasificaciones para los activos de información")
             .col-12
@@ -356,15 +420,59 @@
               p.mb-0 Tener personal comercial que identifique los activos de información tiene la ventaja de que, a diferencia de la identificación centralizada, se pueden evitar las omisiones porque se usa en las operaciones normales y es eficiente. Por ejemplo, para la base de datos maestra de clientes (base de datos), averigüe cuál de los siguientes es el lugar de uso, cuál es la forma de almacenamiento, dónde está el lugar de almacenamiento y cuál es el grado de importancia. Luego, se resume cada departamento en un archivo de Excel y se envía a la persona a cargo de la seguridad de la información para que pueda comprender los activos de información en general.
       .col-lg-4(data-aos="fade-left")
         figure
-          img(src='@/assets/curso/tema2/img21.svg', style="width: 400px", alt='').m-auto
+          img(src='@/assets/curso/tema2/img21.svg', style="width: 400px", alt='Imágen decorativa').m-auto
     p.mb-5(data-aos="fade-right") La gestión de activos de información comienza con la decisión de quién debe gestionar qué y en qué medida. Se muestra un ejemplo de los elementos enumerados en el libro mayor que pueden captar de forma centralizada la gestión de activos de información de toda la empresa. El libro mayor debe ser suficiente para proporcionar una descripción general del esquema de controles físicos/humanos u organizacionales/técnicos.
     .row.bg-c20
       .col-12
         .p-5
           .titulo-sexto.color-acento-botones.mb-4(data-aos="fade-right")
-            p.mb-0 #[b Figura 3]. Ejemplo de lo elementos en un libro mayor
-          figure(data-aos="fade-left")
-            img(src='@/assets/curso/tema2/img23.svg', style="width: 1200px", alt='').m-auto
+            p.mb-0 #[b Tabla 2.] Ejemplo de lo elementos en un libro mayor
+
+      .row.justify-content-center.align-items-center    
+        .col-lg-10
+          .tabla-a.color-primario
+            table.text-center
+              thead
+                tr(style='background:#F0DCC0')
+                  th.p-4 Nombre del recurso de información
+                  th.p-4 Datos del sistema de nómina, copia de factura, datos de correo electrónico, lista de empleados, contrato de pedido, etc.
+                  
+              tbody(style='background:#E8E8E8').text-bold
+                tr
+                  td Rango de uso
+                  td Nombre del departamento, responsable del tratamiento, etc.
+                tr
+                  td Departamento de Gestión / Gerente
+                  td Nombre y gerente del departamento
+                tr
+                  td Autoridad de acceso
+                  td Gerente o superior, todas las personas a cargo, solo grupo empresarial, etc.
+                tr
+                  td Tipo de medio
+                  td Documentos, datos electrónicos, etc.
+                tr
+                  td Destino
+                  td Servidores internos, medios de almacenamiento externo, dispositivos móviles, PC cliente, etc.
+                tr
+                  td Presencia o ausencia de información personal
+                  td Presencia o ausencia
+                tr
+                  td Presencia o ausencia de información de mi Número
+                  td Presencia o ausencia
+                tr
+                  td Valor de la evaluación (confidencialidad/integridad/disponibilidad)/importancia
+                  td Valor de evaluación: Ingrese cada valor de evaluación para confidencialidad, integridad y disponibilidad Importancia:
+                    br
+                    | Ingrese el valor más alto entre confidencialidad, integridad y disponibilidad
+
+                tr
+                  td Periodo de retención
+                  td De acuerdo con las normas internas de la empresa/organización, como las normas de almacenamiento de documentos.
+                tr
+                  td Fecha de registro (fecha de renovación)
+                  td AAMMDD
+
+
     Separador
     #t_2_2
     .titulo-segundo.color-acento-botones
@@ -378,7 +486,7 @@
     .row.align-items-center.mb-3
       .col-lg-3.mb-4.mb-lg-0(data-aos="fade-right")
         figure
-          img(src='@/assets/curso/tema2/img24.svg', style="width: 400px", alt='').m-auto
+          img(src='@/assets/curso/tema2/img24.svg', style="width: 400px", alt='Imágen decorativa').m-auto
       .col-lg-9(data-aos="fade-left")
         .cajon.color-acento-contenido.p-4.mb-3
           p.mb-0 Los informes de ciberseguridad, lejos de ser un trámite, son el mecanismo de control de esta comunicación. Al adoptar un enfoque basado en el riesgo para los informes de seguridad cibernética, puede evaluar la gestión del desempeño del mismo en función de la exposición real a las amenazas cibernéticas, proporcionar un contexto procesable, resaltar el valor de sus esfuerzos de seguridad cibernética y asegurarse de que está aprovechando al máximo sus recursos limitados.
@@ -389,14 +497,14 @@
         .row.align-items-center
           .col-auto.px-0
             figure.fig-p4
-              img(src='@/assets/curso/tema2/img25.svg', style="width: 50px", alt='').m-auto
+              img(src='@/assets/curso/tema2/img25.svg', style="width: 50px", alt='Imágen decorativa').m-auto
           .col.bg-c21.ps-0.pe-2.py-3
             p.ps-5.mb-0 ¿El informe transmite información procesable en contexto?
       .col-sm-9.col-xl-4.mb-4
         .row.align-items-center
           .col-auto.px-0
             figure.fig-p4
-              img(src='@/assets/curso/tema2/img26.svg', style="width: 50px", alt='').m-auto
+              img(src='@/assets/curso/tema2/img26.svg', style="width: 50px", alt='Imágen decorativa').m-auto
           .col.bg-c22.ps-0.pe-2.py-3
             p.ps-5.mb-0 ¿Es el informe lo suficientemente conciso para que los hallazgos clave no queden enterrados?
     .row.justify-content-center.mb-5(data-aos="fade-left")
@@ -404,21 +512,21 @@
         .row.align-items-center
           .col-auto.px-0
             figure.fig-p4
-              img(src='@/assets/curso/tema2/img26.svg', style="width: 50px", alt='').m-auto
+              img(src='@/assets/curso/tema2/img26.svg', style="width: 50px", alt='Imágen decorativa').m-auto
           .col.bg-c22.ps-0.pe-2.py-3
             p.ps-5.mb-0 ¿El lenguaje es lo suficientemente claro para que lo entienda una audiencia no técnica?
       .col-sm-9.col-xl-4
         .row.align-items-center
           .col-auto.px-0
             figure.fig-p4
-              img(src='@/assets/curso/tema2/img25.svg', style="width: 50px", alt='').m-auto
+              img(src='@/assets/curso/tema2/img25.svg', style="width: 50px", alt='Imágen decorativa').m-auto
           .col.bg-c21.ps-0.pe-2.py-3
             p.ps-5.mb-0 ¿El informe relaciona los hallazgos con el riesgo cibernético?
     p.mb-4(data-aos="fade-right") La última pregunta es la más importante porque forma la base de un enfoque basado en el riesgo para la gestión del desempeño de la seguridad cibernética.
     .row.mb-4(data-aos="fade-down")
       .col-auto
         figure
-          img(src='@/assets/curso/tema2/img27.svg', style="width: 50px", alt='').m-auto
+          img(src='@/assets/curso/tema2/img27.svg', style="width: 50px", alt='Imágen decorativa').m-auto
       .col
         p.mb-0 Las métricas presentadas en el vacío rara vez son procesables. ¿Qué significa, por ejemplo, que sus cortafuegos hayan detenido 1.500 intrusiones este mes? ¿Es eso mucho o poco? Un informe de ciberseguridad basado en el riesgo ofrece hallazgos en contexto, lo que ayuda al destinatario a comprender qué papel juega un número en el panorama general de riesgos de la organización. Ese contexto puede incluir:
     p.mb-5(data-aos="fade-right") Un informe de ciberseguridad basado en el riesgo ofrece hallazgos en contexto, lo que ayuda al destinatario a comprender qué papel juega un número en el panorama general de riesgos de la organización. Ese contexto puede incluir:
@@ -512,10 +620,10 @@
         .row.align-items-center.justify-content-center
           .col-xl-4 
             figure
-              img(src='@/assets/curso/tema1/img29.svg', style="width: 380px", alt='').m-auto
+              img(src='@/assets/curso/tema1/img29.svg', style="width: 380px", alt='Imágen decorativa').m-auto
           .col-xl-auto
             figure.fig-p2
-              img(src='@/assets/curso/tema1/img28.svg', style="width: 50px", alt='').m-auto
+              img(src='@/assets/curso/tema1/img28.svg', style="width: 50px", alt='Imágen decorativa').m-auto
           .col-md-8.col-xl-7.bg-c3.p-4
             p.text-white.mb-0 El resumen ejecutivo de su informe de ciberseguridad es solo eso: ¡Un resumen! No se llena de explicaciones técnicas; para eso está el cuerpo del informe (e incluso entonces, debe mantener sus divagaciones técnicas restringidas). Su informe ejecutivo debe adaptarse a las expectativas del equipo de liderazgo, y la mayoría de ellos no quieren jerga técnica. El resumen ejecutivo debe resumir sucintamente los esfuerzos de su programa de seguridad y abordar todas las preocupaciones de seguridad de alto nivel del equipo de liderazgo.
     p.mb-5(data-aos="fade-right") Un resumen ejecutivo debe estar compuesto por los siguientes encabezados:
@@ -524,42 +632,42 @@
         .row.align-items-center.shadow.bg-c25.mb-3
           .col-auto.p-0
             figure
-              img(src='@/assets/curso/tema2/img35.svg', style="width: 50px", alt='').m-auto
+              img(src='@/assets/curso/tema2/img35.svg', style="width: 50px", alt='Imágen decorativa').m-auto
           .col
             p.mb-0 Resultados clave.
         .row.align-items-center.shadow.bg-c25.mb-3
           .col-auto.p-0
             figure
-              img(src='@/assets/curso/tema2/img36.svg', style="width: 50px", alt='').m-auto
+              img(src='@/assets/curso/tema2/img36.svg', style="width: 50px", alt='Imágen decorativa').m-auto
           .col
             p.mb-0 Resumen de monitoreo de riesgos de seguridad.
         .row.align-items-center.shadow.bg-c25.mb-3
           .col-auto.p-0
             figure
-              img(src='@/assets/curso/tema2/img37.svg', style="width: 50px", alt='').m-auto
+              img(src='@/assets/curso/tema2/img37.svg', style="width: 50px", alt='Imágen decorativa').m-auto
           .col
             p.mb-0 Resumen del incidente cibernético.
         .row.align-items-center.shadow.bg-c25.mb-3
           .col-auto.p-0
             figure
-              img(src='@/assets/curso/tema2/img38.svg', style="width: 50px", alt='').m-auto
+              img(src='@/assets/curso/tema2/img38.svg', style="width: 50px", alt='Imágen decorativa').m-auto
           .col
             p.mb-0 Resumen de ciberamenazas.
         .row.align-items-center.shadow.bg-c25
           .col-auto.p-0
             figure
-              img(src='@/assets/curso/tema2/img39.svg', style="width: 50px", alt='').m-auto
+              img(src='@/assets/curso/tema2/img39.svg', style="width: 50px", alt='Imágen decorativa').m-auto
           .col
             p.mb-0 Recomendaciones de remediación.
       .col-lg-6(data-aos="fade-left")
         figure
-          img(src='@/assets/curso/tema2/img34.svg', style="width: 450px", alt='').m-auto
+          img(src='@/assets/curso/tema2/img34.svg', style="width: 450px", alt='Imágen decorativa').m-auto
     .cajon.color-acento-contenido.p-4.mb-0.mb-lg-5(data-aos="fade-down")
       p.mb-0 Este conjunto de encabezados es característico de un método clásico de estructuración de un resumen ejecutivo para un informe de seguridad. Si bien esta estructura clásica aún es aceptable, si realmente desea impresionar al equipo de liderazgo, considere usar un estilo de informes de seguridad cibernética más moderno en su próximo ciclo de informes. Más detalles a continuación:
     .row.align-items-center.mb-4
       .col-lg-3.mb-4.mb-lg-0(data-aos="fade-right")
         figure
-          img(src='@/assets/curso/tema2/img40.svg', style="width: 300px", alt='').m-auto
+          img(src='@/assets/curso/tema2/img40.svg', style="width: 300px", alt='Imágen decorativa').m-auto
       .col-lg-9(data-aos="fade-left")
         .tarjeta.tarjeta--azul.p-4
           SlyderA(tipo="b")
@@ -572,13 +680,13 @@
                     ul.lista-ul--color.lista-ul.mb-0
                       li.d-flex
                         i.fas.fa-check-circle(style="color: #4ADBD1")
-                        | Ataques de phishing: especialmente las campañas que involucran a piratas informáticos que se hacen pasar por ejecutivos de C-suite.
+                        p.mb-0 Ataques de <i>phishing</i>: especialmente las campañas que involucran a piratas informáticos que se hacen pasar por ejecutivos de C-suite.
                       li.d-flex
                         i.fas.fa-check-circle(style="color: #4ADBD1")
                         | Vulnerabilidades críticas: incluidas las vulnerabilidades de día cero, como Log4Shell y Spring4Shell.
                       li.d-flex
                         i.fas.fa-check-circle(style="color: #4ADBD1")
-                        | Inyecciones de malware: incluidos los ataques fallidos de ransomware y otros intentos de ciberataques.
+                        p.mb-0 Inyecciones de <i>malware</i>: incluidos los ataques fallidos de <i>ransomware</i> y otros intentos de ciberataques.
                       li.d-flex
                         i.fas.fa-check-circle(style="color: #4ADBD1")
                         | Abuso de control de acceso: como intentos de escalada de privilegios.
@@ -595,24 +703,24 @@
                     ul.lista-ul--color.lista-ul
                       li.d-flex
                         i.fas.fa-check-circle(style="color: #4ADBD1")
-                        | Vulnerabilidades críticas del proveedor de servicios: configuraciones incorrectas de <i>software</i> y fugas de datos en el ecosistema de terceros, ya sea que estén relacionadas con prácticas de seguridad deficientes o controles de seguridad insuficientes.
+                        p.mb-0 Vulnerabilidades críticas del proveedor de servicios: configuraciones incorrectas de <i>software</i> y fugas de datos en el ecosistema de terceros, ya sea que estén relacionadas con prácticas de seguridad deficientes o controles de seguridad insuficientes.
                       li.d-flex
                         i.fas.fa-check-circle(style="color: #4ADBD1")
                         | Algunos detalles de mitigación de amenazas dignos de mencionar:
-                      li.d-flex
-                        i.fas.fa-check-circle(style="color: #4ADBD1")
+                      li.d-flex.ps-3
+                        i.fas.fa-angle-right(style="color: #4ADBD1")
                         | Protocolos del Plan de Respuesta a Incidentes que se activaron para cada riesgo cibernético enumerado.
-                      li.d-flex
-                        i.fas.fa-check-circle(style="color: #4ADBD1")
+                      li.d-flex.ps-3
+                        i.fas.fa-angle-right(style="color: #4ADBD1")
                         | Metodologías utilizadas para medir el impacto del riesgo.
-                      li.d-flex
-                        i.fas.fa-check-circle(style="color: #4ADBD1")
+                      li.d-flex.ps-3
+                        i.fas.fa-angle-right(style="color: #4ADBD1")
                         | El ciclo de vida de cada evento de seguridad.
-                      li.d-flex
-                        i.fas.fa-check-circle(style="color: #4ADBD1")
+                      li.d-flex.ps-3
+                        i.fas.fa-angle-right(style="color: #4ADBD1")
                         | El impacto en los sistemas informáticos y los sistemas de información.
-                      li.d-flex
-                        i.fas.fa-check-circle(style="color: #4ADBD1")
+                      li.d-flex.ps-3
+                        i.fas.fa-angle-right(style="color: #4ADBD1")
                         | Resumen de monitoreo de riesgos de seguridad.
                     p Resuma la gama de riesgos de seguridad y amenazas cibernéticas monitoreados en el ciclo de informes actual. Es igual de importante mencionar qué regiones del ecosistema de TI no se monitorearon y por qué. Además, se describe la metodología de monitoreo de riesgos utilizada, es decir, monitoreo de superficie de ataque en tiempo real.
             .row.justify-content-center.m-1
@@ -640,7 +748,7 @@
       .col-12
         .p-5
           figure
-            img(src='@/assets/curso/tema2/img22.png', style="width: 1200px", alt='').m-auto
+            img(src='@/assets/curso/tema2/img22.png', style="width: 1200px", alt='Imágen decorativa').m-auto
           .row.justify-content-center
             .col-lg-10.bg-c7.shadow-sm.p-4
               p.mb-0 El <i>software</i> de calificación de seguridad es el método más popular para monitorear los riesgos de seguridad emergentes y las desviaciones de la postura de seguridad. Si su equipo de seguridad de la información utiliza una herramienta de este tipo, asegúrese de resumir los vectores de ataque de seguridad de datos específicos que influyen en el cálculo de su calificación de seguridad.
@@ -657,7 +765,7 @@
       .col-12.mb-5(data-aos="fade-right")
         .cajon.color-primario.p-4.mb-3
           p.mb-0 Un informe valioso de ciberseguridad es aquel que realmente brinda a los ejecutivos información útil. Por lo tanto, el proceso de creación de un informe de ciberseguridad efectivo debe comenzar con una comprensión clara de los requisitos de información clave de los equipos ejecutivos. Para comprender la mentalidad de un ejecutivo, estas son las principales preocupaciones y atributos de un equipo de liderazgo típico compuesto por miembros de la junta, partes interesadas y ejecutivos de C-Suite:
-        p.mb-0 El equipo de liderazgo, entonces, establece las expectativas de seguridad para la empresa y el CISO (Director de seguridad de la Información) tiene la tarea de garantizar que el programa de ciberseguridad cumpla con estas expectativas. El desempeño de un programa de seguridad cibernética se resume de manera más eficiente con una evaluación de las métricas de seguridad clave. Estas métricas deben alinearse con la estrategia de gestión de riesgos empresariales que está implementando el CISO. Esta lista de métricas aún podría ser más exhaustiva de lo que prefiere la junta. Si este es el caso, las siguientes preguntas lo ayudarán a filtrar las métricas de seguridad más significativas.:
+        p.mb-0 El equipo de liderazgo, entonces, establece las expectativas de seguridad para la empresa y el CISO (Director de seguridad de la Información) tiene la tarea de garantizar que el programa de ciberseguridad cumpla con estas expectativas. El desempeño de un programa de seguridad cibernética se resume de manera más eficiente con una evaluación de las métricas de seguridad clave. Estas métricas deben alinearse con la estrategia de gestión de riesgos empresariales que está implementando el CISO. Esta lista de métricas aún podría ser más exhaustiva de lo que prefiere la junta. Si este es el caso, las siguientes preguntas lo ayudarán a filtrar las métricas de seguridad más significativas:
       .col-12(data-aos="fade-left")
         AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul1")
           .row(titulo="El equipo de liderazgo no quiere ver a la empresa en un titular de noticias")
@@ -675,30 +783,30 @@
     .row.justify-content-center.mb-5
       .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
         figure
-          img(src='@/assets/curso/tema2/img24.png', style="width: 450px", alt='').m-auto
+          img(src='@/assets/curso/tema2/img24.png', style="width: 450px", alt='Imágen decorativa').m-auto
       .col-lg-8(data-aos="fade-left")
         .row.align-items-center.shadow.bg-c26.mb-4
           .col-auto.p-0
             figure
-              img(src='@/assets/curso/tema2/img36.svg', style="width: 50px", alt='').m-auto
+              img(src='@/assets/curso/tema2/img36.svg', style="width: 50px", alt='Imágen decorativa').m-auto
           .col
             p.mb-0 ¿Qué información está tratando de comunicar a la junta?
         .row.align-items-center.shadow.bg-c26.mb-4
           .col-auto.p-0
             figure
-              img(src='@/assets/curso/tema2/img35.svg', style="width: 50px", alt='').m-auto
+              img(src='@/assets/curso/tema2/img35.svg', style="width: 50px", alt='Imágen decorativa').m-auto
           .col
             p.mb-0 ¿Qué respuestas pretende estimular (inversiones en nuevas tecnologías, etc.)?
         .row.align-items-center.shadow.bg-c26.mb-4
           .col-auto.p-0
             figure
-              img(src='@/assets/curso/tema2/img38.svg', style="width: 50px", alt='').m-auto
+              img(src='@/assets/curso/tema2/img38.svg', style="width: 50px", alt='Imágen decorativa').m-auto
           .col
             p.mb-0 ¿Qué detalles quiere que la junta entienda mejor?
         .row.align-items-center.shadow.bg-c26
           .col-auto.p-0
             figure
-              img(src='@/assets/curso/tema2/img35.svg', style="width: 50px", alt='').m-auto
+              img(src='@/assets/curso/tema2/img35.svg', style="width: 50px", alt='Imágen decorativa').m-auto
           .col
             p.mb-0 ¿Qué miedos o frustraciones clave pretende abordar?
     .row.justify-content-center

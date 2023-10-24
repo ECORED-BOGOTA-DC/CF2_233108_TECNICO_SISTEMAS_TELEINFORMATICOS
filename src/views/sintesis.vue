@@ -6,7 +6,7 @@
     .row.justify-content-center
       .col-lg-10.mb-5
         figure
-          img(src="@/assets/curso/temas/sintesis.svg", alt="alt")
+          img(src="@/assets/curso/temas/sintesis.svg", alt="Imagen que muestra síntesis del componente formativo, indicando que la gestión de riesgos involucra dos aspectos:<br>1. La gestión de la información que busca proteger los activos por medio de programas, sistemas de información sensibles y redes.<br>2. La protección de datos que busca proteger de ataques informáticos como robo de información, sistemas caídos y denegación de servicio.<br>Ambos aspectos se reportan en informes técnicos.")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/sintesis.pdf')" target="_blank")
           .anexo__icono

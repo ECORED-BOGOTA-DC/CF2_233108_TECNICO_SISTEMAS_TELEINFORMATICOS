@@ -136,14 +136,6 @@ export default {
     {
       tema: '1. Seguridad informática en la organización',
       referencia:
-        'Arroyo Guardeño, D., Martínez, Gayoso, V. & Encinas Hernández, L. (2020). <i>Ciberseguridad</i>. Madrid: CSIC : Los Libros de la Catarata ',
-      tipo: 'Libro',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_elibroELB172144',
-    },
-    {
-      tema: '1. Seguridad informática en la organización',
-      referencia:
         'Cardador Cabello, A. L. (2018). <i>Ciberseguridad para Usuarios IFCT135PO</i>. IC Editorial.',
       tipo: 'Libro',
       link:
@@ -160,7 +152,7 @@ export default {
     {
       tema: '1.3. Procesos de mejora para el tratamiento de la información',
       referencia:
-        'Rascagneres, P. (2020) <i>Seguridad informática y malwares: análisis de amenazas e implementación de contramedidas</i>. (2ª ed.) Barcelona: Ediciones ENI.',
+        'Rascagneres, P. (2020). <i>Seguridad informática y malwares: análisis de amenazas e implementación de contramedidas</i>. (2ª ed.) Barcelona: Ediciones ENI.',
       tipo: 'Libro',
       link:
         'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_biblioteca_eniEPT3MAL',
@@ -356,7 +348,7 @@ export default {
             'Regional Distrito Capital - Centro de gestión de mercados, Logística y Tecnologías de la información',
         },
         {
-          nombre: 'Jhon Jairo Urueta Alvarez',
+          nombre: 'Jhon Jairo Urueta Álvarez',
           cargo: 'Desarrollador fullstack',
           centro:
             'Regional Distrito Capital - Centro de gestión de mercados, Logística y Tecnologías de la información',
@@ -379,7 +371,7 @@ export default {
             'Regional Santander - Centro Industrial del Diseño y la Manufactura',
         },
         {
-          nombre: 'Luis Gabriel Urueta Alvarez',
+          nombre: 'Luis Gabriel Urueta Álvarez',
           cargo: 'Validador de Recursos Educativos Digitales',
           centro:
             'Regional Santander - Centro Industrial del Diseño y la Manufactura',

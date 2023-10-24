@@ -10,12 +10,12 @@
     .row.align-items-center.mb-3
       .col-lg-4.mb-3.mb-lg-0(data-aos="fade-right")
         figure
-          img(src='@/assets/curso/tema1/img1.png', style="width: 370px", alt='').m-auto
+          img(src='@/assets/curso/tema1/img1.png', style="width: 370px", alt='Imágen decorativa').m-auto
       .col-lg-8(data-aos="fade-left")
         .row.align-items-center.mb-3
           .col-auto
             figure
-              img(src='@/assets/curso/tema1/img1.svg', style="width: 30px", alt='').m-auto
+              img(src='@/assets/curso/tema1/img1.svg', style="width: 30px", alt='Imágen decorativa').m-auto
           .col
             p.mb-0 La gestión de riesgos de seguridad cibernética es el proceso de identificar, analizar y abordar los riesgos de seguridad de TI de una organización para prevenir futuros ataques cibernéticos y dar cuenta de las amenazas cibernéticas en curso.
         .cajon.color-acento-botones.p-4.mb-3
@@ -33,27 +33,27 @@
             p Los controles de acceso autentican y autorizan a las personas a acceder a la información que pueden ver y usar. El uso indebido de privilegios es una de las principales amenazas de seguridad cibernética en la actualidad, que a menudo resulta en pérdidas costosas e incluso puede paralizar las empresas. También es uno de los vectores de ataque más populares entre los piratas informáticos, porque cuando se lleva a cabo con éxito, brinda acceso gratuito a la parte más vulnerable de una empresa, a menudo sin generar ninguna alarma hasta que el daño ya está hecho. Existen <i>software</i> que empoderan a las empresas que buscan adelantarse a este riesgo creciente con un sólido programa de administración de acceso privilegiado que garantice que ninguna vía de acceso privilegiado a los activos de misión crítica quede sin administrar, sin conocer o sin monitorear. De ahí que todo proceso parta de las siguientes preguntas base:
         .col-lg-4
           figure
-            img(src='@/assets/curso/tema1/img2.svg', style="width: 340px", alt='').m-auto
+            img(src='@/assets/curso/tema1/img2.svg', style="width: 340px", alt='Imágen decorativa').m-auto
     figure.mb-5(data-aos="fade-right")
-      img(src='@/assets/curso/tema1/img3.svg', style="width: 1080px", alt='').m-auto
+      img(src='@/assets/curso/tema1/img3.svg', style="width: 1080px", alt='Imágen decorativa').m-auto
     .row.align-items-center.mb-5
       .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
         figure
-          img(src='@/assets/curso/tema1/img2.png', style="width: 380px", alt='').m-auto
+          img(src='@/assets/curso/tema1/img2.png', style="width: 380px", alt='Imágen decorativa').m-auto
       .col-lg-8(data-aos="fade-left")
         .cajon.color-acento-botones.p-4.mb-3
           p.mb-0 #[b Lo que sigue es una guía de los conceptos básicos del control de acceso]: qué es, por qué es importante, qué organizaciones lo necesitan más y los desafíos que pueden enfrentar los profesionales de la seguridad.
         .row.align-items-center.mb-3
           .col-auto
             figure
-              img(src='@/assets/curso/tema1/img1.svg', style="width: 30px", alt='').m-auto
+              img(src='@/assets/curso/tema1/img1.svg', style="width: 30px", alt='Imágen decorativa').m-auto
           .col
             p.mb-0 El control de acceso es un método para garantizar que los usuarios son quienes dicen ser y que tienen el acceso adecuado a los datos de la empresa. A un alto nivel, el control de acceso es una restricción selectiva del acceso a los datos. Consta de dos componentes principales: autenticación y autorización:
 
-    p.mb-5 Ya sea la exposición inadvertida de datos confidenciales protegidos incorrectamente por un usuario final o la violación de un <i>software</i>, donde los datos confidenciales fueron expuestos a través de un servidor web público que opera con una vulnerabilidad de <i>software</i>, los controles de acceso son un componente clave. Cuando no se implementan o mantienen adecuadamente, el resultado puede ser catastrófico
+    p.mb-5 Ya sea la exposición inadvertida de datos confidenciales protegidos incorrectamente por un usuario final o la violación de un <i>software</i>, donde los datos confidenciales fueron expuestos a través de un servidor web público que opera con una vulnerabilidad de <i>software</i>, los controles de acceso son un componente clave. Cuando no se implementan o mantienen adecuadamente, el resultado puede ser catastrófico.
 
     figure.mb-5(data-aos="fade-down")
-      img(src='@/assets/curso/tema1/img4.svg', style="width: 1080px", alt='').m-auto
+      img(src='@/assets/curso/tema1/img4.svg', style="width: 1080px", alt='Infografía que representa el control de acceso que está compuesto por una autenticación y una autorización. El contenido de esta se relaciona debajo de la imagen.').m-auto
     .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5(data-aos="fade-left")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema1/img3.png')})`}"
@@ -64,7 +64,7 @@
       .col-12
         .p-5
           figure.mb-5(data-aos="fade-right")
-            img(src='@/assets/curso/tema1/img6.svg', style="width: 1080px", alt='').m-auto
+            img(src='@/assets/curso/tema1/img6.svg', style="width: 1080px", alt='Imágen decorativa').m-auto
           .row.justify-content-center
             .col-lg-10.p-4.bg-c2.mb-5(data-aos="fade-right")
               p.text-center.mb-0 #[b Cualquier sistema de control de acceso, ya sea físico o lógico, tiene cinco componentes principales, descritos de esta manera:]
@@ -91,12 +91,12 @@
     .row.align-items-center.mb-5
       .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
         figure
-          img(src='@/assets/curso/tema1/img4.png', style="width: 380px", alt='').m-auto
+          img(src='@/assets/curso/tema1/img4.png', style="width: 380px", alt='Imágen decorativa').m-auto
       .col-lg-8(data-aos="fade-left")
         .row.align-items-center.mb-3
           .col-auto
             figure
-              img(src='@/assets/curso/tema1/img8.svg', style="width: 30px", alt='').m-auto
+              img(src='@/assets/curso/tema1/img8.svg', style="width: 30px", alt='Imágen decorativa').m-auto
           .col
             p.mb-0 Otra razón para un fuerte control de acceso es la minería de acceso. La recopilación y venta de descriptores de acceso en la <i>Dark web</i> es un problema creciente.
         p.mb-0 Por ejemplo, nuevos informes en la web describen cómo una <i>botnet</i> de criptominería, Smominru, extrajo no solo criptomonedas, sino también información confidencial, incluidas en direcciones IP internas, información de dominio, nombres de usuario y contraseñas. Los investigadores de este tipo de delitos creen que es altamente plausible que este actor de amenazas vendiera esta información en un mercado de acceso a otros, que luego podrían lanzar sus propios ataques por acceso remoto.
@@ -107,10 +107,10 @@
             p.text-white.mb-0 Estos mercados de acceso proporcionan una forma rápida y fácil para que los ciberdelincuentes compren acceso a sistemas y organizaciones. Estos sistemas pueden usarse como zombis en ataques a gran escala o como punto de entrada para un ataque dirigido. Un mercado de acceso, Ultimate Anonymity Services (UAS) ofrece 35 000 credenciales con un precio de venta promedio de $6.75 por credencial, por citar ejemplo de precios de este tipo de accesos sin control.
           .col-xl-auto
             figure.fig-p1
-              img(src='@/assets/curso/tema1/img10.svg', style="width: 50px", alt='').m-auto
+              img(src='@/assets/curso/tema1/img10.svg', style="width: 50px", alt='Imágen decorativa').m-auto
           .col-xl-4 
             figure
-              img(src='@/assets/curso/tema1/img9.svg', style="width: 380px", alt='').m-auto
+              img(src='@/assets/curso/tema1/img9.svg', style="width: 380px", alt='Imágen decorativa').m-auto
     .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade-right")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema1/img5.png')})`}"
@@ -128,30 +128,30 @@
     .row.align-items-center.justify-content-center.mb-5
       .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
         figure
-          img(src='@/assets/curso/tema1/img7.png', style="width: 340px", alt='').m-auto
+          img(src='@/assets/curso/tema1/img7.png', style="width: 340px", alt='Imágen decorativa').m-auto
       .col-10.col-md-8.col-lg-8(data-aos="fade-left")
         .row.align-items-center.bg-c6.mb-4
           .col-lg-auto.p-0
             figure
-              img(src='@/assets/curso/tema1/img11.svg', style="width: 100px", alt='').m-auto
+              img(src='@/assets/curso/tema1/img11.svg', style="width: 100px", alt='Imágen decorativa').m-auto
           .col-lg.p-4.p-lg-4
             p.mb-0 #[b Control de acceso discrecional (DAC)]: con los modelos DAC, el propietario de los datos decide el acceso. DAC es un medio para asignar derechos de acceso en función de las reglas que especifican los usuarios.
         .row.align-items-center.bg-c6.mb-4
           .col-lg-auto.p-0
             figure
-              img(src='@/assets/curso/tema1/img12.svg', style="width: 100px", alt='').m-auto
+              img(src='@/assets/curso/tema1/img12.svg', style="width: 100px", alt='Imágen decorativa').m-auto
           .col-lg.p-4.p-lg-4
             p.mb-0 #[b Control de acceso obligatorio (MAC)]: MAC se desarrolló utilizando un modelo no discrecional, en el que a las personas se les otorga acceso en función de una autorización de información. MAC es una política en la que los derechos de acceso se asignan con base en las regulaciones de una autoridad central.
         .row.align-items-center.bg-c6.mb-4
           .col-lg-auto.p-0
             figure
-              img(src='@/assets/curso/tema1/img13.svg', style="width: 100px", alt='').m-auto
+              img(src='@/assets/curso/tema1/img13.svg', style="width: 100px", alt='Imágen decorativa').m-auto
           .col-lg.p-4.p-lg-4
             p.mb-0 #[b Control de acceso basado en funciones (RBAC)]: RBAC otorga acceso en función de la función de un usuario e implementa principios de seguridad clave, como privilegio mínimo y separación de privilegios. Por lo tanto, alguien que intente acceder a la información solo puede acceder a los datos que se consideren necesarios para su función.
         .row.align-items-center.bg-c6
           .col-lg-auto.p-0
             figure
-              img(src='@/assets/curso/tema1/img14.svg', style="width: 100px", alt='').m-auto
+              img(src='@/assets/curso/tema1/img14.svg', style="width: 100px", alt='Imágen decorativa').m-auto
           .col-lg.p-4.p-lg-4
             p.mb-0 #[b Control de acceso basado en atributos (ABAC)]: en ABAC, a cada recurso y usuario se le asigna una serie de atributos, explica Wagner. En este método dinámico, se utiliza una evaluación comparativa de los atributos del usuario, incluida la hora del día, la posición y la ubicación, para tomar una decisión sobre el acceso a un recurso.
     .cajon.color-acento-botones.p-4.mb-5(data-aos="fade-right")
@@ -159,7 +159,7 @@
     .row.align-items-center.mb-5
       .col-lg-5.mb-4.mb-lg-0(data-aos="fade-right")
         figure
-          img(src='@/assets/curso/tema1/img8.png', style="width: 480px", alt='').m-auto
+          img(src='@/assets/curso/tema1/img8.png', style="width: 480px", alt='Imágen decorativa').m-auto
       .col-lg-7(data-aos="fade-left")
         p Varias tecnologías pueden admitir los diversos modelos de control de acceso. En algunos casos, es posible que varias tecnologías deban trabajar en conjunto para lograr el nivel deseado de control de acceso. La realidad de los datos distribuidos entre los proveedores de servicios en la nube, las aplicaciones y todos aquellos conectados al perímetro de la red tradicional dictan la necesidad de orquestar una solución segura. Existen varios proveedores que brindan acceso privilegiado y soluciones de administración de identidades que se pueden integrar en una construcción tradicional de Active Directory. La autenticación multifactorial puede ser un componente para mejorar aún más la seguridad.
         p.mb-0 Hoy en día, la mayoría de las organizaciones se han vuelto expertas en autenticación, especialmente con el uso creciente de la autenticación multifactorial y la autenticación basada en biometría (como el reconocimiento facial o del iris). En los últimos años, dado que las violaciones de datos de alto perfil han resultado en la venta de credenciales de contraseñas robadas en la web oscura, los profesionales de la seguridad se han tomado más en serio la necesidad de la autenticación de múltiples factores (aunque a menudo, sigue siendo un área en la que los profesionales de la seguridad se equivocan).
@@ -169,7 +169,7 @@
       .col-12
         .px-5.pt-5
           figure(data-aos="fade-right")
-            img(src='@/assets/curso/tema1/img9.png', style="width: 1200px", alt='').m-auto
+            img(src='@/assets/curso/tema1/img9.png', style="width: 1200px", alt='Imágen decorativa').m-auto
           .row.justify-content-center(data-aos="fade-down")
             .col-lg-10.bg-c7.shadow-sm.p-4
               p.mb-0 Así mismo, independientemente de cómo se defina implementar un control de acceso, este debe ser monitoreado constantemente, tanto en términos de cumplimiento de su política de seguridad corporativa como operativamente, para identificar posibles agujeros de seguridad. Se debe realizar, entonces, periódicamente una revisión de la gobernanza, el riesgo y el cumplimiento. Se necesitan escaneos de vulnerabilidad recurrentes contra cualquier aplicación que ejecute sus funciones de control de acceso y debe recopilar y monitorear registros en cada acceso para detectar violaciones de la política.
@@ -195,7 +195,7 @@
                 p.mb-0 El almacenamiento en la nube permite a las organizaciones almacenar datos en la nube, lo que facilita el acceso a los usuarios autorizados a través de Internet. Algunos de los almacenamientos en la nube más utilizados incluyen Google, Microsoft y más.
               .col-lg-4
                 figure
-                  img(src='@/assets/curso/tema1/img11.png', style="width: 300px", alt='').m-auto
+                  img(src='@/assets/curso/tema1/img11.png', style="width: 300px", alt='Imágen decorativa').m-auto
         .row.justify-content-center.m-1
           .col-11.bg-c8.p-4
             .row.align-items-center.justify-content-center
@@ -204,7 +204,7 @@
                 p.mb-0 El almacenamiento definido por <i>software</i> es un enfoque que se utiliza para administrar datos a través de la abstracción. Funciona extrayendo datos del almacenamiento físico organizado para uso en red. También funciona bien con contenedores y micro servicios que incluyen datos no estructurados.
               .col-lg-4
                 figure
-                  img(src='@/assets/curso/tema1/img12.png', style="width: 300px", alt='').m-auto
+                  img(src='@/assets/curso/tema1/img12.png', style="width: 300px", alt='Imágen decorativa').m-auto
         .row.justify-content-center.m-1
           .col-11.bg-c8.p-4
             .row.align-items-center.justify-content-center
@@ -213,7 +213,7 @@
                 p.mb-0 El almacenamiento de archivos es uno de los enfoques de almacenamiento de datos más comunes utilizados por las organizaciones. Almacena datos en un formato jerárquico como una sola pieza de información. Esto ayuda a los usuarios a acceder a los datos mediante identificadores únicos o rutas, como nombres, ubicaciones y direcciones URL.
               .col-lg-4
                 figure
-                  img(src='@/assets/curso/tema1/img13.png', style="width: 300px", alt='').m-auto
+                  img(src='@/assets/curso/tema1/img13.png', style="width: 300px", alt='Imágen decorativa').m-auto
         .row.justify-content-center.m-1
           .col-11.bg-c8.p-4
             .row.align-items-center.justify-content-center
@@ -222,7 +222,7 @@
                 p.mb-0 El almacenamiento en bloque divide el almacenamiento en bloques independientes. Cada bloque tiene su propia identidad única que garantiza la seguridad de los datos y brinda la libertad de colocar pequeños fragmentos de información de manera conveniente para una recuperación más rápida. Los bloques son comparativamente más rápidos e ideales para bases de datos de medios enriquecidos. También pueden proporcionar a los usuarios una completa autonomía de configuración.
               .col-lg-4
                 figure
-                  img(src='@/assets/curso/tema1/img14.png', style="width: 300px", alt='').m-auto
+                  img(src='@/assets/curso/tema1/img14.png', style="width: 300px", alt='Imágen decorativa').m-auto
         .row.justify-content-center.m-1
           .col-11.bg-c8.p-4
             .row.align-items-center.justify-content-center
@@ -231,11 +231,11 @@
                 p.mb-0 En el almacenamiento de objetos, los datos o archivos se dividen en piezas de información conocidas como objetos. Cada objeto es un repositorio autónomo con un identificador único. Esto ayuda a los usuarios a localizar y acceder a la información incluso en un sistema distribuido.
               .col-lg-4
                 figure
-                  img(src='@/assets/curso/tema1/img15.png', style="width: 300px", alt='').m-auto
+                  img(src='@/assets/curso/tema1/img15.png', style="width: 300px", alt='Imágen decorativa').m-auto
     .row.align-items-center.mb-5
       .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
         figure
-          img(src='@/assets/curso/tema1/img16.png', style="width: 350px", alt='').m-auto
+          img(src='@/assets/curso/tema1/img16.png', style="width: 350px", alt='Imágen decorativa').m-auto
       .col-lg-8(data-aos="fade-left")
         p La gestión del almacenamiento de datos implica la supervisión de activos de <i>software</i> y <i>hardware</i>, como matrices de almacenamiento, servidores físicos y servicios de almacenamiento en la nube. La gestión del almacenamiento de datos puede implicar la resolución de problemas de rendimiento, como posibles cuellos de botella, y el análisis de la capacidad de almacenamiento en tiempo real para ayudar a mejorar la experiencia del usuario final. Con esta información, los administradores pueden reasignar los recursos de almacenamiento para satisfacer las necesidades de almacenamiento empresarial. El monitoreo del almacenamiento de datos también puede incluir análisis de tráfico, automatización de procesos, gestión de memoria, virtualización de redes, replicación y aprovisionamiento de almacenamiento. Con el uso de un <i>software</i> confiable de administración de almacenamiento de datos, las organizaciones pueden configurar y rastrear más fácilmente el almacenamiento e informar las actividades de almacenamiento relacionadas.
         .cajon.color-acento-botones.p-4
@@ -245,27 +245,27 @@
         .row
           .col-12.bg-c9
             figure
-              img(src='@/assets/curso/tema1/img16.svg', style="width: 180px", alt='').m-auto
+              img(src='@/assets/curso/tema1/img16.svg', style="width: 180px", alt='Imágen decorativa').m-auto
         p #[b Rendimiento y confiabilidad]
         p.mb-0 El objetivo de la administración del almacenamiento de datos es administrar los datos para que estén disponibles para las operaciones comerciales. El acceso fácil y rápido a los datos aumenta el rendimiento, la eficiencia y la productividad de los empleados y mejora la experiencia del usuario final. Para agilizar el proceso, los equipos pueden usar medios y niveles automáticos para optimizar diferentes niveles de almacenamiento.
       .col-md-10.col-lg-4.bg-c10.p-5
         .row
           .col-12.bg-c9
             figure
-              img(src='@/assets/curso/tema1/img17.svg', style="width: 180px", alt='').m-auto
+              img(src='@/assets/curso/tema1/img17.svg', style="width: 180px", alt='Imágen decorativa').m-auto
         p.text-white #[b Seguridad y protección de datos]
         p.text-white.mb-0 Al utilizar el almacenamiento en la nube, es importante comprender la importancia de la protección de datos. Proteja los datos críticos para el negocio utilizando soluciones de copia de seguridad de datos, encriptación para datos almacenados y en tránsito, autenticación multifactorial para restringir el acceso no autorizado y más.
       .col-md-10.col-lg-4.bg-c12.p-5
         .row
           .col-12.bg-c9
             figure
-              img(src='@/assets/curso/tema1/img18.svg', style="width: 160px", alt='').m-auto
+              img(src='@/assets/curso/tema1/img18.svg', style="width: 160px", alt='Imágen decorativa').m-auto
         p #[b Control y cumplimiento]
         p.mb-0 Aproveche varios niveles de organización en niveles o automática para almacenar los activos de datos más valiosos. Esto ayuda a administrar y almacenar datos y ayuda a las organizaciones a demostrar el cumplimiento de las regulaciones.
     figure.mb-5(data-aos="fade-right")
-      img(src='@/assets/curso/tema1/img19.svg', style="width: 1050px", alt='').m-auto
+      img(src='@/assets/curso/tema1/img19.svg', style="width: 1050px", alt='Imágen decorativa').m-auto
     figure.mb-5(data-aos="fade-left")
-      img(src='@/assets/curso/tema1/img20.svg', style="width: 1250px", alt='').m-auto
+      img(src='@/assets/curso/tema1/img20.svg', style="width: 1250px", alt='Infografía que relaciona las tareas de las herramientas y lo que estas pueden hacer. Los textos de dicha se encuentran debajo de la imagen.').m-auto
 
     p.mb-5 Cabe resaltar que existen software de administración de datos que están diseñados para ayudar a las organizaciones a monitorear la capacidad actual de almacenamiento de datos a través de un tablero centralizado, para que pueda optimizar más fácilmente las políticas de almacenamiento de datos, administrar el estado del entorno de almacenamiento y abordar aspectos clave del proceso de administración de datos. 
 
@@ -288,7 +288,7 @@
     .row.align.items-center.mb-5
       .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
         figure
-          img(src='@/assets/curso/tema1/img21.svg', style="width: 380px", alt='').m-auto
+          img(src='@/assets/curso/tema1/img21.svg', style="width: 380px", alt='Imágen decorativa').m-auto
       .col-lg-8(data-aos="fade-left")
         p El procesamiento de datos ocurre cuando los datos se recopilan y transforman en información utilizable. Por lo general, es un proceso del que un científico de datos es responsable solo o en equipo, y es importante ejecutarlo correctamente para no afectar negativamente el resultado final (datos de salida). El procesamiento de datos primero transforma los datos en su forma original en formatos legibles (gráficos, documentos, etc.). Esto brinda a las computadoras el formato y el contexto que necesitan para interpretar los datos y aprovecharlos para los empleados de toda la organización.
         p.mb-0 Las etapas del procesamiento de datos son:
@@ -304,11 +304,11 @@
                     p.mb-0 La recopilación de datos es el primer paso en el procesamiento de datos. Los datos provienen de fuentes disponibles, como lagos de datos y almacenes de datos. Es importante que las fuentes de datos disponibles sean fidedignas y estén bien construidas. Esto asegura que los datos recopilados (y luego utilizados para la información) tengan la mejor calidad posible.
                   .col-lg-4
                     figure
-                      img(src='@/assets/curso/tema1/img22.svg', style="width: 150px", alt='').m-auto
+                      img(src='@/assets/curso/tema1/img22.svg', style="width: 150px", alt='Imágen decorativa').m-auto
                 .row.align-items-center
                   .col-lg-4.mb-4.mb-lg-0
                     figure
-                      img(src='@/assets/curso/tema1/img23.svg', style="width: 150px", alt='').m-auto
+                      img(src='@/assets/curso/tema1/img23.svg', style="width: 150px", alt='Imágen decorativa').m-auto
                   .col-lg-8
                     p #[b Preparación de datos]
                     p.mb-0 Los datos recopilados entran en la etapa de preparación de datos. La preparación de datos, también conocida como “pre-procesamiento”, es la etapa en la que se limpian y organizan los datos sin procesar. Esto hace que los datos estén disponibles para etapas posteriores del procesamiento de datos. Durante la preparación, los datos sin procesar se verifican minuciosamente en busca de errores. El propósito de este paso es eliminar datos incorrectos (datos redundantes, incompletos o inexactos) y crear datos de alta calidad para una mejor inteligencia comercial.
@@ -318,11 +318,11 @@
                     p.mb-0 Los datos limpios se introducen en su objetivo (un CRM como Salesforce o un almacén de datos como Redshift) y se interpretan en un lenguaje que pueda procesar. La entrada de datos es la primera etapa en la que los datos sin procesar toman la forma de información utilizable.
                   .col-lg-4
                     figure
-                      img(src='@/assets/curso/tema1/img24.svg', style="width: 150px", alt='').m-auto
+                      img(src='@/assets/curso/tema1/img24.svg', style="width: 150px", alt='Imágen decorativa').m-auto
                 .row.align-items-center
                   .col-lg-4.mb-4.mb-lg-0
                     figure
-                      img(src='@/assets/curso/tema1/img25.svg', style="width: 150px", alt='').m-auto
+                      img(src='@/assets/curso/tema1/img25.svg', style="width: 150px", alt='Imágen decorativa').m-auto
                   .col-lg-8
                     p #[b Procesamiento]
                     p.mb-0 En esta etapa, los datos ingresados en la computadora desde la etapa anterior se procesan para su interpretación. El procesamiento se realiza mediante algoritmos de aprendizaje automático, pero el proceso en sí depende de la fuente de los datos que se procesan (lagos de datos, redes sociales, dispositivos conectados, etc.) y su uso previsto (estudio de patrones publicitarios, diagnósticos médicos de dispositivos conectados, Puede diferir ligeramente según la evaluación de las necesidades del cliente, etc.).
@@ -332,11 +332,11 @@
                     p.mb-0 Salida/Interpretación es la etapa en la que los datos finalmente se ponen a disposición de los que no son científicos de datos. Los datos se interpretan y se hacen legibles, a menudo en forma de gráficos, videos, imágenes, texto sin formato, etc. Los miembros de la organización podrán autoservicio de datos para sus propios proyectos de análisis de datos.
                   .col-lg-4
                     figure
-                      img(src='@/assets/curso/tema1/img26.svg', style="width: 150px", alt='').m-auto
+                      img(src='@/assets/curso/tema1/img26.svg', style="width: 150px", alt='Imágen decorativa').m-auto
                 .row.align-items-center
                   .col-lg-4.mb-4.mb-lg-0
                     figure
-                      img(src='@/assets/curso/tema1/img27.svg', style="width: 150px", alt='').m-auto
+                      img(src='@/assets/curso/tema1/img27.svg', style="width: 150px", alt='Imágen decorativa').m-auto
                   .col-lg-8
                     p #[b Almacenamiento de datos]
                     p.mb-0 La etapa final del procesamiento de datos es el almacenamiento. Todos los datos procesados se almacenan para uso futuro. Parte de la información se puede usar inmediatamente, pero la mayoría se usará más tarde. Además, se requiere que los datos almacenados correctamente cumplan con las leyes de protección de datos como GDPR. Cuando los datos se almacenan correctamente, los miembros de su organización pueden acceder a ellos rápida y fácilmente según sea necesario.
@@ -345,10 +345,10 @@
         .row.align-items-center.justify-content-center
           .col-xl-4 
             figure
-              img(src='@/assets/curso/tema1/img29.svg', style="width: 380px", alt='').m-auto
+              img(src='@/assets/curso/tema1/img29.svg', style="width: 380px", alt='Imágen decorativa').m-auto
           .col-xl-auto
             figure.fig-p2
-              img(src='@/assets/curso/tema1/img28.svg', style="width: 50px", alt='').m-auto
+              img(src='@/assets/curso/tema1/img28.svg', style="width: 50px", alt='Imágen decorativa').m-auto
           .col-md-8.col-xl-7.bg-c3.p-4
             p.text-white.mb-0 La nube jugará un papel clave en el futuro del procesamiento de datos. La tecnología de la nube se basa en las prácticas actuales de procesamiento electrónico de datos para aprovechar esa conveniencia y mejorar la velocidad y la eficiencia. Con velocidades más rápidas y datos de mayor calidad, puede aprovechar más datos y extraer información más valiosa. A medida que los grandes datos se trasladan a la nube, las empresas obtienen importantes beneficios. La tecnología de nube de <i>big data</i> permite a las empresas combinar todas las plataformas en un sistema fácilmente adaptable. A medida que el <i>software</i> cambia y se actualiza (como es común en el mundo de los grandes datos), la tecnología de la nube integra a la perfección elementos antiguos y nuevos.
     .row.align-items-center.mb-3
@@ -358,7 +358,7 @@
         p.mb-0 Sumado a esto, se pasa del procesamiento de datos a la analítica. El <i>big data</i> está cambiando la forma en que se hacen negocios, y las empresas de todos los tamaños necesitan estrategias sólidas de procesamiento de datos para obtener una ventaja competitiva. Los seis pasos del procesamiento de datos seguirán siendo los mismos, pero la nube hará avanzar mucho la tecnología, convirtiéndola en el método más económico, moderno y rápido. Una vez que se completa el procesamiento de datos, luego de su recopilación, lo que se espera es la utilización real de los mismos por medio de su análisis; de esta forma, se puede tomar decisiones comerciales más rápidas e inteligentes.
       .col-lg-4(data-aos="fade-left")
         figure
-          img(src='@/assets/curso/tema1/img18.png', style="width: 340px", alt='').m-auto
+          img(src='@/assets/curso/tema1/img18.png', style="width: 340px", alt='Imágen decorativa').m-auto
     p.mb-5(data-aos="fade-right") A medida que las fuentes de datos se expanden y diversifican, el procesamiento de datos debe enfrentar varios desafíos nuevos. El <i>hardware</i> Intel® está reforzado para un procesamiento de datos rápido y rentable y se puede escalar para cumplir con las cargas de trabajo más exigentes.
     .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade-right")
       .bloque-texto-g__img(
@@ -398,11 +398,11 @@
         p.mb-0 El procesamiento de datos, uno de los procesos con mayor uso de recursos en una canalización de datos, está fuertemente influenciado por las optimizaciones de <i>hardware</i> y <i>software</i>. Muchos de los principales proveedores de <i>software</i> hoy en día optimizan sus productos para el <i>hardware</i> Intel®. Así mismo, el ecosistema Intel® de soluciones y socios tecnológicos garantiza que muchas soluciones de <i>software</i> se ejecuten de manera óptima en el <i>hardware</i> Intel®, lo que lo ayuda a aprovechar al máximo su inversión en tecnología. Intel, entonces, ofrece la siguiente amplia cartera de tecnologías de <i>hardware</i> y <i>software</i> para acelerar las cargas de trabajo de procesamiento de datos actuales:
       .col-lg-5(data-aos="fade-down")
         figure
-          img(src='@/assets/curso/tema1/img23.png', style="width: 450px", alt='').m-auto
+          img(src='@/assets/curso/tema1/img23.png', style="width: 450px", alt='Imágen decorativa').m-auto
     .row.align-items-center.mb-5
       .col-lg-3.mb-4.mb-lg-0(data-aos="fade-right")
         figure
-          img(src='@/assets/curso/tema1/img30.svg', style="width: 450px", alt='').m-auto
+          img(src='@/assets/curso/tema1/img30.svg', style="width: 450px", alt='Imágen decorativa').m-auto
       .col-lg-9(data-aos="fade-left")
         TabsA.color-primario
           .tarjeta.color-acento-contenido.p-4(titulo="Procesadores Intel®<br>Xeon")
@@ -422,17 +422,17 @@
     .row.align-items-center.mb-5
       .col-lg-3.mb-4.mb-lg-0(data-aos="fade-right")
         figure
-          img(src='@/assets/curso/tema1/img31.svg', style="width: 280px", alt='').m-auto
+          img(src='@/assets/curso/tema1/img31.svg', style="width: 280px", alt='Imágen decorativa').m-auto
       .col-lg-9(data-aos="fade-left")
         p Para mantener la disponibilidad de los activos de información, dentro de una empresa u organización, es necesario contar con copias de seguridad adecuadas de la información que se posee. El personal de administración de la información debe operar una copia de seguridad que pueda restaurarse rápidamente con el menor impacto posible en el negocio, en caso de una falla de la computadora o de la red o un error de operación del sistema. Para garantizar que los usuarios de una empresa u organización puedan usar sus computadoras personales de manera segura, se deben recomendar copias de seguridad periódicas. En las computadoras cliente, no solo se deben respaldar los archivos de documentos creados con el <i>software</i> de procesamiento de texto y el <i>software</i> de hoja de cálculo, sino también los correos electrónicos, las URL de los sitios web de uso frecuente y varias configuraciones.
         .cajon.color-acento-contenido.p-4
           p.mb-0 Los diversos tipos de información que manejan las empresas deben ser estrictamente protegidos y una forma de protegerla es a través de una copia de seguridad de sus datos. La pérdida de estos dificulta las actividades comerciales. Por ello, es esencial que aquellos que están en condiciones de proteger la información corporativa comprendan los puntos relacionados con la copia de seguridad y su respectiva gestión.
     figure.mb-5(data-aos="fade-down")
-      img(src='@/assets/curso/tema1/img32.svg', style="width: 1050px", alt='').m-auto
+      img(src='@/assets/curso/tema1/img32.svg', style="width: 1050px", alt='Imágen decorativa').m-auto
     .row.align-items-center.mb-5
       .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
         figure
-          img(src='@/assets/curso/tema1/img33.svg', style="width: 350px", alt='').m-auto
+          img(src='@/assets/curso/tema1/img33.svg', style="width: 350px", alt='Imágen decorativa').m-auto
       .col-lg-8(data-aos="fade-left")
         .tarjeta.tarjeta--azul.p-4
           SlyderA(tipo="b")
@@ -490,14 +490,14 @@
             p.text-white.mb-0 Cuando se utiliza el área de recuperación rápida para el almacenamiento de copias de seguridad, se eliminan o reducen muchas actividades de mantenimiento. Los archivos de respaldo y otros archivos se eliminan según sea necesario mediante el mecanismo de administración de almacenamiento automático para cumplir con las demandas de almacenamiento de las operaciones en curso de la base de datos sin violar las políticas de retención. Sin embargo, debe monitorear el uso del espacio en el área de recuperación rápida para asegurarse de que sea lo suficientemente grande para almacenar copias de seguridad y otros archivos relacionados con la recuperación.
           .col-xl-auto
             figure.fig-p1
-              img(src='@/assets/curso/tema1/img10.svg', style="width: 50px", alt='').m-auto
+              img(src='@/assets/curso/tema1/img10.svg', style="width: 50px", alt='Imágen decorativa').m-auto
           .col-xl-4 
             figure
-              img(src='@/assets/curso/tema1/img34.svg', style="width: 380px", alt='').m-auto
+              img(src='@/assets/curso/tema1/img34.svg', style="width: 380px", alt='Imágen decorativa').m-auto
     .row.align-items-center.mb-5
       .col-lg-3.d-none.d-lg-block(data-aos="fade-right")
         figure
-          img(src='@/assets/curso/tema1/img35.svg', style="width: 380px", alt='').m-auto
+          img(src='@/assets/curso/tema1/img35.svg', style="width: 380px", alt='Imágen decorativa').m-auto
       .col-lg-9(data-aos="fade-left")
         .cajon.color-primario.p-4.mb-3
           p.mb-0 El personal de gestión de la información es responsable de realizar copias de seguridad de los datos compartidos almacenados en servidores de bases de datos y servidores de archivos. Para realizar una copia de seguridad, se utiliza la utilidad de copia de seguridad proporcionada con el sistema operativo o el <i>software</i> de copia de seguridad dedicado; usualmente se realizan tarde en la noche o temprano en la mañana cuando los usuarios no están operando.
@@ -537,7 +537,7 @@
                 p.mb-0 En el primer método de copia de seguridad, que utiliza medios de almacenamiento externos, se utilizan CD, DVD, Discos Duros, o Pendrive como medios de almacenamiento. Dependiendo de la capacidad de almacenamiento, se suele utilizar la memoria flash. La capacidad de los medios de copia de seguridad ha crecido considerablemente. Es necesario tener un medio de almacenamiento adecuado y hacer copias de seguridad regularmente para proteger los datos. Utilizar un dispositivo externo facilita este proceso.
               .col-lg-4
                 figure
-                  img(src='@/assets/curso/tema1/img25.png', style="width: 300px", alt='').m-auto
+                  img(src='@/assets/curso/tema1/img25.png', style="width: 300px", alt='Imágen decorativa').m-auto
         .row.justify-content-center.m-1
           .col-11.bg-c8.p-4
             .row.align-items-center.justify-content-center
@@ -546,7 +546,7 @@
                 p.mb-0 El almacenamiento en línea se refiere al almacenamiento de datos en Internet. Es común hacer una copia de seguridad de los datos utilizando servicios en la nube. La ventaja del almacenamiento en línea es que puede almacenar grandes cantidades de datos. Otra característica del almacenamiento en línea es que, incluso en este caso, los datos en Internet pueden protegerse sin daños. También es efectivo almacenar datos importantes en una red confiable fuera de la empresa utilizando servicios en la nube.
               .col-lg-4
                 figure
-                  img(src='@/assets/curso/tema1/img26.png', style="width: 300px", alt='').m-auto
+                  img(src='@/assets/curso/tema1/img26.png', style="width: 300px", alt='Imágen decorativa').m-auto
         .row.justify-content-center.m-1
           .col-11.bg-c8.p-4
             .row.align-items-center.justify-content-center
@@ -555,18 +555,18 @@
                 p.mb-0 El almacenamiento en red tiene una forma llamada NAS (Network Attached Storage) y debe entenderse que es un servidor de archivos dedicado. Hay muchos discos de gran capacidad, por lo que puede usarse sin preocuparse por el límite de capacidad de almacenamiento. Otra ventaja de utilizar el almacenamiento en red es que se pueden realizar copias de seguridad automáticas a altas horas de la noche o durante los días festivos mediante la configuración por adelantado.
               .col-lg-4
                 figure
-                  img(src='@/assets/curso/tema1/img27.png', style="width: 300px", alt='').m-auto
+                  img(src='@/assets/curso/tema1/img27.png', style="width: 300px", alt='Imágen decorativa').m-auto
     p.mb-5(data-aos="fade-right") Por otro lado, hay dos puntos a considerar al decidir cuál de los múltiples métodos de copia de seguridad de datos es mejor para una empresa. Uno es la cantidad de datos que desea respaldar y el otro es el costo.
     .row.bg-c14.mb-5
       .col-12
         .p-5
           figure(data-aos="fade-up")
-            img(src='@/assets/curso/tema1/img37.svg', style="width: 1100px", alt='').m-auto
+            img(src='@/assets/curso/tema1/img37.svg', style="width: 1100px", alt='Infografía que relaciona los dos puntos a considerar dentro de los métodos de copia de seguridad de datos, estos son  la cantidad de datos a respaldar y el presupuesto. Debajo de la imagen se  explica cada uno.').m-auto
     p.mb-5(data-aos="fade-right") De forma adicional, hay algunas notas a tener en cuenta al administrar las copias de seguridad de datos por parte, tanto de la persona a cargo como del gerente de la empresa:
     .row.align-items-center.mb-5
       .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
         figure
-          img(src='@/assets/curso/tema1/img38.svg', style="width: 350px", alt='').m-auto
+          img(src='@/assets/curso/tema1/img38.svg', style="width: 350px", alt='Imágen decorativa').m-auto
       .col-lg-8(data-aos="fade-left")
         AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul1")
           .row(titulo="Aclarar el propósito de la copia de seguridad")
@@ -595,16 +595,16 @@
             .row.align-items-center.justify-content-center
               .col-lg-4.mb-4.mb-lg-0
                 figure
-                  img(src='@/assets/curso/tema1/img39.svg', style="width: 300px", alt='').m-auto
+                  img(src='@/assets/curso/tema1/img39.svg', style="width: 300px", alt='Imágen decorativa').m-auto
               .col-lg-6
                 p #[b.txt-c1 Fallo de los datos en sí]
-                p.mb-0 La falla más común es la eliminación o sobrescritura de los datos necesarios debido a errores operativos por parte de administradores o usuarios. También puede ocurrir sobrescritura (manipulación) o eliminación debido a una infección de malware. Como contramedida, se hacen copias de los datos de varias generaciones y luego se guardan.
+                p.mb-0 La falla más común es la eliminación o sobrescritura de los datos necesarios debido a errores operativos por parte de administradores o usuarios. También puede ocurrir sobrescritura (manipulación) o eliminación debido a una infección de <i>malware</i>. Como contramedida, se hacen copias de los datos de varias generaciones y luego se guardan.
         .row.justify-content-center.m-1
           .col-11.bg-c8.p-4
             .row.align-items-center.justify-content-center
               .col-lg-4.mb-4.mb-lg-0
                 figure
-                  img(src='@/assets/curso/tema1/img40.svg', style="width: 300px", alt='').m-auto
+                  img(src='@/assets/curso/tema1/img40.svg', style="width: 300px", alt='Imágen decorativa').m-auto
               .col-lg-6
                 p #[b.txt-c1 Obstáculos físicos]
                 p.mb-0 Es una falla del dispositivo (principalmente del disco duro) donde se almacenan los datos, e incluye fallas, daños (choque, terremoto o colisión, incendio, inundación) y robo del propio dispositivo. Como contramedida, los datos deben almacenarse en una ubicación diferente y en un medio diferente.
