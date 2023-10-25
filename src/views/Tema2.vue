@@ -765,7 +765,7 @@
       .col-12.mb-5(data-aos="fade-right")
         .cajon.color-primario.p-4.mb-3
           p.mb-0 Un informe valioso de ciberseguridad es aquel que realmente brinda a los ejecutivos información útil. Por lo tanto, el proceso de creación de un informe de ciberseguridad efectivo debe comenzar con una comprensión clara de los requisitos de información clave de los equipos ejecutivos. Para comprender la mentalidad de un ejecutivo, estas son las principales preocupaciones y atributos de un equipo de liderazgo típico compuesto por miembros de la junta, partes interesadas y ejecutivos de C-Suite:
-        p.mb-0 El equipo de liderazgo, entonces, establece las expectativas de seguridad para la empresa y el CISO (Director de seguridad de la Información) tiene la tarea de garantizar que el programa de ciberseguridad cumpla con estas expectativas. El desempeño de un programa de seguridad cibernética se resume de manera más eficiente con una evaluación de las métricas de seguridad clave. Estas métricas deben alinearse con la estrategia de gestión de riesgos empresariales que está implementando el CISO. Esta lista de métricas aún podría ser más exhaustiva de lo que prefiere la junta. Si este es el caso, las siguientes preguntas lo ayudarán a filtrar las métricas de seguridad más significativas:
+
       .col-12(data-aos="fade-left")
         AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul1")
           .row(titulo="El equipo de liderazgo no quiere ver a la empresa en un titular de noticias")
@@ -780,6 +780,9 @@
           .row(titulo="Amenaza de infracciones de terceros")
             .col-12
               p.mb-0 Los riesgos de seguridad de terceros han sido la causa principal de filtraciones de datos. Los ejecutivos están cada vez más preocupados por estos riesgos y buscan respuestas sobre la gestión de riesgos de proveedores en informes de seguridad cibernética. Es importante comprender la distribución de los riesgos de terceros según su criticidad y priorizarlos según el apetito de riesgo predefinido. Los riesgos residuales siempre estarán presentes y deben ser abordados adecuadamente.
+
+        p.mb-0 El equipo de liderazgo, entonces, establece las expectativas de seguridad para la empresa y el CISO (Director de seguridad de la Información) tiene la tarea de garantizar que el programa de ciberseguridad cumpla con estas expectativas. El desempeño de un programa de seguridad cibernética se resume de manera más eficiente con una evaluación de las métricas de seguridad clave. Estas métricas deben alinearse con la estrategia de gestión de riesgos empresariales que está implementando el CISO. Esta lista de métricas aún podría ser más exhaustiva de lo que prefiere la junta. Si este es el caso, las siguientes preguntas lo ayudarán a filtrar las métricas de seguridad más significativas:
+
     .row.justify-content-center.mb-5
       .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
         figure
