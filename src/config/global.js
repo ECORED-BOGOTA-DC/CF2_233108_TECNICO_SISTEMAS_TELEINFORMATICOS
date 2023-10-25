@@ -355,7 +355,7 @@ export default {
         },
         {
           nombre: 'Lady Adriana Ariza Luque',
-          cargo: 'Animador y Producción audiovisual',
+          cargo: 'Animador y producción audiovisual',
           centro:
             'Regional Distrito Capital - Centro de gestión de mercados, Logística y Tecnologías de la información',
         },
@@ -366,13 +366,13 @@ export default {
       autores: [
         {
           nombre: 'Zuleidy María Ruiz Torres',
-          cargo: 'Validador de Recursos Educativos Digitales',
+          cargo: 'Validador de recursos educativos digitales',
           centro:
             'Regional Santander - Centro Industrial del Diseño y la Manufactura',
         },
         {
           nombre: 'Luis Gabriel Urueta Álvarez',
-          cargo: 'Validador de Recursos Educativos Digitales',
+          cargo: 'Validador de recursos educativos digitales',
           centro:
             'Regional Santander - Centro Industrial del Diseño y la Manufactura',
         },
