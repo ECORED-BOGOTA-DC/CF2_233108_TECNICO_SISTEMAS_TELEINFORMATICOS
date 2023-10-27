@@ -50,7 +50,13 @@
           .col
             p.mb-0 El control de acceso es un método para garantizar que los usuarios son quienes dicen ser y que tienen el acceso adecuado a los datos de la empresa. A un alto nivel, el control de acceso es una restricción selectiva del acceso a los datos. Consta de dos componentes principales: autenticación y autorización:
 
-    p.mb-5 Ya sea la exposición inadvertida de datos confidenciales protegidos incorrectamente por un usuario final o la violación de un <i>software</i>, donde los datos confidenciales fueron expuestos a través de un servidor web público que opera con una vulnerabilidad de <i>software</i>, los controles de acceso son un componente clave. Cuando no se implementan o mantienen adecuadamente, el resultado puede ser catastrófico.
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-6
+        TarjetaAudio.color-primario.mb-3(
+          texto="Control de acceso"
+          :audio="require('@/assets/componentes/audios/Cf2_Audio.mp3')"
+          @audio-hover="mostrarIndicadorTarjetaAudio = false"
+        )
 
     figure.mb-5(data-aos="fade-down")
       img(src='@/assets/curso/tema1/img4.svg', style="width: 1080px", alt='Infografía que representa el control de acceso que está compuesto por una autenticación y una autorización. El contenido de esta se relaciona debajo de la imagen.').m-auto
@@ -639,7 +645,8 @@
 export default {
   name: 'Tema1',
   data: () => ({
-    // variables de vue
+    mostrarIndicadorAudio: true,
+    mostrarIndicadorTarjetaAudio: true,
   }),
   mounted() {
     this.$nextTick(() => {
