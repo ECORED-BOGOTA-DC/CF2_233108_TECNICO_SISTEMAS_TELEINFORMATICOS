@@ -645,7 +645,6 @@
 export default {
   name: 'Tema1',
   data: () => ({
-    mostrarIndicadorAudio: true,
     mostrarIndicadorTarjetaAudio: true,
   }),
   mounted() {
