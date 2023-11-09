@@ -437,10 +437,10 @@
         .col-lg-10
           .tabla-a.color-primario
             table.text-center
-              thead
+              tbody
                 tr(style='background:#E8E8E8')
-                  th.p-4 Nombre del recurso de información
-                  th.p-4 <p>Datos del sistema de nómina, copia de factura, datos de correo electrónico, lista de empleados, contrato de pedido, etc.</p>
+                  td.text-bold Nombre del recurso de información
+                  td Datos del sistema de nómina, copia de factura, datos de correo electrónico, lista de empleados, contrato de pedido, etc.
                   
               tbody(style='background:#E8E8E8').text-bold
                 tr
