@@ -145,14 +145,14 @@ export default {
       tema: '1.3. Procesos de mejora para el tratamiento de la información',
       referencia:
         'Villalobos-Murillo, J. (2008). <i>Vulnerabilidad de sistemas gestores de bases de datos</i>. Uniciencia, 22 (1-2), p. 131-134',
-      tipo: 'Articulo',
+      tipo: 'Artículo',
       link:
         'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1i756fj/TN_cdi_dialnet_primary_oai_dialnet_unirioja_es_ART0000922259',
     },
     {
       tema: '1.3. Procesos de mejora para el tratamiento de la información',
       referencia:
-        'Rascagneres, P. (2020). <i>Seguridad informática y malwares: análisis de amenazas e implementación de contramedidas</i>. (2ª ed.) Barcelona: Ediciones ENI.',
+        'Rascagneres, P. (2020). <i>Seguridad informática y malwares: análisis de amenazas e implementación de contramedidas</i>. (3ª ed.) Barcelona: Ediciones ENI.',
       tipo: 'Libro',
       link:
         'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_biblioteca_eniEPT3MAL',
@@ -219,7 +219,7 @@ export default {
     {
       termino: '<i>Bug</i>',
       significado:
-        'es un error o fallo en un programa de dispositivo o sistema de software que desencadena un resultado indeseado. ',
+        'es un error o fallo en un programa de dispositivo o sistema de <i>software</i> que desencadena un resultado indeseado. ',
     },
     {
       termino: 'Centro de respaldo',

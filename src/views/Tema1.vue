@@ -34,8 +34,15 @@
         .col-lg-4
           figure
             img(src='@/assets/curso/tema1/img2.svg', style="width: 340px", alt='Imágen decorativa').m-auto
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-10          
+        .titulo-sexto.color-acento-botones.mb-4(data-aos="fade-right")
+          p.mb-0 #[b Figura 1]. Preguntas sobre la seguridad de la información  
+    
     figure.mb-5(data-aos="fade-right")
-      img(src='@/assets/curso/tema1/img3.svg', style="width: 1080px", alt='Imágen decorativa').m-auto
+      img(src='@/assets/curso/tema1/img3.svg', style="width: 1080px", alt='Figura que menciona las preguntas a tener en cuenta al momento de desear proteger la información.').m-auto
+    
     .row.align-items-center.mb-5
       .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
         figure
@@ -58,8 +65,14 @@
           @audio-hover="mostrarIndicadorTarjetaAudio = false"
         )
 
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-10          
+        .titulo-sexto.color-acento-botones.mb-4(data-aos="fade-right")
+          p.mb-0 #[b Figura 2]. Autenticación y autorización de datos 
+
     figure.mb-5(data-aos="fade-down")
       img(src='@/assets/curso/tema1/img4.svg', style="width: 1080px", alt='Infografía que representa el control de acceso que está compuesto por una autenticación y una autorización. El contenido de esta se relaciona debajo de la imagen.').m-auto
+    
     .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5(data-aos="fade-left")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema1/img3.png')})`}"
@@ -110,7 +123,7 @@
       .col-lg-10
         .row.align-items-center.justify-content-center
           .col-md-8.col-xl-7.bg-c3.p-4
-            p.text-white.mb-0 Estos mercados de acceso proporcionan una forma rápida y fácil para que los ciberdelincuentes compren acceso a sistemas y organizaciones. Estos sistemas pueden usarse como zombis en ataques a gran escala o como punto de entrada para un ataque dirigido. Un mercado de acceso, Ultimate Anonymity Services (UAS) ofrece 35 000 credenciales con un precio de venta promedio de $6.75 por credencial, por citar ejemplo de precios de este tipo de accesos sin control.
+            p.text-white.mb-0 Estos mercados de acceso proporcionan una forma rápida y fácil para que los ciberdelincuentes compren acceso a sistemas y organizaciones. Estos sistemas pueden usarse como <i>zombis</i> en ataques a gran escala o como punto de entrada para un ataque dirigido. Un mercado de acceso, Ultimate Anonymity Services (UAS) ofrece 35 000 credenciales con un precio de venta promedio de $6.75 por credencial, por citar ejemplo de precios de este tipo de accesos sin control.
           .col-xl-auto
             figure.fig-p1
               img(src='@/assets/curso/tema1/img10.svg', style="width: 50px", alt='Imágen decorativa').m-auto
@@ -128,6 +141,7 @@
     figure.mb-5(data-aos="fade-up")
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/EL2s26JfeBo" title="Factores de control" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+
     .row.bg-c5.mb-5
       .col-lg-6.bg-c4.shadow-sm.p-5.my-4(data-aos="fade-right")
         p.mb-0 Las organizaciones deben determinar el modelo de control de acceso apropiado a adoptar según el tipo y la sensibilidad de los datos que están procesando. Los modelos de acceso más antiguos incluyen control de acceso discrecional (DAC) y control de acceso obligatorio (MAC), el control de acceso basado en roles (RBAC) es el modelo más común en la actualidad, así como el modelo más reciente se conoce como control de acceso basado en atributos (ABAC). Al respecto:
@@ -268,8 +282,26 @@
               img(src='@/assets/curso/tema1/img18.svg', style="width: 160px", alt='Imágen decorativa').m-auto
         p #[b Control y cumplimiento]
         p.mb-0 Aproveche varios niveles de organización en niveles o automática para almacenar los activos de datos más valiosos. Esto ayuda a administrar y almacenar datos y ayuda a las organizaciones a demostrar el cumplimiento de las regulaciones.
-    figure.mb-5(data-aos="fade-right")
-      img(src='@/assets/curso/tema1/img19.svg', style="width: 1050px", alt='Imágen decorativa').m-auto
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-4.col-lg-2
+        .bg-1.p-4
+          .row
+            .col-9.col-lg-7
+              figure(data-aos="fade-right")
+                img(src='@/assets/curso/tema1/img43.svg', alt='Imágen decorativa').img43-tm1
+          
+      .col-lg-9
+        .bg-2.p-4
+          .row
+            .col-1
+            .col-11
+              b.mb-0(data-aos="fade-left") Ahora bien, frente a las herramientas para el monitoreo del almacenamiento de datos contribuyen en el apoyo de la asignación de recursos más fácilmente según sea necesario. Estas herramientas también pueden:
+    
+    .row.justify-content-center.align-items-center.mb-3
+      .titulo-sexto.color-acento-botones.mb-4(data-aos="fade-right")
+        p.mb-0 #[b Figura 3]. Herramientas para el monitoreo del almacenamiento
+    
     figure.mb-5(data-aos="fade-left")
       img(src='@/assets/curso/tema1/img20.svg', style="width: 1250px", alt='Infografía que relaciona las tareas de las herramientas y lo que estas pueden hacer. Los textos de dicha se encuentran debajo de la imagen.').m-auto
 
@@ -287,7 +319,7 @@
       )
       .bloque-texto-g__texto.p-4
         p.mb-0 La protección de una organización contra los ataques cibernéticos a veces puede parecer un juego interminable de golpes de seguridad. Tan pronto como haya asegurado una debilidad, aparece otra. Esto puede desmoralizar a cualquier organización y hacerle creer que las buenas prácticas de seguridad de la información son imposibles. Sin embargo, hay una solución, pero requiere una forma diferente de pensar. Las organizaciones deben dejar de mirar cada amenaza individual a medida que surge y, en su lugar, construir defensas que estén equipadas para manejar cualquier cosa que los ciberdelincuentes les arrojen. Hacer eso es más simple de lo que parece. Esto se debe a que, por mucho que evolucionen las tácticas de los ciberdelincuentes, tienden a seguir la misma metodología básica. Si sus medidas de seguridad tienen en cuenta las formas en que se le ataca, en lugar de formas específicas de ataque, se defenderá de manera efectiva de una variedad de ataques.
-    p.mb-5(data-aos="fade-right") Aprovechar cantidades masivas de datos brinda a las empresas una ventaja competitiva y las ayuda a comprender sus estrategias de ventas/marketing y las necesidades de los consumidores. Sin embargo, no se puede acceder a los datos sin someterse a un procesamiento de datos. Las empresas grandes y pequeñas necesitan comprender la importancia del procesamiento de datos.
+    p.mb-5(data-aos="fade-right") Aprovechar cantidades masivas de datos brinda a las empresas una ventaja competitiva y las ayuda a comprender sus estrategias de ventas/<i>marketing</i> y las necesidades de los consumidores. Sin embargo, no se puede acceder a los datos sin someterse a un procesamiento de datos. Las empresas grandes y pequeñas necesitan comprender la importancia del procesamiento de datos.
     .row.mb-5(data-aos="fade-right")
       .col-auto.px-4.py-3.bg-c13
         h3.mb-0 ¿Qué es el procesamiento de datos?
@@ -388,7 +420,7 @@
               img(src="@/assets/curso/tema1/img21.png", alt="alt")
           .crd_hover_txt--body1
             p.text-center #[b Procesamiento de flujo]
-            p.mb-0 A medida que la tecnología de red ha evolucionado, las tareas de procesamiento de datos ya no necesitan completarse dentro del mismo nodo. En el procesamiento de datos distribuidos, varios nodos que se ejecutan en el mismo clúster funcionan en paralelo para procesar cargas de trabajo de datos en una red. El uso del procesamiento de datos distribuido permite que las cargas de trabajo de análisis avanzado se procesen en <i>hardware</i> de bajo costo y bajo consumo.
+            p.mb-0 El procesamiento de flujo se realiza durante el procesamiento continuo de datos a medida que ingresan en la canalización de datos. Este tipo de procesamiento es mucho más rápido que el procesamiento por lotes, debido a que el análisis se da en pequeñas cantidades de datos. Por lo general, se usa para procesar datos que requieren una ejecución rápida.
       .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
         .crd_hover_txt
           .crd_hover_txt--img
@@ -396,7 +428,7 @@
               img(src="@/assets/curso/tema1/img22.png", alt="alt")
           .crd_hover_txt--body
             p.text-center #[b Procesamiento de datos distribuido]
-            p.mb-0 A medida que la tecnología de red ha evolucionado, las tareas de procesamiento de datos ya no necesitan completarse dentro del mismo nodo. En el procesamiento de datos distribuidos, varios nodos que se ejecutan en el mismo clúster funcionan en paralelo para procesar cargas de trabajo de datos en una red. El uso del procesamiento de datos distribuido permite que las cargas de trabajo de análisis avanzado se procesen en <i>hardware</i> de bajo costo y bajo consumo.
+            p.mb-0 A medida que la tecnología de red ha evolucionado, las tareas de procesamiento de datos ya no necesitan completarse dentro del mismo nodo. En el procesamiento de datos distribuidos, varios nodos que se ejecutan en el mismo <i>clúster</i> funcionan en paralelo para procesar cargas de trabajo de datos en una red. El uso del procesamiento de datos distribuido permite que las cargas de trabajo de análisis avanzado se procesen en <i>hardware</i> de bajo costo y bajo consumo.
     .row.align-items-center.mb-5
       .col-lg-7.mb-4.mb-lg-0(data-aos="fade-right")
         .cajon.color-acento-contenido.p-4.mb-3
@@ -433,8 +465,24 @@
         p Para mantener la disponibilidad de los activos de información, dentro de una empresa u organización, es necesario contar con copias de seguridad adecuadas de la información que se posee. El personal de administración de la información debe operar una copia de seguridad que pueda restaurarse rápidamente con el menor impacto posible en el negocio, en caso de una falla de la computadora o de la red o un error de operación del sistema. Para garantizar que los usuarios de una empresa u organización puedan usar sus computadoras personales de manera segura, se deben recomendar copias de seguridad periódicas. En las computadoras cliente, no solo se deben respaldar los archivos de documentos creados con el <i>software</i> de procesamiento de texto y el <i>software</i> de hoja de cálculo, sino también los correos electrónicos, las URL de los sitios web de uso frecuente y varias configuraciones.
         .cajon.color-acento-contenido.p-4
           p.mb-0 Los diversos tipos de información que manejan las empresas deben ser estrictamente protegidos y una forma de protegerla es a través de una copia de seguridad de sus datos. La pérdida de estos dificulta las actividades comerciales. Por ello, es esencial que aquellos que están en condiciones de proteger la información corporativa comprendan los puntos relacionados con la copia de seguridad y su respectiva gestión.
-    figure.mb-5(data-aos="fade-down")
-      img(src='@/assets/curso/tema1/img32.svg', style="width: 1050px", alt='Imágen decorativa').m-auto
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-4.col-lg-2
+        .bg-3.p-4
+          .row
+            .col-9.col-lg-7
+              figure(data-aos="fade-right")
+                img(src='@/assets/curso/tema1/img44.svg', alt='Imágen decorativa').img43-tm1
+          
+      .col-lg-9
+        .bg-4.p-4
+          .row
+            .col-1
+            .col-11
+              b.mb-0.text-white(data-aos="fade-left") La gestión de copias de seguridad incluye la eliminación de copias de seguridad innecesarias y la realización de comprobaciones periódicas para garantizar que las copias de seguridad se puedan utilizar. Por ello, se debe tener en cuenta lo siguiente:
+
+
+
     .row.align-items-center.mb-5
       .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
         figure
@@ -493,7 +541,7 @@
       .col-lg-10
         .row.align-items-center.justify-content-center
           .col-md-8.col-xl-7.bg-c3.p-4
-            p.text-white.mb-0 Cuando se utiliza el área de recuperación rápida para el almacenamiento de copias de seguridad, se eliminan o reducen muchas actividades de mantenimiento. Los archivos de respaldo y otros archivos se eliminan según sea necesario mediante el mecanismo de administración de almacenamiento automático para cumplir con las demandas de almacenamiento de las operaciones en curso de la base de datos sin violar las políticas de retención. Sin embargo, debe monitorear el uso del espacio en el área de recuperación rápida para asegurarse de que sea lo suficientemente grande para almacenar copias de seguridad y otros archivos relacionados con la recuperación.
+            p.text-white.mb-0 Cuando se utiliza el área de recuperación rápida para el almacenamiento de copias de seguridad, se eliminan o reducen muchas actividades de mantenimiento. Los archivos de respaldo y otros archivos se eliminan según sea necesario, mediante el mecanismo de administración de almacenamiento automático para cumplir con las demandas de almacenamiento de las operaciones en curso de la base de datos sin violar las políticas de retención. Sin embargo, debe monitorear el uso del espacio en el área de recuperación rápida para asegurarse de que sea lo suficientemente grande para almacenar copias de seguridad y otros archivos relacionados con la recuperación.
           .col-xl-auto
             figure.fig-p1
               img(src='@/assets/curso/tema1/img10.svg', style="width: 50px", alt='Imágen decorativa').m-auto
@@ -514,7 +562,7 @@
       )
       .bloque-texto-g__texto.p-4
         p.mb-0 Los datos que manejan las empresas incluyen datos como información de clientes, información relacionada con la contabilidad e información de socios comerciales. En el improbable caso de que estos datos se dañen o se pierdan, la empresa perderá credibilidad social y, además, existe la posibilidad de que se produzca una pérdida de clientes y se deteriore el rendimiento empresarial. La ocurrencia de pérdida económica por recibir una reclamación por daños también es un riesgo que no puede ser ignorado. Proteger sus datos con copias de seguridad es una forma eficaz de evitar la pérdida de datos.
-    p.mb-5(data-aos="fade-right") Si ocurre una falla de datos y la información en poder de la empresa se vuelve ilegible, será difícil continuar con las actividades corporativas. Es necesario conocer la causa de la falla de los datos para poder realizar una copia de seguridad adecuada. A continuación, se presenta un vistazo a las principales causas de esta falla de datos:
+    p.mb-5(data-aos="fade-right") Si ocurre una falla de datos y la información en poder de la empresa se vuelve ilegible, será difícil continuar con las actividades corporativas.
     .row.justify-content-center.mb-5(data-aos="fade-down")
       .col-lg-10
         .cajon.color-acento-contenido.p-4
@@ -540,7 +588,7 @@
             .row.align-items-center.justify-content-center
               .col-lg-6.mb-4.mb-lg-0
                 p #[b.txt-c1 Almacenamiento externo]
-                p.mb-0 En el primer método de copia de seguridad, que utiliza medios de almacenamiento externos, se utilizan CD, DVD, Discos Duros, o Pendrive como medios de almacenamiento. Dependiendo de la capacidad de almacenamiento, se suele utilizar la memoria flash. La capacidad de los medios de copia de seguridad ha crecido considerablemente. Es necesario tener un medio de almacenamiento adecuado y hacer copias de seguridad regularmente para proteger los datos. Utilizar un dispositivo externo facilita este proceso.
+                p.mb-0 En el primer método de copia de seguridad, que utiliza medios de almacenamiento externos, se utilizan CD, DVD, Discos Duros, o <i>pendrive</i> como medios de almacenamiento. Dependiendo de la capacidad de almacenamiento, se suele utilizar la memoria <i>flash</i>. La capacidad de los medios de copia de seguridad ha crecido considerablemente. Es necesario tener un medio de almacenamiento adecuado y hacer copias de seguridad regularmente para proteger los datos. Utilizar un dispositivo externo facilita este proceso.
               .col-lg-4
                 figure
                   img(src='@/assets/curso/tema1/img25.png', style="width: 300px", alt='Imágen decorativa').m-auto
@@ -563,7 +611,12 @@
                 figure
                   img(src='@/assets/curso/tema1/img27.png', style="width: 300px", alt='Imágen decorativa').m-auto
     p.mb-5(data-aos="fade-right") Por otro lado, hay dos puntos a considerar al decidir cuál de los múltiples métodos de copia de seguridad de datos es mejor para una empresa. Uno es la cantidad de datos que desea respaldar y el otro es el costo.
+
     .row.bg-c14.mb-5
+      .row.justify-content-center.align-items-center.mt-5
+        .col-lg-10
+          .titulo-sexto.color-acento-botones.mb-4(data-aos="fade-right")
+            p.mb-0 #[b Figura 4]. Puntos a considerar en las copias de seguridad
       .col-12
         .p-5
           figure(data-aos="fade-up")
@@ -580,7 +633,7 @@
               p.mb-0 Realizar copias de seguridad sin un propósito claro dificulta su eficiencia. Es importante definir el propósito, como proteger la credibilidad de la empresa frente a pérdidas de información. Una vez definido, se puede establecer el rango y la frecuencia adecuados de respaldo. También se puede reducir el tiempo de copia al eliminar datos innecesarios.
           .row(titulo="Tenga cuidado al manipular medios de almacenamiento externos")
             .col-12
-              p.mb-0 Al hacer copias de seguridad en medios externos como CD o memorias flash, es importante manejarlos con cuidado para evitar pérdidas. Después de respaldar los datos, guárdelos en una caja fuerte ignífuga para protegerlos de robos o incendios. Además, es necesario educar a los empleados sobre no sacar los medios de almacenamiento de la empresa.
+              p.mb-0 Al hacer copias de seguridad en medios externos como CD o memorias <i>flash</i>, es importante manejarlos con cuidado para evitar pérdidas. Después de respaldar los datos, guárdelos en una caja fuerte ignífuga para protegerlos de robos o incendios. Además, es necesario educar a los empleados sobre no sacar los medios de almacenamiento de la empresa.
           .row(titulo="Indique a los empleados que retrocedan")
             .col-12
               p.mb-0 Es importante garantizar que cada empleado realice copias de seguridad adecuadas. Aunque el personal de TI puede respaldar la base de datos compartida, cada empleado debe respaldar sus propios datos en sus computadoras. Se deben proporcionar instrucciones precisas sobre el método y el destino de almacenamiento. Al hacer que los empleados asuman la responsabilidad de las copias de seguridad, se mejora el nivel de seguridad de la empresa en general.
@@ -614,7 +667,8 @@
               .col-lg-6
                 p #[b.txt-c1 Obstáculos físicos]
                 p.mb-0 Es una falla del dispositivo (principalmente del disco duro) donde se almacenan los datos, e incluye fallas, daños (choque, terremoto o colisión, incendio, inundación) y robo del propio dispositivo. Como contramedida, los datos deben almacenarse en una ubicación diferente y en un medio diferente.
-    p(data-aos="fade-right") A modo genérico se puede decir, entonces, que las operaciones de copia de seguridad se determinan teniendo en cuenta el uso y la importancia de los datos a replicar, así como el costo de recuperación en el improbable caso de falla. Adicional a esto, para la gestión de la operación, es necesario determinar el tipo de medio de almacenamiento, frecuencia y método, período de almacenamiento y lugar de almacenamiento, entre otros:
+    p(data-aos="fade-right") A modo genérico se puede decir, entonces, que las operaciones de copia de seguridad se determinan teniendo en cuenta el uso y la importancia de los datos a replicar, así como el costo de recuperación en el improbable caso de falla.
+    
     .cajon.color-acento-botones.p-4.mb-5(data-aos="fade-down")
       p.mb-0 Adicional a esto, para la gestión de la operación, es necesario determinar el tipo de medio de almacenamiento, frecuencia y método, período de almacenamiento y lugar de almacenamiento, entre otros:
     .row.bg-c15
@@ -628,7 +682,7 @@
                     img(src='@/assets/curso/tema1/img42.svg', alt='Texto que describa la imagen')
                 .tarjeta.color-secundario.p-3(x="94%" y="65%" numero="1")
                   p #[b Tipo de medio de almacenamiento]
-                  p.mb-0 Se selecciona qué medio usar, como cinta, disco externo, CD/DVD, memoria flash (memoria USB), almacenamiento en red, etc. Es deseable considerar múltiples combinaciones también.
+                  p.mb-0 Se selecciona qué medio usar, como cinta, disco externo, CD/DVD, memoria <i>flash</i> (memoria USB), almacenamiento en red, etc. Es deseable considerar múltiples combinaciones también.
                 .tarjeta.color-secundario.p-3(x="41%" y="50%" numero="2")
                   p #[b Frecuencia (intervalo) y método]
                   p.mb-0 Intervalo de tiempo de copia de seguridad. Es necesario decidir si hacerlo todos los días, semanalmente, mensualmente, etc. Debe seleccionar si se desea utilizar Copia de seguridad completa, Copia de seguridad diferencial o Copia de seguridad incremental. Se puede lograr una copia de seguridad eficiente mediante el uso de múltiples métodos en combinación con intervalos.

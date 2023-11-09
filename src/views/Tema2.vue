@@ -14,7 +14,7 @@
         p.mb-0 La gestión de la información significa administrar adecuadamente la información, protegerla para que pueda recuperarse cuando sea necesario y evitar que se filtre. Es por esto que se hace necesario realizar una gestión de forma centralizada sobre la información interna utilizando herramientas adecuadas, ya que aunque algunas se especializan en facilitar la recuperación de información tienen problemas de seguridad y por ende, presentan riesgo de fuga de información. Por tanto, a la hora de gestionar la información es necesario tener en cuenta la compatibilidad entre la facilidad de extracción y uso de la información y la seguridad.
     .row.align-items-center.mb-5
       .col-lg-8.mb-4.mb-lg-0(data-aos="fade-right")
-        p.mb-0 Mientras los escándalos de fugas de información corporativa continúan día tras día, muchos dueños de negocios deben entender que esto no es un incendio al otro lado del río. En particular, incluso las pequeñas y medianas empresas, que hasta ahora solían quedar excluidas de los ciberataques, continúan sufriendo daños debido a los ataques indiscriminados. En tales circunstancias, ¿qué tipo de gestión de la información se requiere de las empresas? Diariamente se genera y gestiona diversa información en las empresas. La cantidad de datos de ventas, datos de ventas, datos de compras, datos de clientes, materiales de reuniones, documentos de aprobación, planes comerciales, etc. es enorme. Dicha información a menudo incluye información personal e información confidencial, y nunca debe filtrarse fuera de la empresa. Sin embargo, de vez en cuando, los activos de información de una empresa pueden sufrir daños como fugas, daños o desaparición., los cuales se tienden a pensar en ellas como incidentes causados por ataques cibernéticos, pero, en realidad, los factores internos como pérdida/extravío, mal funcionamiento y mala gestión representan por sí solos altos porcentajes de errores internos.
+        p.mb-0 Mientras los escándalos de fugas de información corporativa continúan día tras día, muchos dueños de negocios deben entender que esto no es un incendio al otro lado del río. En particular, incluso las pequeñas y medianas empresas, que hasta ahora solían quedar excluidas de los ciberataques, continúan sufriendo daños debido a los ataques indiscriminados. En tales circunstancias, ¿qué tipo de gestión de la información se requiere de las empresas? Diariamente, se genera y gestiona diversa información en las empresas. La cantidad de datos de ventas, datos de ventas, datos de compras, datos de clientes, materiales de reuniones, documentos de aprobación, planes comerciales, etc. es enorme. Dicha información a menudo incluye información personal e información confidencial, y nunca debe filtrarse fuera de la empresa. Sin embargo, de vez en cuando, los activos de información de una empresa pueden sufrir daños como fugas, daños o desaparición, los cuales se tienden a pensar en ellas como incidentes causados por ataques cibernéticos, pero, en realidad, los factores internos como pérdida/extravío, mal funcionamiento y mala gestión representan por sí solos altos porcentajes de errores internos.
       .col-lg-4(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema2/img2.png', style="width: 370px", alt='Imágen decorativa').m-auto
@@ -61,7 +61,7 @@
         .row.bg-c8.p-4.m-1
           .col-lg-8.mb-4.mb-md-0
             p.txt-c1 #[b Prevenir accidentes causados por infección de virus]
-            p Si se utilizan herramientas y se gestiona minuciosamente la información, se pueden prevenir accidentes provocados por infecciones de virus. Por ejemplo, si una computadora en una empresa está infectada con un virus que invade desde el exterior, todo el sistema de la empresa puede funcionar mal. Además, si un sitio web es desfigurado por un virus, existe el riesgo de que afecte no solo dentro de la empresa sino también fuera de la empresa. Si ocurre un accidente de este tipo, no solo se retrasará el negocio, sino que, si la operación se ve obligada a detenerse, se pueden perder oportunidades de venta. Las herramientas utilizadas para la gestión de la información mantienen un alto nivel de seguridad debido a la naturaleza de estar conectadas a Internet. Por lo tanto, dicha infección por virus se puede prevenir y manejar en un estado seguro en todo momento.
+            p Además, si un sitio web es desfigurado por un virus, existe el riesgo de que afecte tanto interna, como externamente a la empresa. Si ocurre un accidente de este tipo, no solo se retrasará el negocio, sino que, si la operación se ve obligada a detenerse, se pueden perder oportunidades de venta. Las herramientas utilizadas para la gestión de la información mantienen un alto nivel de seguridad debido a la naturaleza de estar conectadas a Internet. Por lo tanto, dicha infección por virus se puede prevenir y manejar en un estado seguro en todo momento.
           .col-lg-4
             figure
               img(src='@/assets/curso/tema2/img4.svg', style="width:350px", alt='Imágen decorativa').m-auto
@@ -97,7 +97,8 @@
                   img(src='@/assets/curso/tema2/img6.png', style="width: 500px", alt='Imágen decorativa').m-auto
               .col-lg-6
                 p #[b.txt-c1 Formular una política de seguridad de la información]
-                p.mb-0 La política de seguridad de la información se refiere a las políticas y políticas en la gestión de la información. Al establecer una política de seguridad de la información, las empresas podrán determinar la dirección de la gestión de la información y podrán establecer qué tipo de sistema se debe utilizar para la gestión de la información. Además, si la política básica está bien definida, incluso cuando se establecen reglas para el manejo de la información, las reglas se pueden seleccionar en función del juicio de "si se ajustan o no a la política", por lo que es posible establecer reglas consistentes. puede construir un sistema de gestión de la información que tenga.
+                p.mb-0 La política de seguridad de la información se refiere a las políticas en la gestión de la información. Al establecer una política de seguridad de la información, las empresas podrán determinar la dirección de la gestión de la información y podrán establecer qué tipo de sistema se debe utilizar para la gestión de la información. Además, si la política básica está bien definida, incluso cuando se establecen reglas para el manejo de la información, las reglas se pueden seleccionar en función del juicio de "si se ajustan o no a la política", por lo que es posible establecer reglas consistentes que puede construir un sistema de gestión de la información que tenga.
+
         .row.justify-content-center.m-1
           .col-11.bg-c8.p-4
             .row.align-items-center.justify-content-center
@@ -125,7 +126,7 @@
         AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul1")
           .row(titulo="Revisión periódica del sistema de gestión")
             .col-12
-              p.mb-0 En el mundo de la seguridad de la información, todos los días surgen nuevos riesgos y amenazas. Por lo tanto, incluso si se establece un sistema de gestión una vez, no siempre se puede decir que es el mejor sistema. Por lo tanto, es importante revisar periódicamente el sistema y realizar los cambios necesarios. En particular, es necesario realizar modificaciones, como agregar contramedidas apropiadas contra cosas que se pueden prevenir de antemano, como ataques cibernéticos y virus informáticos.
+              p.mb-0 En el mundo de la seguridad de la información, todos los días surgen nuevos riesgos y amenazas. Por lo tanto, incluso si se establece un sistema de gestión una vez, no siempre se puede decir que es el mejor sistema. Por este motivo, es importante revisar periódicamente el sistema y realizar los cambios necesarios. En particular, es necesario realizar modificaciones, como agregar contramedidas apropiadas contra cosas que se pueden prevenir de antemano, como ataques cibernéticos y virus informáticos.
           .row(titulo="La operación es más importante que la implementación de herramientas")
             .col-12
               p.mb-0 Las herramientas pueden centralizar la información interna, por lo que la introducción de herramientas es fundamental para la gestión de la información. Sin embargo, no se puede decir que la gestión de la información se esté realizando correctamente sólo porque se haya implantado una herramienta. En particular, cuando la gestión de la información no va bien, hay muchos casos en los que solo se han introducido herramientas. Por lo tanto, para utilizar correctamente las herramientas y garantizar una gestión completa de la información dentro de la empresa, es necesario comprender las precauciones y los puntos de minuciosidad que se han introducido hasta ahora y construir un sistema de gestión de la información.
@@ -134,7 +135,7 @@
               p.mb-0 La elección de herramientas de TI para la gestión de información es crucial, considerando factores como la accesibilidad, seguridad y facilidad de uso. La gestión de información no debe ser responsabilidad de unos pocos empleados, sino accesible para todos. Además, al utilizar servicios en la nube, se deben evaluar cuidadosamente las medidas de seguridad y la administración de datos. Introducir una herramienta como "Stock" facilita el intercambio de información y cumple con altos estándares de seguridad.
           .row(titulo="Elija herramientas que aseguren la accesibilidad")
             .col-12
-              p.mb-0 Las herramientas de gestión de la información pueden reformularse como herramientas de comunicación entre quienes tienen información y quienes la buscan. Por lo tanto, al considerar la introducción de herramientas, es esencial tener en cuenta la accesibilidad para sus propios miembros. ¿Qué tipo de lead y qué tipo de capacidad de búsqueda se debe preparar para que los miembros de la empresa puedan acceder a la información que desean? Si introduce una herramienta de gestión de información sin esta perspectiva, no conducirá a la operación deseada. Las herramientas de gestión de la información incluyen herramientas de comunicación de preguntas y respuestas, como los sistemas de preguntas frecuentes.
+              p.mb-0 Las herramientas de gestión de la información pueden reformularse como herramientas de comunicación entre quienes tienen información y quienes la buscan. Por lo tanto, al considerar la introducción de herramientas, es esencial tener en cuenta la accesibilidad para sus propios miembros. ¿Qué tipo de <i>lead</i> y qué tipo de capacidad de búsqueda se debe preparar para que los miembros de la empresa puedan acceder a la información que desean? Si introduce una herramienta de gestión de información sin esta perspectiva, no conducirá a la operación deseada. Las herramientas de gestión de la información incluyen herramientas de comunicación de preguntas y respuestas, como los sistemas de preguntas frecuentes.
     Separador
     #t_2_1
     .titulo-segundo.color-acento-botones
@@ -219,7 +220,7 @@
       .col-12
         .p-5
           .titulo-sexto.color-acento-botones.mb-4(data-aos="fade-right")
-            p.mb-0 #[b Figura 1]. Clasificación de activos
+            p.mb-0 #[b Figura 5]. Clasificación de activos
           figure(data-aos="fade-left")
             img(src='@/assets/curso/tema2/img15.svg', style="width: 1200px", alt='Imagen que relaciona un formato que contiene la clasificación de activos, encontrando información de los activos tangibles como son medios de papel, medios de memoria externa, información en papel, información electrónica (incluyendo audio y video); activos intangibles como audio, imagen, saber hacer y conocimiento; así como los sistemas de información que son el software y hardware.').m-auto
     .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade-down")
@@ -237,7 +238,13 @@
         figure
           img(src='@/assets/curso/tema2/img16.svg', style="width: 350px", alt='Imágen decorativa').m-auto
     p.mb-5(data-aos="fade-right") Algunos ejemplos de elementos de gestión, en el libro de mayor gestión de activos de información, son:
+    
     .row.bg-c14.mb-5
+      .row.justify-content-center.align-items-center
+        .col-lg-11.mt-3
+          .titulo-sexto.color-acento-botones.mb-3(data-aos="fade-right")
+            p.mb-0 #[b Figura 6]. Ejemplos de elementos de gestión
+
       .col-12
         .p-5
           figure(data-aos="fade-down")
@@ -286,47 +293,45 @@
               tbody(style='background:#E8E8E8').text-bold
                 tr
                   <td rowspan="4">Confidencialidad (accesible solo para aquellos que otorgan acceso)</td>
-                  td.p-4 4  Si se filtra, el impacto en los socios comerciales y los clientes es grande. O tiene un impacto serio en la gestión.
+                  td.p-4 4 Si se filtra, el impacto en los socios comerciales y los clientes es grande. O tiene un impacto serio en la gestión.
                   td Ultra secreto
                 tr
-                  td.p-4 3  En caso de fuga, el impacto en el negocio en cuestión es grande
+                  td.p-4 3 En caso de fuga, el impacto en el negocio en cuestión es grande.
                   td Secretaria extranjera
                 tr
-                  td.p-4 2  La fuga tendría poco impacto en el negocio en cuestión
+                  td.p-4 2 La fuga tendría poco impacto en el negocio en cuestión.
                   td Secreto
                 tr
-                  td.p-4 1  Si se filtra, no hay impacto en el negocio en cuestión
+                  td.p-4 1  Si se filtra, no hay impacto en el negocio en cuestión.
                   td Divulgación general
                   
               tbody(style='background:#E8E8E8').text-bold
                 tr
                   <td rowspan="4">Integridad (la información y los sistemas de información son precisos y completos)</td>
-                  td.p-4 4  Si se filtra, el impacto en los socios comerciales y los clientes es grande. O tiene un impacto serio en la gestión.
+                  td.p-4 4 Si se manipula, tendrá un gran impacto en los socios comerciales y clientes. O tiene un impacto serio en la gestión.
                   td -
                 tr
-                  td.p-4 3  En caso de fuga, el impacto en el negocio en cuestión es grande
+                  td.p-4 3 Si se manipula, el impacto en el negocio en cuestión es grande.
                   td -
                 tr
-                  td.p-4 2  La fuga tendría poco impacto en el negocio en cuestión
+                  td.p-4 2 La falsificación tendría poco impacto en el negocio en cuestión.
                   td -
                 tr
-                  td.p-4 1  Si se filtra, no hay impacto en el negocio en cuestión
+                  td.p-4 1 Si es falsificado, no tiene impacto en el negocio en cuestión.
                   td -
 
               tbody(style='background:#E8E8E8').text-bold
                 tr
                   <td rowspan="4">Disponibilidad (los beneficiarios de acceso pueden acceder a los activos de información cuando sea necesario)</td>
-                  td.p-4 4  Si se filtra, el impacto en los socios comerciales y los clientes es grande. O tiene un impacto serio en la gestión.
+                  td.p-4 4 La suspensión del uso tendrá un gran impacto en los socios comerciales y clientes. O tiene un impacto serio en la gestión.
                   td -
                 tr
-                  td.p-4 3  En caso de fuga, el impacto en el negocio en cuestión es grande
+                  td.p-4 3 En el caso de suspensión de uso, el impacto en el negocio en cuestión es grande.
                   td -
                 tr
-                  td.p-4 2  La fuga tendría poco impacto en el negocio en cuestión
+                  td.p-4 2 En el caso de suspensión de uso, casi no hay impacto en el negocio afectado.
                   td -
-                tr
-                  td.p-4 1  Si se filtra, no hay impacto en el negocio en cuestión
-                  td -    
+ 
     
     p.mb-5(data-aos="fade-right") La mayoría de los incidentes de violación de datos se dividen en tres categorías:
     .tarjeta.tarjeta--azul.p-4.mb-5(data-aos="fade-down")
@@ -433,44 +438,44 @@
           .tabla-a.color-primario
             table.text-center
               thead
-                tr(style='background:#F0DCC0')
+                tr(style='background:#E8E8E8')
                   th.p-4 Nombre del recurso de información
-                  th.p-4 Datos del sistema de nómina, copia de factura, datos de correo electrónico, lista de empleados, contrato de pedido, etc.
+                  th.p-4 <p>Datos del sistema de nómina, copia de factura, datos de correo electrónico, lista de empleados, contrato de pedido, etc.</p>
                   
               tbody(style='background:#E8E8E8').text-bold
                 tr
                   td Rango de uso
-                  td Nombre del departamento, responsable del tratamiento, etc.
+                  td <p>Nombre del departamento, responsable del tratamiento, etc.</p>
                 tr
                   td Departamento de Gestión / Gerente
-                  td Nombre y gerente del departamento
+                  td <p>Nombre y gerente del departamento</p>
                 tr
                   td Autoridad de acceso
-                  td Gerente o superior, todas las personas a cargo, solo grupo empresarial, etc.
+                  td <p>Gerente o superior, todas las personas a cargo, solo grupo empresarial, etc.</p>
                 tr
                   td Tipo de medio
-                  td Documentos, datos electrónicos, etc.
+                  td <p>Documentos, datos electrónicos, etc.</p>
                 tr
                   td Destino
-                  td Servidores internos, medios de almacenamiento externo, dispositivos móviles, PC cliente, etc.
+                  td <p>Servidores internos, medios de almacenamiento externo, dispositivos móviles, PC cliente, etc.</p>
                 tr
                   td Presencia o ausencia de información personal
-                  td Presencia o ausencia
+                  td <p>Presencia o ausencia</p>
                 tr
                   td Presencia o ausencia de información de mi Número
-                  td Presencia o ausencia
+                  td <p>Presencia o ausencia</p>
                 tr
                   td Valor de la evaluación (confidencialidad/integridad/disponibilidad)/importancia
-                  td Valor de evaluación: Ingrese cada valor de evaluación para confidencialidad, integridad y disponibilidad Importancia:
+                  td <p>Valor de evaluación: Ingrese cada valor de evaluación para confidencialidad, integridad y disponibilidad Importancia:
                     br
-                    | Ingrese el valor más alto entre confidencialidad, integridad y disponibilidad
+                    | Ingrese el valor más alto entre confidencialidad, integridad y disponibilidad</p>
 
                 tr
                   td Periodo de retención
-                  td De acuerdo con las normas internas de la empresa/organización, como las normas de almacenamiento de documentos.
+                  td <p>De acuerdo con las normas internas de la empresa/organización, como las normas de almacenamiento de documentos.</p>
                 tr
                   td Fecha de registro (fecha de renovación)
-                  td AAMMDD
+                  td <p>AAMMDD</p>
 
 
     Separador
@@ -528,7 +533,8 @@
         figure
           img(src='@/assets/curso/tema2/img27.svg', style="width: 50px", alt='Imágen decorativa').m-auto
       .col
-        p.mb-0 Las métricas presentadas en el vacío rara vez son procesables. ¿Qué significa, por ejemplo, que sus cortafuegos hayan detenido 1.500 intrusiones este mes? ¿Es eso mucho o poco? Un informe de ciberseguridad basado en el riesgo ofrece hallazgos en contexto, lo que ayuda al destinatario a comprender qué papel juega un número en el panorama general de riesgos de la organización. Ese contexto puede incluir:
+        p.mb-0 Las métricas presentadas en el vacío rara vez son procesables. ¿Qué significa, por ejemplo, que sus cortafuegos hayan detenido 1.500 intrusiones este mes? ¿Es eso mucho o poco?
+
     p.mb-5(data-aos="fade-right") Un informe de ciberseguridad basado en el riesgo ofrece hallazgos en contexto, lo que ayuda al destinatario a comprender qué papel juega un número en el panorama general de riesgos de la organización. Ese contexto puede incluir:
     .row.bg-c23
       .col-12
@@ -614,7 +620,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/tema2/img21.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 Ahora bien, siendo realistas, los expertos en tecnología de la información no suelen ser escritores entusiastas. Entonces, cuando se trata de crear un informe ejecutivo, el personal de seguridad cibernética no se presiona entre sí para completar esta emocionante tarea de redacción. En cambio, sigue retrasándose, día a día, hasta la noche anterior a su presentación. Muchos se atascan en la sección del resumen ejecutivo, obsesionados con su perfección. Esto es comprensible ya que el resumen ejecutivo es probablemente el componente más importante del informe. Todos los interesados juzgan el valor de un informe por su resumen ejecutivo y algunos no leen nada más que el resumen.
+        p.mb-0 Ahora bien, siendo realistas, los expertos en tecnología de la información no suelen ser escritores entusiastas. Entonces, cuando se trata de crear un informe ejecutivo, el personal de seguridad cibernética no se presiona entre sí para completar esta emocionante tarea de redacción. En cambio, sigue retrasándose, día a día, hasta la noche anterior a su presentación. Muchos se atascan en la sección del resumen ejecutivo, obsesionados con su perfección. Esto es comprensible, ya que el resumen ejecutivo es probablemente el componente más importante del informe. Todos los interesados juzgan el valor de un informe por su resumen ejecutivo y algunos no leen nada más que el resumen.
     .row.justify-content-center.mb-5(data-aos="fade-left")
       .col-lg-10
         .row.align-items-center.justify-content-center
@@ -773,7 +779,7 @@
               p.mb-0 Tras el ataque a #[i SolarWinds], los ejecutivos están preocupados por los riesgos de seguridad informática y las violaciones de datos. Quieren respuestas claras sobre el riesgo de filtración de datos, las vulnerabilidades, el plan de respuesta a incidentes, los incidentes recientes, las estrategias de mitigación de riesgos, la defensa contra #[i ransomware] y la comparación de los esfuerzos de seguridad con los estándares de la industria. El informe debe incluir un resumen de las amenazas emergentes y las tendencias de ataque, evitando detalles técnicos innecesarios.
           .row(titulo="Resultados del análisis de vulnerabilidades")
             .col-12
-              p.mb-0 Resultados del análisis de vulnerabilidades que muestran desviaciones en la calificación de seguridad durante un período determinado desviaciones de calificación de seguridad a lo largo del tiempo por parte del reportaje de un ejecutivo generado en la plataforma.
+              p.mb-0 Resultados del análisis de vulnerabilidades que muestran desviaciones en la calificación de seguridad durante un período determinado, desviaciones de calificación de seguridad a lo largo del tiempo por parte del reportaje de un ejecutivo generado en la plataforma.
           .row(titulo="Desglose del riesgo de seguridad por categoría")
             .col-12
               p.mb-0 Un desglose del riesgo de seguridad en todas las categorías de amenazas principales dentro del ecosistema de la empresa, categorizado por grado de criticidad y desglose de riesgos por categoría; una característica de un informe ejecutivo generado.
